@@ -77,10 +77,14 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	//console.log($stateParams.movie);
 	$scope.category = $stateParams.category;
 
+	// get a random song's json for now (will be replaced with data dependent on $stateParams.category)
+	$http.get('data/00202736-9c7f-4d8f-82ea-531da98b6307.json').then(function (response) {
+		var songData = response.data;
+	});
+
  //  $http.get('data/movies-2015.json').then(function (response) {
 	// 	var movies = response.data;
 
-	// 	var targetObj = $filter('filter')(movies, { //filter the array
 	// 		id: $stateParams.movie //for items whose id property is targetId
 	// 	}, true)[0]; //save the 0th result
 
@@ -158,19 +162,20 @@ myApp.controller('ModalCtrl', ['$scope', '$uibModalInstance', function($scope, $
 
 }]);
 
-myApp.factory('watchlistService', function() {
+
+// service for managing access to song data
+myApp.factory('songDataService', ['$filter', function($filter) {
 	var service = {}
 
-	if (localStorage['watchlist'] !== undefined) {
-		service.watchlist = JSON.parse(localStorage.watchlist);
-	} else {
-		service.watchlist = [];
+	// load in our big json list of low-level AcousticBrainz data
+	$http.get('data/song-data.json').then(function (response) {
+		var service.data = response.data;
+	});
+
+	// returns all songs that match a value for the given pattern
+	service.findMatchingSongs = function(pattern) {
+		return songsInCategory = $filter('filter')(service.data, pattern, true);
 	}
 
-	service.addMovie = function(movie) {
-		service.watchlist.push(movie);
-		localStorage['watchlist'] = JSON.stringify(service.watchlist);
-	};
-
 	return service;
-});
+}]);
