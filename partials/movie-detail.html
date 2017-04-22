@@ -1,6 +1,9 @@
 <main class="container">
 
 <div><p>Here's a song that we think is {{category}}</p></div>
+<div ng-repeat='song in songsInCategory'>
+	<p>{{song.metadata.tags.title[0]}}</p>
+</div>
 <!-- <h1>{{movie.title}} <small>({{movie.released | date:'yyyy'}})</small></h1>
 <p class="lead"><small>{{movie.rating}} | {{movie.released | date:'MMMM, dd yyyy'}} | {{movie.genre}}</small></p>
 <button class="btn btn-default" ng-click="saveMovie(movie)">

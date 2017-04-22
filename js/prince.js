@@ -73,14 +73,18 @@ myApp.controller('BlogCtrl', ['$scope', '$http', '$filter', function ($scope, $h
 }]);
 
 //For movie details
-myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'watchlistService', function ($scope, $stateParams, $filter, $http, watchlistService) {
+myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'songDataService', function ($scope, $stateParams, $filter, $http, songDataService) {
 	//console.log($stateParams.movie);
 	$scope.category = $stateParams.category;
+
+	$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
+
+	console.log($scope.songsInCategory);
+	console.log(songDataService.data);
 
  //  $http.get('data/movies-2015.json').then(function (response) {
 	// 	var movies = response.data;
 
-	// 	var targetObj = $filter('filter')(movies, { //filter the array
 	// 		id: $stateParams.movie //for items whose id property is targetId
 	// 	}, true)[0]; //save the 0th result
 
@@ -158,19 +162,31 @@ myApp.controller('ModalCtrl', ['$scope', '$uibModalInstance', function($scope, $
 
 }]);
 
-myApp.factory('watchlistService', function() {
+
+// service for managing access to song data
+myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 	var service = {}
 
-	if (localStorage['watchlist'] !== undefined) {
-		service.watchlist = JSON.parse(localStorage.watchlist);
-	} else {
-		service.watchlist = [];
-	}
-
-	service.addMovie = function(movie) {
-		service.watchlist.push(movie);
-		localStorage['watchlist'] = JSON.stringify(service.watchlist);
-	};
+	// load in our big json list of low-level AcousticBrainz data
+	$http.get('data/song-data.json').then(function (response) {
+		service.data = response.data;
+		console.log(service.data);
+	});
 
 	return service;
-});
+}]);
+
+myApp.filter('filterByCategory', function() {
+	return function(input, category) {
+		var filtered = []
+		angular.forEach(input, function(item) {
+			if (item.metadata && item.metadata.tags) {
+				var moods = item.metadata.tags.mood;
+				if (moods && moods.indexOf(category) !== -1) {
+					filtered.push(item)
+				}
+			}
+		});
+		return filtered;
+	}
+})
