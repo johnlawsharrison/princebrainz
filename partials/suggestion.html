@@ -1,16 +1,28 @@
 <main class="container">
 
-<div>
-	<p>Here's a song that we think is {{category | capitalize}}</p>
-	<div class="row">
-		<div class="col-*-3">
-			<p>Media player/image goes here</p>
-		</div>
-		<div></div>
+<div class="row">
+	<h3>Here's a song that we think is {{category | capitalize}}</h3>
+	<div class="col-md-4">
+		<p>Media player/image goes here</p>
+	</div>
+	<div class="col-md-8" id="songDetail">
+		<p>
+		{{suggestion.metadata.tags.title[0]}} 
+		- {{suggestion.metadata.tags.album[0]}} ({{suggestion.metadata.tags.originalyear[0]}})
+		</p>
+		<dl>
+			<dt>Key</dt>
+			<dd>{{suggestion.tonal.key_key}}</dd>
+			<dt>BPM</dt>
+			<dd>{{suggestion.metadata.tags.bpm[0]}}</dd>
+		</dl>
 	</div>
 </div>
-<div ng-repeat='song in songsInCategory'>
+<div class="row" id="otherSongs">
+	<h3>Other {{category | capitalize}} songs by Prince</h3>
+	<div ng-repeat='song in songsInCategory'>
 	<p>{{song.metadata.tags.title[0]}}</p>
+</div>	
 </div>
 <!-- <h1>{{movie.title}} <small>({{movie.released | date:'yyyy'}})</small></h1>
 <p class="lead"><small>{{movie.rating}} | {{movie.released | date:'MMMM, dd yyyy'}} | {{movie.genre}}</small></p>

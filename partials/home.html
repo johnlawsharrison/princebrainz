@@ -12,22 +12,5 @@
 		<div class="catBox" ng-repeat="category in categories">
 			<p><a ui-sref="suggestion({'category': category})">{{category}}</a></p>
 		</div>
-
-		<!-- <table class="<table</table>ble">
-			<caption>More information about this Pokemon</caption>
-			<tr>
-				<th><a href="" ng-click="ordering='title'">Name</a></th>
-				<th class="col-xs-2"><a href="" ng-click="ordering='released'">Release Date</a></th>
-				<th><a href="" ng-click="ordering='genre'">Genre</a></th>
-				<th><a href="" ng-click="ordering='-gross'">Earnings</a></th>
-				<th><a href="" ng-click="ordering='distributor'">Distributor</a></th>
-			</tr>
-			<tr ng-repeat="movie in movies | orderBy:ordering | filter:searchTerm ">
-				<td><a ui-sref="detail( {'movie':movie.id} )">{{movie.title}}</a></td>
-				<td>{{movie.released | date:'MMM dd, yyyy'}}</td>
-				<td>{{movie.genre}}</td>
-				<td>{{movie.gross | currency:'$':0}}</td>
-				<td>{{movie.distributor}}</td>
-		</table> -->
 	</div>
 </main>

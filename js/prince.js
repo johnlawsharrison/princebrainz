@@ -33,55 +33,24 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 }]);
 
 //For movie list
-myApp.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
+myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
   // $scope.ordering = '-gross'; //default ordering
   $scope.categories = [
   'sad', 'happy', 'aggressive', 'acoustic', 'instrumental',
   'relaxing', 'atonal', 'danceable', 'party', 'dark', 'bright'
   ];
 
-  $scope.clickCategory = function(category) {
-	console.log('you clicked:' + category);
-  }
-
-
-  // $http.get('data/movies-2015.json').then(function (response) {
-		// var data = response.data;
-		// $scope.movies = data;
-  // });
 }]);
 
-//For movie blog
-myApp.controller('BlogCtrl', ['$scope', '$http', '$filter', function ($scope, $http, $filter) {
-
-	$http.get('data/blog.json').then(function (response) {
-		$scope.posts = response.data;
- 	});
-
-	$scope.postToBlog = function () {
-		var title = $scope.newPost.title; //get values from form
-		var date = $filter('date')(Date.now(), 'yyyy-MM-ddTHH:mm:ss'); //format current time
-		var body = $scope.newPost.body;
-
-    //object that is the new post
-		var theNewPost = { 'title': title, 'date': date, 'content': body };
-
-		//TODO: Add new post to the list of posts!
-		$scope.posts.push(theNewPost);
-	};
-
-}]);
-
-//For movie details
+// controller for the suggestion view
 myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'songDataService', function ($scope, $stateParams, $filter, $http, songDataService) {
 	//console.log($stateParams.movie);
 	$scope.category = $stateParams.category;
 
 	// TODO: this only works for tags that are "moods" (happy, sad, aggressive, acoustic, party)
 	$scope.songsInCategory = $filter('filterByMood')(songDataService.data, $stateParams.category);
+	$scope.suggestion = $scope.songsInCategory[0];
 
-	console.log($scope.songsInCategory);
-	console.log(songDataService.data);
 }]);
 
 
@@ -147,7 +116,7 @@ myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 	// load in our big json list of low-level AcousticBrainz data
 	$http.get('data/song-data.json').then(function (response) {
 		service.data = response.data;
-		console.log(service.data);
+		console.log("finished loading data: " + service.data.length);
 	});
 
 	return service;
@@ -168,7 +137,7 @@ myApp.filter('filterByMood', function() {
 	}
 });
 
-app.filter('capitalize', function() {
+myApp.filter('capitalize', function() {
     return function(input) {
       return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
     }
