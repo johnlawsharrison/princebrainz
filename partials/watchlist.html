@@ -1,0 +1,39 @@
+<main class="container">
+<div class="to-watch">
+
+<section class="movie-search-form">
+  <h3>Find a Movie to Watch</h3>
+  <form name="searchForm" role="form" novalidate>
+    <div class="form-group form-inline">
+      <input type="text" name="title" id="title" class="form-control movie-search" ng-model="searchQuery" autofocus>
+      <button type="submit" class="btn btn-primary" ng-click="searchFilms()"><i class="fa fa-search"></i></button>
+    </div>
+  </form>
+</section> <!-- end form section -->
+
+<section class="search-results well" ng-if="movie !== undefined">
+  <h3>Selected Movie</h3>
+  <p>
+    <img class="poster" ng-src="{{movie.Poster !== 'N/A' ? movie.Poster : 'img/nofilm.png'}}">
+    {{movie.Title}} ({{movie.Year}})
+  </p>
+    <div class="form-group form-inline">
+      <label for="priority">Priority:</label>
+      <select name="priority" id="priority" class="form-control" ng-model="priority" ng-options="item for item in priorities">
+      </select>
+    </div>
+  <button type="submit" class="btn btn-primary" ng-if="movie" ng-click="saveFilm(movie, priority)">Add to List</button>
+</section>
+
+<section class="watch-list">
+  <h1>My Movies To Watch</h1>
+  <ul>
+    <li ng-repeat="movie in watchlist">
+      <img class="poster" ng-src="{{movie.Poster !== 'N/A' ? movie.Poster : 'img/nofilm.png'}}">
+      {{movie.Title}} ({{movie.Year}})
+    </li>
+  </ul>
+</section>
+
+</div> <!-- towatch -->
+</main>

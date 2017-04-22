@@ -1,0 +1,51 @@
+<header class="container">
+  <h1>My Movie Blog</h1>
+</header>
+
+<main class="container">
+
+  <div class="blog">
+    <div class="row">
+      <div class="col-sm-8 blog-main">
+
+        <!-- blog posts -->
+        <div ng-repeat="post in posts | orderBy:'-date'">
+          <h3>{{post.title}}
+            <br><small>{{post.date}}</small>
+          </h3>
+
+          <div ng-bind-html="post.content">
+          </div>
+        </div>
+
+      </div> <!-- end blog col -->
+
+      <nav class="col-sm-3 blog-sidebar" role="navigation">
+        <h3>Archives</h3>
+        <ol class="list-unstyled">
+          <li>Link to Post 2</li>
+          <li>Link to Post 1</li>
+        </ol>
+      </nav>
+    </div> <!-- end row -->
+
+    <!-- new post form -->
+    <div>
+      <form name="postForm" role="form" novalidate>
+        <h3>New Blog Post</h3>
+        <div class="form-group">
+          <label for="title">Post Title:</label>
+          <input type="text" name="title" id="title" class="form-control" ng-model="newPost.title" required>
+          <p class="help-block">Must have a title with at least 3 characters.</p>
+        </div>
+        <div class="form-group">
+          <label for="body">Post Body:</label>
+          <textarea name="body" id="body" class="form-control" rows="5" ng-model="newPost.body" required></textarea>
+          <p class="help-block" ng-show="postForm.body.$invalid">Must have a body.</p>
+        </div>
+        <button type="submit" class="btn btn-primary" ng-click="postToBlog(newPost)">Post Entry</button>
+      </form>
+    </div> <!-- end form -->
+
+  </div>
+</main>

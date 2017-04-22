@@ -1,0 +1,88 @@
+img, p, form {
+	padding-bottom: 1em;
+}
+
+/* fix for bootstrap form-horizontal */
+.form-horizontal .form-group {
+    width:100%;
+}
+
+body > nav {
+	width:100%;
+	background-color: #e7e7e7;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+dl dd {
+  margin-bottom: 1em;
+}
+
+.blog {
+	font-size: 16px;
+}
+
+.blog-sidebar {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;	
+}
+
+.blog-sidebar h2 {
+  font-size: 24px;
+}
+
+/*.blog .form-horizontal .form-group {
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+
+.to-watch section {
+	margin-bottom: 40px;
+}
+
+.movie-search-form form {
+	margin-bottom: 10px;
+}
+
+.movie-search-form .movie-search {
+	width: 300px;
+}
+
+.results-box {
+	padding: 10px;
+}
+
+.results-box .title {
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.selected-row {
+	border: 2px solid gold;
+	border-radius: 4px;
+}
+
+.to-watch-table {
+	width: auto;
+}
+
+img.poster {
+	width:32px;
+	height:50px;
+}
+
+img.poster-lg {
+	width:64px;
+	height:100px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+}

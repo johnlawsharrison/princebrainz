@@ -1,0 +1,27 @@
+<main class="container">
+
+<h1>{{movie.title}} <small>({{movie.released | date:'yyyy'}})</small></h1>
+<p class="lead"><small>{{movie.rating}} | {{movie.released | date:'MMMM, dd yyyy'}} | {{movie.genre}}</small></p>
+<button class="btn btn-default" ng-click="saveMovie(movie)">
+  Save to watch list
+</button>
+
+<div class="row">
+	<div class="col-sm-8">
+		<div>
+			<p>{{movie.Plot}}</p>
+		</div>
+		<dl>
+			<dt>Total Box Office Earnings</dt>
+			<dd>{{movie.gross | currency:'$':0}}</dd>
+			<dt>Tickets sold</dt>
+			<dd>{{movie.tickets}}</dd>
+		</dl>
+	</div>
+
+	<div class="col-sm-4">
+		<img ng-src="{{movie.Poster}}">
+	</div>
+</div>
+
+</main>

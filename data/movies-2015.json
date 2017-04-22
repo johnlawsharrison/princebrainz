@@ -1,0 +1,7892 @@
+[
+  {
+    "title": "Star Wars: The Force Awakens",
+    "released": "2015-12-18",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 742208942,
+    "tickets": 88043765,
+    "id": "star-wars-ep-vii-the-force-awakens"
+  },
+  {
+    "title": "Jurassic World",
+    "released": "2015-06-12",
+    "distributor": "Universal",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 652198010,
+    "tickets": 77366311,
+    "id": "jurassic-world"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "released": "2015-05-01",
+    "distributor": "Walt Disney",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 459005868,
+    "tickets": 54449094,
+    "id": "the-avengers-age-of-ultron"
+  },
+  {
+    "title": "Inside Out",
+    "released": "2015-06-19",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 356461711,
+    "tickets": 42284900,
+    "id": "inside-out"
+  },
+  {
+    "title": "Furious 7",
+    "released": "2015-04-03",
+    "distributor": "Universal",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 351032910,
+    "tickets": 41640914,
+    "id": "furious-7"
+  },
+  {
+    "title": "American Sniper",
+    "released": "2014-12-25",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 347897084,
+    "tickets": 41268930,
+    "id": "american-sniper"
+  },
+  {
+    "title": "Minions",
+    "released": "2015-07-10",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 336045770,
+    "tickets": 39863080,
+    "id": "minions"
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "released": "2015-11-20",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 274185395,
+    "tickets": 32524957,
+    "id": "the-hunger-games-mockingjay---part-2"
+  },
+  {
+    "title": "The Martian",
+    "released": "2015-10-02",
+    "distributor": "20th Century Fox",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 225910757,
+    "tickets": 26798429,
+    "id": "the-martian"
+  },
+  {
+    "title": "Cinderella",
+    "released": "2015-03-13",
+    "distributor": "Walt Disney",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 201151353,
+    "tickets": 23861370,
+    "id": "cinderella"
+  },
+  {
+    "title": "Spectre",
+    "released": "2015-11-06",
+    "distributor": "Sony Pictures",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 197833291,
+    "tickets": 23467768,
+    "id": "spectre"
+  },
+  {
+    "title": "Mission: Impossible - Rogue Nation",
+    "released": "2015-07-31",
+    "distributor": "Paramount Pictures",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 195042377,
+    "tickets": 23136699,
+    "id": "mission-impossible---rogue-nation"
+  },
+  {
+    "title": "Pitch Perfect 2",
+    "released": "2015-05-15",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 183785415,
+    "tickets": 21801354,
+    "id": "pitch-perfect-2"
+  },
+  {
+    "title": "Ant-Man",
+    "released": "2015-07-17",
+    "distributor": "Walt Disney",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 180202163,
+    "tickets": 21376294,
+    "id": "ant-man"
+  },
+  {
+    "title": "Home",
+    "released": "2015-03-27",
+    "distributor": "20th Century Fox",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 177397510,
+    "tickets": 21043595,
+    "id": "home"
+  },
+  {
+    "title": "Hotel Transylvania 2",
+    "released": "2015-09-25",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 168774344,
+    "tickets": 20020681,
+    "id": "hotel-transylvania-2"
+  },
+  {
+    "title": "Fifty Shades of Grey",
+    "released": "2015-02-13",
+    "distributor": "Universal",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 166167230,
+    "tickets": 19711415,
+    "id": "fifty-shades-of-grey"
+  },
+  {
+    "title": "The SpongeBob Movie: Sponge Out of Water",
+    "released": "2015-02-06",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 162994032,
+    "tickets": 19334997,
+    "id": "the-spongebob-movie-sponge-out-of-water"
+  },
+  {
+    "title": "Straight Outta Compton",
+    "released": "2015-08-14",
+    "distributor": "Universal",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 161058685,
+    "tickets": 19105419,
+    "id": "straight-outta-compton"
+  },
+  {
+    "title": "San Andreas",
+    "released": "2015-05-29",
+    "distributor": "Warner Bros.",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 155190832,
+    "tickets": 18409351,
+    "id": "san-andreas"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "released": "2015-05-15",
+    "distributor": "Warner Bros.",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 153636354,
+    "tickets": 18224953,
+    "id": "mad-max-fury-road"
+  },
+  {
+    "title": "The Rocky Horror Picture Show",
+    "released": "1975-09-26",
+    "distributor": "20th Century Fox",
+    "genre": "Musical",
+    "rating": "R",
+    "gross": 140219772,
+    "tickets": 16633424,
+    "id": "the-rocky-horror-picture-show"
+  },
+  {
+    "title": "The Divergent Serires: Insurgent",
+    "released": "2015-03-20",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 130179072,
+    "tickets": 15442357,
+    "id": "the-divergent-serires-insurgent"
+  },
+  {
+    "title": "The Peanuts Movie",
+    "released": "2015-11-06",
+    "distributor": "20th Century Fox",
+    "genre": "Comedy",
+    "rating": "G",
+    "gross": 128763058,
+    "tickets": 15274384,
+    "id": "the-peanuts-movie"
+  },
+  {
+    "title": "Kingsman: The Secret Service",
+    "released": "2015-02-13",
+    "distributor": "20th Century Fox",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 128261724,
+    "tickets": 15214913,
+    "id": "kingsman-the-secret-service"
+  },
+  {
+    "title": "The Good Dinosaur",
+    "released": "2015-11-25",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 114766932,
+    "tickets": 13614108,
+    "id": "the-good-dinosaur"
+  },
+  {
+    "title": "Spy!",
+    "released": "2015-06-05",
+    "distributor": "20th Century Fox",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 110825712,
+    "tickets": 13146585,
+    "id": "spy"
+  },
+  {
+    "title": "Trainwreck",
+    "released": "2015-07-17",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 110038130,
+    "tickets": 13053158,
+    "id": "trainwreck"
+  },
+  {
+    "title": "Creed",
+    "released": "2015-11-25",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 103122271,
+    "tickets": 12232772,
+    "id": "creed"
+  },
+  {
+    "title": "Daddy's Home",
+    "released": "2015-12-25",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 93889861,
+    "tickets": 11137587,
+    "id": "daddys-home"
+  },
+  {
+    "title": "Tomorrowland",
+    "released": "2015-05-22",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 93436322,
+    "tickets": 11083786,
+    "id": "tomorrowland"
+  },
+  {
+    "title": "Get Hard",
+    "released": "2015-03-27",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 90411453,
+    "tickets": 10724964,
+    "id": "get-hard"
+  },
+  {
+    "title": "Terminator: Genisys",
+    "released": "2015-07-01",
+    "distributor": "Paramount Pictures",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 89760956,
+    "tickets": 10647800,
+    "id": "terminator-genisys"
+  },
+  {
+    "title": "Taken 3",
+    "released": "2015-01-09",
+    "distributor": "20th Century Fox",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 89256424,
+    "tickets": 10587950,
+    "id": "taken-3"
+  },
+  {
+    "title": "Maze Runner: The Scorch Trials",
+    "released": "2015-09-18",
+    "distributor": "20th Century Fox",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 81660593,
+    "tickets": 9686903,
+    "id": "maze-runner-the-scorch-trials"
+  },
+  {
+    "title": "Ted 2",
+    "released": "2015-06-26",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 81284830,
+    "tickets": 9642328,
+    "id": "ted-2"
+  },
+  {
+    "title": "Goosebumps",
+    "released": "2015-10-16",
+    "distributor": "Sony Pictures",
+    "genre": "Horror",
+    "rating": "PG",
+    "gross": 79370088,
+    "tickets": 9415194,
+    "id": "goosebumps"
+  },
+  {
+    "title": "Pixels",
+    "released": "2015-07-24",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 78747585,
+    "tickets": 9341350,
+    "id": "pixels"
+  },
+  {
+    "title": "Paddington",
+    "released": "2015-01-16",
+    "distributor": "Weinstein Co.",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 76223578,
+    "tickets": 9041942,
+    "id": "paddington"
+  },
+  {
+    "title": "The Intern",
+    "released": "2015-09-25",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 75711361,
+    "tickets": 8981181,
+    "id": "the-intern"
+  },
+  {
+    "title": "Paul Blart: Mall Cop 2",
+    "released": "2015-04-17",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 71038190,
+    "tickets": 8426831,
+    "id": "paul-blart-mall-cop-2"
+  },
+  {
+    "title": "Bridge of Spies",
+    "released": "2015-10-16",
+    "distributor": "Walt Disney",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 70610153,
+    "tickets": 8376056,
+    "id": "bridge-of-spies"
+  },
+  {
+    "title": "War Room",
+    "released": "2015-08-28",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 67790117,
+    "tickets": 8041532,
+    "id": "war-room"
+  },
+  {
+    "title": "Alvin and the Chipmunks: The Road Chip",
+    "released": "2015-12-18",
+    "distributor": "20th Century Fox",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 67646950,
+    "tickets": 8024549,
+    "id": "alvin-and-the-chipmunks-the-road-chip"
+  },
+  {
+    "title": "Magic Mike XXL",
+    "released": "2015-07-01",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 66013057,
+    "tickets": 7830730,
+    "id": "magic-mike-xxl"
+  },
+  {
+    "title": "The Visit",
+    "released": "2015-09-11",
+    "distributor": "Universal",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 65112020,
+    "tickets": 7723845,
+    "id": "the-visit"
+  },
+  {
+    "title": "The Wedding Ringer",
+    "released": "2015-01-16",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 64460211,
+    "tickets": 7646525,
+    "id": "the-wedding-ringer"
+  },
+  {
+    "title": "Black Mass",
+    "released": "2015-09-18",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 62575678,
+    "tickets": 7422974,
+    "id": "black-mass"
+  },
+  {
+    "title": "Sisters",
+    "released": "2015-12-18",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 61884110,
+    "tickets": 7340938,
+    "id": "sisters"
+  },
+  {
+    "title": "The Imitation Game",
+    "released": "2014-11-28",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 60653053,
+    "tickets": 7194905,
+    "id": "the-imitation-game"
+  },
+  {
+    "title": "Vacation",
+    "released": "2015-07-29",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 58884188,
+    "tickets": 6985075,
+    "id": "vacation"
+  },
+  {
+    "title": "The Perfect Guy",
+    "released": "2015-09-11",
+    "distributor": "Sony Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 57017904,
+    "tickets": 6763689,
+    "id": "the-perfect-guy"
+  },
+  {
+    "title": "Fantastic Four",
+    "released": "2015-08-07",
+    "distributor": "20th Century Fox",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 56117548,
+    "tickets": 6656885,
+    "id": "fantastic-four"
+  },
+  {
+    "title": "Focus",
+    "released": "2015-02-27",
+    "distributor": "Warner Bros.",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 53862963,
+    "tickets": 6389438,
+    "id": "focus"
+  },
+  {
+    "title": "Southpaw",
+    "released": "2015-07-24",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 52421953,
+    "tickets": 6218499,
+    "id": "southpaw"
+  },
+  {
+    "title": "Insidious Chapter 3",
+    "released": "2015-06-05",
+    "distributor": "Focus Features",
+    "genre": "Horror",
+    "rating": "PG-13",
+    "gross": 52218558,
+    "tickets": 6194372,
+    "id": "insidious-chapter-3"
+  },
+  {
+    "title": "Selma",
+    "released": "2014-12-25",
+    "distributor": "Paramount Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 50008455,
+    "tickets": 5932201,
+    "id": "selma"
+  },
+  {
+    "title": "Jupiter Ascending",
+    "released": "2015-02-06",
+    "distributor": "Warner Bros.",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 47482519,
+    "tickets": 5632564,
+    "id": "jupiter-ascending"
+  },
+  {
+    "title": "Poltergeist",
+    "released": "2015-05-22",
+    "distributor": "20th Century Fox",
+    "genre": "Horror",
+    "rating": "PG-13",
+    "gross": 47425125,
+    "tickets": 5625756,
+    "id": "poltergeist"
+  },
+  {
+    "title": "Sicario",
+    "released": "2015-09-18",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 46823967,
+    "tickets": 5554444,
+    "id": "sicario"
+  },
+  {
+    "title": "The Man From U.N.C.L.E.",
+    "released": "2015-08-14",
+    "distributor": "Warner Bros.",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 45445109,
+    "tickets": 5390878,
+    "id": "the-man-from-uncle"
+  },
+  {
+    "title": "McFarland, USA",
+    "released": "2015-02-20",
+    "distributor": "Walt Disney",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 44480275,
+    "tickets": 5276426,
+    "id": "mcfarland-usa"
+  },
+  {
+    "title": "The Gift",
+    "released": "2015-08-07",
+    "distributor": "STX Entertainment",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 43787265,
+    "tickets": 5194218,
+    "id": "the-gift"
+  },
+  {
+    "title": "Everest",
+    "released": "2015-09-18",
+    "distributor": "Universal",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 43309450,
+    "tickets": 5137538,
+    "id": "everest"
+  },
+  {
+    "title": "The Night Before",
+    "released": "2015-11-20",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 42977255,
+    "tickets": 5098132,
+    "id": "the-night-before"
+  },
+  {
+    "title": "Max",
+    "released": "2015-06-26",
+    "distributor": "Warner Bros.",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 42656255,
+    "tickets": 5060053,
+    "id": "max"
+  },
+  {
+    "title": "The Age of Adaline",
+    "released": "2015-04-24",
+    "distributor": "Lionsgate",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 42629776,
+    "tickets": 5056912,
+    "id": "the-age-of-adaline"
+  },
+  {
+    "title": "Krampus",
+    "released": "2015-12-04",
+    "distributor": "Universal",
+    "genre": "Black Comedy",
+    "rating": "PG-13",
+    "gross": 42277730,
+    "tickets": 5015151,
+    "id": "krampus"
+  },
+  {
+    "title": "Joy",
+    "released": "2015-12-25",
+    "distributor": "20th Century Fox",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 38521065,
+    "tickets": 4569521,
+    "id": "joy"
+  },
+  {
+    "title": "The Longest Ride",
+    "released": "2015-04-10",
+    "distributor": "20th Century Fox",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 37446117,
+    "tickets": 4442006,
+    "id": "the-longest-ride"
+  },
+  {
+    "title": "Into the Woods",
+    "released": "2014-12-25",
+    "distributor": "Walt Disney",
+    "genre": "Musical",
+    "rating": "PG",
+    "gross": 37130717,
+    "tickets": 4404592,
+    "id": "into-the-woods"
+  },
+  {
+    "title": "The Boy Next Door",
+    "released": "2015-01-23",
+    "distributor": "Universal",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 35423380,
+    "tickets": 4202061,
+    "id": "the-boy-next-door"
+  },
+  {
+    "title": "Pan",
+    "released": "2015-10-09",
+    "distributor": "Warner Bros.",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 35081641,
+    "tickets": 4161523,
+    "id": "pan"
+  },
+  {
+    "title": "Hot Pursuit",
+    "released": "2015-05-08",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 34580201,
+    "tickets": 4102040,
+    "id": "hot-pursuit"
+  },
+  {
+    "title": "The Hobbit: The Battle of the Five Armies",
+    "released": "2014-12-17",
+    "distributor": "Warner Bros.",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 34517771,
+    "tickets": 4094634,
+    "id": "the-hobbit-the-battle-of-the-five-armies"
+  },
+  {
+    "title": "The DUFF",
+    "released": "2015-02-20",
+    "distributor": "CBS Films",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 34030343,
+    "tickets": 4036814,
+    "id": "the-duff"
+  },
+  {
+    "title": "Woman in Gold",
+    "released": "2015-04-01",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 33307793,
+    "tickets": 3951102,
+    "id": "woman-in-gold"
+  },
+  {
+    "title": "The Second Best Exotic Marigold Hotel",
+    "released": "2015-03-06",
+    "distributor": "Fox Searchlight",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 33078266,
+    "tickets": 3923874,
+    "id": "the-second-best-exotic-marigold-hotel"
+  },
+  {
+    "title": "The Big Short",
+    "released": "2015-12-11",
+    "distributor": "Paramount Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 33055481,
+    "tickets": 3921172,
+    "id": "the-big-short"
+  },
+  {
+    "title": "Unfriended",
+    "released": "2015-04-17",
+    "distributor": "Universal",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 32482090,
+    "tickets": 3853154,
+    "id": "unfriended"
+  },
+  {
+    "title": "Entourage",
+    "released": "2015-06-03",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 32363404,
+    "tickets": 3839075,
+    "id": "entourage"
+  },
+  {
+    "title": "Paper Towns",
+    "released": "2015-07-24",
+    "distributor": "20th Century Fox",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 32000304,
+    "tickets": 3796002,
+    "id": "paper-towns"
+  },
+  {
+    "title": "Chappie",
+    "released": "2015-03-06",
+    "distributor": "Sony Pictures",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 31569268,
+    "tickets": 3744871,
+    "id": "chappie"
+  },
+  {
+    "title": "Crimson Peak",
+    "released": "2015-10-16",
+    "distributor": "Universal",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 31090320,
+    "tickets": 3688056,
+    "id": "crimson-peak"
+  },
+  {
+    "title": "A Walk in the Woods",
+    "released": "2015-09-02",
+    "distributor": "Broad Green Pictures",
+    "genre": "Adventure",
+    "rating": "R",
+    "gross": 29499394,
+    "tickets": 3499334,
+    "id": "a-walk-in-the-woods"
+  },
+  {
+    "title": "The Hateful Eight",
+    "released": "2015-12-25",
+    "distributor": "Weinstein Co.",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 29045855,
+    "tickets": 3445534,
+    "id": "the-hateful-eight"
+  },
+  {
+    "title": "Unbroken",
+    "released": "2014-12-25",
+    "distributor": "Universal",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 27986400,
+    "tickets": 3319857,
+    "id": "unbroken"
+  },
+  {
+    "title": "Sinister 2",
+    "released": "2015-08-21",
+    "distributor": "Focus Features",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 27740955,
+    "tickets": 3290741,
+    "id": "sinister-2"
+  },
+  {
+    "title": "The Last Witch Hunter",
+    "released": "2015-10-23",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 27367660,
+    "tickets": 3246460,
+    "id": "the-last-witch-hunter"
+  },
+  {
+    "title": "No Escape",
+    "released": "2015-08-26",
+    "distributor": "Weinstein Co.",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 27288872,
+    "tickets": 3237114,
+    "id": "no-escape"
+  },
+  {
+    "title": "Spotlight",
+    "released": "2015-11-06",
+    "distributor": "Open Road",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 27108972,
+    "tickets": 3215773,
+    "id": "spotlight"
+  },
+  {
+    "title": "Ricki and the Flash",
+    "released": "2015-08-07",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 26822144,
+    "tickets": 3181748,
+    "id": "ricki-and-the-flash"
+  },
+  {
+    "title": "The Woman in Black 2: Angel of Death",
+    "released": "2015-01-02",
+    "distributor": "Relativity",
+    "genre": "Horror",
+    "rating": "PG-13",
+    "gross": 26501323,
+    "tickets": 3143691,
+    "id": "the-woman-in-black-2-angel-of-death"
+  },
+  {
+    "title": "Run All Night",
+    "released": "2015-03-13",
+    "distributor": "Warner Bros.",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 26461644,
+    "tickets": 3138985,
+    "id": "run-all-night"
+  },
+  {
+    "title": "Love the Coopers",
+    "released": "2015-11-13",
+    "distributor": "CBS Films",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 26193757,
+    "tickets": 3107207,
+    "id": "love-the-coopers"
+  },
+  {
+    "title": "The Lazarus Effect",
+    "released": "2015-02-27",
+    "distributor": "Lionsgate",
+    "genre": "Horror",
+    "rating": "PG-13",
+    "gross": 25801570,
+    "tickets": 3060684,
+    "id": "the-lazarus-effect"
+  },
+  {
+    "title": "Ex Machina",
+    "released": "2015-04-24",
+    "distributor": "A24",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 25440971,
+    "tickets": 3017908,
+    "id": "ex-machina"
+  },
+  {
+    "title": "Concussion",
+    "released": "2015-12-25",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 25266650,
+    "tickets": 2997230,
+    "id": "concussion"
+  },
+  {
+    "title": "Night at the Museum: Secret of the Tomb",
+    "released": "2014-12-19",
+    "distributor": "20th Century Fox",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 23899442,
+    "tickets": 2835046,
+    "id": "night-at-the-museum-secret-of-the-tomb"
+  },
+  {
+    "title": "In the Heart of the Sea",
+    "released": "2015-12-11",
+    "distributor": "Warner Bros.",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 23750170,
+    "tickets": 2817339,
+    "id": "in-the-heart-of-the-sea"
+  },
+  {
+    "title": "The Gallows",
+    "released": "2015-07-10",
+    "distributor": "Warner Bros.",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 22764410,
+    "tickets": 2700404,
+    "id": "the-gallows"
+  },
+  {
+    "title": "Hitman: Agent 47",
+    "released": "2015-08-21",
+    "distributor": "20th Century Fox",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 22467450,
+    "tickets": 2665177,
+    "id": "hitman-agent-47"
+  },
+  {
+    "title": "Point Break",
+    "released": "2015-12-25",
+    "distributor": "Warner Bros.",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 22402176,
+    "tickets": 2657434,
+    "id": "point-break"
+  },
+  {
+    "title": "Project Almanac",
+    "released": "2015-01-30",
+    "distributor": "Paramount Pictures",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 22348241,
+    "tickets": 2651036,
+    "id": "project-almanac"
+  },
+  {
+    "title": "Black or White",
+    "released": "2015-01-30",
+    "distributor": "Relativity",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 21571189,
+    "tickets": 2558859,
+    "id": "black-or-white"
+  },
+  {
+    "title": "Aloha",
+    "released": "2015-05-29",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 21052030,
+    "tickets": 2497275,
+    "id": "aloha"
+  },
+  {
+    "title": "Brooklyn",
+    "released": "2015-11-04",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 20812853,
+    "tickets": 2468903,
+    "id": "brooklyn"
+  },
+  {
+    "title": "Secret in Their Eyes",
+    "released": "2015-11-20",
+    "distributor": "STX Entertainment",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 20119034,
+    "tickets": 2386599,
+    "id": "secret-in-their-eyes"
+  },
+  {
+    "title": "Shaun the Sheep",
+    "released": "2015-08-05",
+    "distributor": "Lionsgate",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 19375982,
+    "tickets": 2298455,
+    "id": "shaun-the-sheep"
+  },
+  {
+    "title": "Still Alice",
+    "released": "2015-01-16",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 18656400,
+    "tickets": 2213096,
+    "id": "still-alice"
+  },
+  {
+    "title": "Paranormal Activity: The Ghost Dimension",
+    "released": "2015-10-23",
+    "distributor": "Paramount Pictures",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 18297124,
+    "tickets": 2170477,
+    "id": "paranormal-activity-the-ghost-dimension"
+  },
+  {
+    "title": "Steve Jobs",
+    "released": "2015-10-09",
+    "distributor": "Universal",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 17766658,
+    "tickets": 2107551,
+    "id": "steve-jobs"
+  },
+  {
+    "title": "Mr. Holmes",
+    "released": "2015-07-17",
+    "distributor": "Miramax/Roadside Attractions",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 17737646,
+    "tickets": 2104109,
+    "id": "mr-holmes"
+  },
+  {
+    "title": "Dope",
+    "released": "2015-06-19",
+    "distributor": "Open Road",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 17506470,
+    "tickets": 2076686,
+    "id": "dope"
+  },
+  {
+    "title": "Seventh Son",
+    "released": "2015-02-06",
+    "distributor": "Universal",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 17223265,
+    "tickets": 2043091,
+    "id": "seventh-son"
+  },
+  {
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "released": "2014-10-17",
+    "distributor": "Fox Searchlight",
+    "genre": "Black Comedy",
+    "rating": "R",
+    "gross": 16916030,
+    "tickets": 2006646,
+    "id": "birdman-or-the-unexpected-virtue-of-ignorance"
+  },
+  {
+    "title": "Monkey Kingdom",
+    "released": "2015-04-17",
+    "distributor": "Walt Disney",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 16432322,
+    "tickets": 1949267,
+    "id": "monkey-kingdom"
+  },
+  {
+    "title": "The Transporter Refueled",
+    "released": "2015-09-04",
+    "distributor": "EuropaCorp",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 16029670,
+    "tickets": 1901502,
+    "id": "the-transporter-refueled"
+  },
+  {
+    "title": "It Follows",
+    "released": "2015-03-13",
+    "distributor": "RADiUS-TWC",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 14674077,
+    "tickets": 1740697,
+    "id": "it-follows"
+  },
+  {
+    "title": "American Ultra",
+    "released": "2015-08-21",
+    "distributor": "Lionsgate",
+    "genre": "Black Comedy",
+    "rating": "R",
+    "gross": 14439985,
+    "tickets": 1712928,
+    "id": "american-ultra"
+  },
+  {
+    "title": "Woodlawn",
+    "released": "2015-10-16",
+    "distributor": "Pure Flix Entertainment",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 14380599,
+    "tickets": 1705883,
+    "id": "woodlawn"
+  },
+  {
+    "title": "Burnt",
+    "released": "2015-10-30",
+    "distributor": "Weinstein Co.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 13596955,
+    "tickets": 1612924,
+    "id": "burnt"
+  },
+  {
+    "title": "Annie",
+    "released": "2014-12-19",
+    "distributor": "Sony Pictures",
+    "genre": "Musical",
+    "rating": "PG",
+    "gross": 13450892,
+    "tickets": 1595598,
+    "id": "annie"
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "released": "2014-11-21",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 13401383,
+    "tickets": 1589725,
+    "id": "the-hunger-games-mockingjay---part-1"
+  },
+  {
+    "title": "Do You Believe?",
+    "released": "2015-03-20",
+    "distributor": "Pure Flix Entertainment",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 12985600,
+    "tickets": 1540403,
+    "id": "do-you-believe"
+  },
+  {
+    "title": "Love & Mercy",
+    "released": "2015-06-05",
+    "distributor": "Roadside Attractions",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 12551031,
+    "tickets": 1488853,
+    "id": "love--mercy"
+  },
+  {
+    "title": "Strange Magic",
+    "released": "2015-01-23",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 12429583,
+    "tickets": 1474446,
+    "id": "strange-magic"
+  },
+  {
+    "title": "Hot Tub Time Machine 2",
+    "released": "2015-02-20",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 12314651,
+    "tickets": 1460812,
+    "id": "hot-tub-time-machine-2"
+  },
+  {
+    "title": "Self/Less",
+    "released": "2015-07-10",
+    "distributor": "Focus Features",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 12279691,
+    "tickets": 1456665,
+    "id": "selfless"
+  },
+  {
+    "title": "Far from the Madding Crowd",
+    "released": "2015-05-01",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 12236500,
+    "tickets": 1451542,
+    "id": "far-from-the-madding-crowd"
+  },
+  {
+    "title": "Back to the Future",
+    "released": "1985-07-03",
+    "distributor": "Universal",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 12127168,
+    "tickets": 1438572,
+    "id": "back-to-the-future"
+  },
+  {
+    "title": "The 33",
+    "released": "2015-11-13",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 12122453,
+    "tickets": 1438013,
+    "id": "the-33"
+  },
+  {
+    "title": "Wild",
+    "released": "2014-12-03",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 11999452,
+    "tickets": 1423422,
+    "id": "wild"
+  },
+  {
+    "title": "Big Hero 6",
+    "released": "2014-11-07",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 11320792,
+    "tickets": 1342917,
+    "id": "big-hero-6"
+  },
+  {
+    "title": "The Theory of Everything",
+    "released": "2014-11-07",
+    "distributor": "Focus Features",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 11121187,
+    "tickets": 1319239,
+    "id": "the-theory-of-everything"
+  },
+  {
+    "title": "The Gunman",
+    "released": "2015-03-20",
+    "distributor": "Open Road",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 10664749,
+    "tickets": 1265094,
+    "id": "the-gunman"
+  },
+  {
+    "title": "Unfinished Business",
+    "released": "2015-03-06",
+    "distributor": "20th Century Fox",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 10219501,
+    "tickets": 1212277,
+    "id": "unfinished-business"
+  },
+  {
+    "title": "The Walk",
+    "released": "2015-10-09",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 10137502,
+    "tickets": 1202550,
+    "id": "the-walk"
+  },
+  {
+    "title": "Un gallo con muchos huevos",
+    "released": "2015-09-04",
+    "distributor": "Lionsgate",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 9080818,
+    "tickets": 1077202,
+    "id": "un-gallo-con-muchos-huevos"
+  },
+  {
+    "title": "Amy",
+    "released": "2015-07-03",
+    "distributor": "A24",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 8409616,
+    "tickets": 997581,
+    "id": "amy"
+  },
+  {
+    "title": "Bajrangi Bhaijaan",
+    "released": "2015-07-17",
+    "distributor": "Eros Entertainment",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 8178001,
+    "tickets": 970106,
+    "id": "bajrangi-bhaijaan"
+  },
+  {
+    "title": "Dragon Ball Z: Resurrection \"F",
+    "released": "2015-08-04",
+    "distributor": "FUNimation",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 8008363,
+    "tickets": 949983,
+    "id": "dragon-ball-z-resurrection-f"
+  },
+  {
+    "title": "Blackhat",
+    "released": "2015-01-16",
+    "distributor": "Universal",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 7889395,
+    "tickets": 935871,
+    "id": "blackhat"
+  },
+  {
+    "title": "Mortdecai",
+    "released": "2015-01-23",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 7696134,
+    "tickets": 912945,
+    "id": "mortdecai"
+  },
+  {
+    "title": "While We're Young",
+    "released": "2015-03-27",
+    "distributor": "A24",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 7582065,
+    "tickets": 899414,
+    "id": "while-were-young"
+  },
+  {
+    "title": "I'll See You in My Dreams",
+    "released": "2015-05-15",
+    "distributor": "Bleecker Street",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 7449681,
+    "tickets": 883710,
+    "id": "ill-see-you-in-my-dreams"
+  },
+  {
+    "title": "The Green Inferno",
+    "released": "2015-09-25",
+    "distributor": "High Top Releasing",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 7192291,
+    "tickets": 853178,
+    "id": "the-green-inferno"
+  },
+  {
+    "title": "Whiplash",
+    "released": "2014-10-10",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 7190389,
+    "tickets": 852952,
+    "id": "whiplash"
+  },
+  {
+    "title": "Trumbo",
+    "released": "2015-11-06",
+    "distributor": "Bleecker Street",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 7015228,
+    "tickets": 832174,
+    "id": "trumbo"
+  },
+  {
+    "title": "Our Brand is Crisis",
+    "released": "2015-10-30",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 7002261,
+    "tickets": 830635,
+    "id": "our-brand-is-crisis"
+  },
+  {
+    "title": "Grandma",
+    "released": "2015-08-21",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 6928220,
+    "tickets": 821852,
+    "id": "grandma"
+  },
+  {
+    "title": "Me and Earl and the Dying Girl",
+    "released": "2015-06-12",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 6758416,
+    "tickets": 801710,
+    "id": "me-and-earl-and-the-dying-girl"
+  },
+  {
+    "title": "Baahubali: The Beginning",
+    "released": "2015-07-10",
+    "distributor": "Bluesky Cinemas",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 6738000,
+    "tickets": 799288,
+    "id": "baahubali-the-beginning"
+  },
+  {
+    "title": "Inherent Vice",
+    "released": "2014-12-12",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 6647997,
+    "tickets": 788611,
+    "id": "inherent-vice"
+  },
+  {
+    "title": "Little Boy",
+    "released": "2015-04-24",
+    "distributor": "Open Road",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 6485961,
+    "tickets": 769390,
+    "id": "little-boy"
+  },
+  {
+    "title": "The Gambler",
+    "released": "2014-12-10",
+    "distributor": "Paramount Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 6074726,
+    "tickets": 720608,
+    "id": "the-gambler"
+  },
+  {
+    "title": "The Danish Girl",
+    "released": "2015-11-27",
+    "distributor": "Focus Features",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 6050349,
+    "tickets": 717716,
+    "id": "the-danish-girl"
+  },
+  {
+    "title": "The Loft",
+    "released": "2015-01-30",
+    "distributor": "Open Road",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 6002684,
+    "tickets": 712062,
+    "id": "the-loft"
+  },
+  {
+    "title": "Bajirao Mastani",
+    "released": "2015-12-18",
+    "distributor": "Eros Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5848971,
+    "tickets": 693828,
+    "id": "bajirao-mastani"
+  },
+  {
+    "title": "Victor Frankenstein",
+    "released": "2015-11-25",
+    "distributor": "20th Century Fox",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 5775076,
+    "tickets": 685062,
+    "id": "victor-frankenstein"
+  },
+  {
+    "title": "Danny Collins",
+    "released": "2015-03-20",
+    "distributor": "Bleecker Street",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 5637066,
+    "tickets": 668691,
+    "id": "danny-collins"
+  },
+  {
+    "title": "A Most Violent Year",
+    "released": "2014-12-31",
+    "distributor": "A24",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 5463088,
+    "tickets": 648053,
+    "id": "a-most-violent-year"
+  },
+  {
+    "title": "Penguins of Madagascar",
+    "released": "2014-11-26",
+    "distributor": "20th Century Fox",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 5234131,
+    "tickets": 620893,
+    "id": "penguins-of-madagascar"
+  },
+  {
+    "title": "Interstellar",
+    "released": "2014-11-07",
+    "distributor": "Paramount Pictures",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 5215800,
+    "tickets": 618718,
+    "id": "interstellar"
+  },
+  {
+    "title": "Carol",
+    "released": "2015-11-20",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 4982475,
+    "tickets": 591040,
+    "id": "carol"
+  },
+  {
+    "title": "Room",
+    "released": "2015-10-16",
+    "distributor": "A24",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 4976972,
+    "tickets": 590388,
+    "id": "room"
+  },
+  {
+    "title": "90 Minutes in Heaven",
+    "released": "2015-09-11",
+    "distributor": "Samuel Goldwyn Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 4816142,
+    "tickets": 571309,
+    "id": "90-minutes-in-heaven"
+  },
+  {
+    "title": "True Story",
+    "released": "2015-04-17",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 4719695,
+    "tickets": 559868,
+    "id": "true-story"
+  },
+  {
+    "title": "Dilwale",
+    "released": "2015-12-18",
+    "distributor": "UTV Communications",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 4704632,
+    "tickets": 558082,
+    "id": "dilwale"
+  },
+  {
+    "title": "Suffragette",
+    "released": "2015-10-23",
+    "distributor": "Focus Features",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 4668603,
+    "tickets": 553808,
+    "id": "suffragette"
+  },
+  {
+    "title": "Big Eyes",
+    "released": "2014-12-25",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 4558006,
+    "tickets": 540688,
+    "id": "big-eyes"
+  },
+  {
+    "title": "Prem Ratan Dhan Payo",
+    "released": "2015-11-12",
+    "distributor": "Fox International",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4364639,
+    "tickets": 517750,
+    "id": "prem-ratan-dhan-payo"
+  },
+  {
+    "title": "The Water Diviner",
+    "released": "2015-04-24",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 4200117,
+    "tickets": 498234,
+    "id": "the-water-diviner"
+  },
+  {
+    "title": "Foxcatcher",
+    "released": "2014-11-14",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 4153511,
+    "tickets": 492705,
+    "id": "foxcatcher"
+  },
+  {
+    "title": "Hubble 3D",
+    "released": "2010-03-19",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 4088852,
+    "tickets": 485035,
+    "id": "hubble-3d"
+  },
+  {
+    "title": "Irrational Man",
+    "released": "2015-07-17",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 4030360,
+    "tickets": 478097,
+    "id": "irrational-man"
+  },
+  {
+    "title": "Scout's Guide to the Zombie Apocalypse",
+    "released": "2015-10-30",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 3703046,
+    "tickets": 439269,
+    "id": "scouts-guide-to-the-zombie-apocalypse"
+  },
+  {
+    "title": "Exodus: Gods and Kings",
+    "released": "2014-12-12",
+    "distributor": "20th Century Fox",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 3671578,
+    "tickets": 435537,
+    "id": "exodus-gods-and-kings"
+  },
+  {
+    "title": "A La Mala",
+    "released": "2015-02-27",
+    "distributor": "Lionsgate",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 3629842,
+    "tickets": 430586,
+    "id": "a-la-mala"
+  },
+  {
+    "title": "Spare Parts",
+    "released": "2015-01-16",
+    "distributor": "Lionsgate",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 3618912,
+    "tickets": 429289,
+    "id": "spare-parts"
+  },
+  {
+    "title": "We Are Your Friends",
+    "released": "2015-08-28",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 3591417,
+    "tickets": 426028,
+    "id": "we-are-your-friends"
+  },
+  {
+    "title": "Mommy",
+    "released": "2015-01-23",
+    "distributor": "Roadside Attractions",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 3498695,
+    "tickets": 415029,
+    "id": "mommy"
+  },
+  {
+    "title": "What We Do in the Shadows",
+    "released": "2015-02-13",
+    "distributor": "Unison/Paladin",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 3469224,
+    "tickets": 411533,
+    "id": "what-we-do-in-the-shadows"
+  },
+  {
+    "title": "Learning to Drive",
+    "released": "2015-08-21",
+    "distributor": "Broad Green Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 3447633,
+    "tickets": 408971,
+    "id": "learning-to-drive"
+  },
+  {
+    "title": "Space Station",
+    "released": "2002-04-19",
+    "distributor": "IMAX Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 3201391,
+    "tickets": 379761,
+    "id": "space-station"
+  },
+  {
+    "title": "Phoenix",
+    "released": "2015-07-24",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 3166858,
+    "tickets": 375665,
+    "id": "phoenix"
+  },
+  {
+    "title": "Wild Tales",
+    "released": "2015-02-20",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 3107072,
+    "tickets": 368573,
+    "id": "wild-tales"
+  },
+  {
+    "title": "Dil Dhadakne Do",
+    "released": "2015-06-05",
+    "distributor": "Eros Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3066100,
+    "tickets": 363712,
+    "id": "dil-dhadakne-do"
+  },
+  {
+    "title": "Ladrones",
+    "released": "2015-10-09",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 3063505,
+    "tickets": 363405,
+    "id": "ladrones"
+  },
+  {
+    "title": "Tanu Weds Manu Returns",
+    "released": "2015-05-22",
+    "distributor": "Eros Entertainment",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 3043479,
+    "tickets": 361029,
+    "id": "tanu-weds-manu-returns"
+  },
+  {
+    "title": "Rock the Kasbah",
+    "released": "2015-10-23",
+    "distributor": "Open Road",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 3020665,
+    "tickets": 358323,
+    "id": "rock-the-kasbah"
+  },
+  {
+    "title": "The End of the Tour",
+    "released": "2015-07-31",
+    "distributor": "A24",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 3002883,
+    "tickets": 356213,
+    "id": "the-end-of-the-tour"
+  },
+  {
+    "title": "Mr. Turner",
+    "released": "2014-12-19",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 2995728,
+    "tickets": 355365,
+    "id": "mr-turner"
+  },
+  {
+    "title": "Badlapur",
+    "released": "2015-02-20",
+    "distributor": "Eros Entertainment",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 2825542,
+    "tickets": 335176,
+    "id": "badlapur"
+  },
+  {
+    "title": "He Named Me Malala",
+    "released": "2015-10-02",
+    "distributor": "Fox Searchlight",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 2668936,
+    "tickets": 316599,
+    "id": "he-named-me-malala"
+  },
+  {
+    "title": "Chi-raq",
+    "released": "2015-12-04",
+    "distributor": "Amazon Studios/Roadside Attractions",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 2601330,
+    "tickets": 308580,
+    "id": "chi-raq"
+  },
+  {
+    "title": "Captive",
+    "released": "2015-09-18",
+    "distributor": "Paramount Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 2583301,
+    "tickets": 306441,
+    "id": "captive"
+  },
+  {
+    "title": "Truth",
+    "released": "2015-10-16",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 2517245,
+    "tickets": 298605,
+    "id": "truth"
+  },
+  {
+    "title": "Mistress America",
+    "released": "2015-08-14",
+    "distributor": "Fox Searchlight",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 2500431,
+    "tickets": 296611,
+    "id": "mistress-america"
+  },
+  {
+    "title": "Pawn Sacrifice",
+    "released": "2015-09-16",
+    "distributor": "Beeker Street",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 2436308,
+    "tickets": 289004,
+    "id": "pawn-sacrifice"
+  },
+  {
+    "title": "2015 Oscar Shorts",
+    "released": "2015-01-30",
+    "distributor": "ShortsHD",
+    "genre": "Multiple Genres",
+    "rating": "Not Rated",
+    "gross": 2412493,
+    "tickets": 286179,
+    "id": "2015-oscar-shorts"
+  },
+  {
+    "title": "Meru",
+    "released": "2015-08-14",
+    "distributor": 0,
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 2334228,
+    "tickets": 276895,
+    "id": "meru"
+  },
+  {
+    "title": "My All-American",
+    "released": "2015-11-13",
+    "distributor": "Clarius Entertainment",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 2246000,
+    "tickets": 266429,
+    "id": "my-all-american"
+  },
+  {
+    "title": "Ode to My Father",
+    "released": "2014-12-25",
+    "distributor": "CJ Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 2209071,
+    "tickets": 262048,
+    "id": "ode-to-my-father"
+  },
+  {
+    "title": "Jem and the Holograms",
+    "released": "2015-10-23",
+    "distributor": "Universal",
+    "genre": "Musical",
+    "rating": "PG",
+    "gross": 2184640,
+    "tickets": 259150,
+    "id": "jem-and-the-holograms"
+  },
+  {
+    "title": "Roar",
+    "released": "1981-01-01",
+    "distributor": 0,
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 2110050,
+    "tickets": 250302,
+    "id": "roar"
+  },
+  {
+    "title": "Tamasha",
+    "released": "2015-11-25",
+    "distributor": "UTV Communications",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 2065487,
+    "tickets": 245016,
+    "id": "tamasha"
+  },
+  {
+    "title": "Island of Lemurs: Madagascar",
+    "released": "2014-04-04",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 1989670,
+    "tickets": 236022,
+    "id": "island-of-lemurs-madagascar"
+  },
+  {
+    "title": "Cake",
+    "released": "2015-01-23",
+    "distributor": "Cinelou Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1951776,
+    "tickets": 231527,
+    "id": "cake"
+  },
+  {
+    "title": "Old Fashioned",
+    "released": "2015-02-06",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1914090,
+    "tickets": 227056,
+    "id": "old-fashioned"
+  },
+  {
+    "title": "Assassination",
+    "released": "2015-08-07",
+    "distributor": "Well Go USA",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 1904682,
+    "tickets": 225940,
+    "id": "assassination"
+  },
+  {
+    "title": "Game of Thrones: The IMAX Experience",
+    "released": "2015-01-29",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1896092,
+    "tickets": 224921,
+    "id": "game-of-thrones-the-imax-experience"
+  },
+  {
+    "title": "Legend",
+    "released": "2015-11-20",
+    "distributor": "Universal",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1865774,
+    "tickets": 221325,
+    "id": "legend"
+  },
+  {
+    "title": "Journey to the South Pacific",
+    "released": "2013-11-27",
+    "distributor": "MacGillivray Freeman Films",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 1852230,
+    "tickets": 219718,
+    "id": "journey-to-the-south-pacific"
+  },
+  {
+    "title": "Clouds of Sils Maria",
+    "released": "2015-04-10",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1841555,
+    "tickets": 218452,
+    "id": "clouds-of-sils-maria"
+  },
+  {
+    "title": "Testament of Youth",
+    "released": "2015-06-05",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1822250,
+    "tickets": 216162,
+    "id": "testament-of-youth"
+  },
+  {
+    "title": "Piku",
+    "released": "2015-05-08",
+    "distributor": "Yash Raj Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 1801806,
+    "tickets": 213737,
+    "id": "piku"
+  },
+  {
+    "title": "The Vatican Tapes",
+    "released": "2015-07-24",
+    "distributor": "Lionsgate",
+    "genre": "Horror",
+    "rating": "PG-13",
+    "gross": 1784763,
+    "tickets": 211715,
+    "id": "the-vatican-tapes"
+  },
+  {
+    "title": "Jerusalem",
+    "released": "2013-09-13",
+    "distributor": "National Geographic Entertainment",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1715647,
+    "tickets": 203516,
+    "id": "jerusalem"
+  },
+  {
+    "title": "Meet the Patels",
+    "released": "2015-09-11",
+    "distributor": "Alchemy",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 1700680,
+    "tickets": 201741,
+    "id": "meet-the-patels"
+  },
+  {
+    "title": "Youth",
+    "released": "2015-12-04",
+    "distributor": "Fox Searchlight",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1650314,
+    "tickets": 195766,
+    "id": "youth"
+  },
+  {
+    "title": "The Letters",
+    "released": "2015-12-04",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 1632464,
+    "tickets": 193649,
+    "id": "the-letters"
+  },
+  {
+    "title": "Top Five",
+    "released": "2014-12-12",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1577054,
+    "tickets": 187076,
+    "id": "top-five"
+  },
+  {
+    "title": "The Diary of a Teenage Girl",
+    "released": "2015-08-07",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1477002,
+    "tickets": 175207,
+    "id": "the-diary-of-a-teenage-girl"
+  },
+  {
+    "title": "Infinitely Polar Bear",
+    "released": "2015-06-19",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1430655,
+    "tickets": 169709,
+    "id": "infinitely-polar-bear"
+  },
+  {
+    "title": "99 Homes",
+    "released": "2015-09-25",
+    "distributor": "Broad Green Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1411927,
+    "tickets": 167488,
+    "id": "99-homes"
+  },
+  {
+    "title": "Welcome Back",
+    "released": "2015-09-04",
+    "distributor": "Eros Entertainment",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 1388365,
+    "tickets": 164693,
+    "id": "welcome-back"
+  },
+  {
+    "title": "Horrible Bosses 2",
+    "released": "2014-11-26",
+    "distributor": "Warner Bros.",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1381888,
+    "tickets": 163925,
+    "id": "horrible-bosses-2"
+  },
+  {
+    "title": "The Cokeville Miracle",
+    "released": "2015-06-05",
+    "distributor": "Excel Entertainment",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1348630,
+    "tickets": 159979,
+    "id": "the-cokeville-miracle"
+  },
+  {
+    "title": "The Salt of the Earth",
+    "released": "2015-03-27",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 1343349,
+    "tickets": 159353,
+    "id": "the-salt-of-the-earth"
+  },
+  {
+    "title": "The Revenant",
+    "released": "2015-12-25",
+    "distributor": "20th Century Fox",
+    "genre": "Adventure",
+    "rating": "R",
+    "gross": 1320348,
+    "tickets": 156624,
+    "id": "the-revenant"
+  },
+  {
+    "title": "Two Days, One Night",
+    "released": "2014-12-24",
+    "distributor": "Sundance Selects",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1312980,
+    "tickets": 155750,
+    "id": "two-days-one-night"
+  },
+  {
+    "title": "Iris",
+    "released": "2015-04-29",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 1310678,
+    "tickets": 155477,
+    "id": "iris"
+  },
+  {
+    "title": "Lost in Hong Kong",
+    "released": "2015-09-25",
+    "distributor": "Well Go USA",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 1302281,
+    "tickets": 154481,
+    "id": "lost-in-hong-kong"
+  },
+  {
+    "title": "The Wolfpack",
+    "released": "2015-06-12",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 1301696,
+    "tickets": 154412,
+    "id": "the-wolfpack"
+  },
+  {
+    "title": "Goodbye Mr. Loser",
+    "released": "2015-10-09",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 1289195,
+    "tickets": 152929,
+    "id": "goodbye-mr-loser"
+  },
+  {
+    "title": "'71",
+    "released": "2015-02-27",
+    "distributor": "Roadside Attractions",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1270847,
+    "tickets": 150752,
+    "id": "71"
+  },
+  {
+    "title": "Beyond the Mask",
+    "released": "2015-04-06",
+    "distributor": "Gathr Films",
+    "genre": "Action",
+    "rating": "PG",
+    "gross": 1236094,
+    "tickets": 146630,
+    "id": "beyond-the-mask"
+  },
+  {
+    "title": "Child 44",
+    "released": "2015-04-17",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1224330,
+    "tickets": 145234,
+    "id": "child-44"
+  },
+  {
+    "title": "Goodnight Mommy",
+    "released": "2015-09-11",
+    "distributor": "RADiUS-TWC",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 1178196,
+    "tickets": 139762,
+    "id": "goodnight-mommy"
+  },
+  {
+    "title": "Black Sea",
+    "released": "2015-01-23",
+    "distributor": "Focus Features",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1171559,
+    "tickets": 138974,
+    "id": "black-sea"
+  },
+  {
+    "title": "Miss You Already",
+    "released": "2015-11-06",
+    "distributor": "Roadside Attractions",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 1162653,
+    "tickets": 137918,
+    "id": "miss-you-already"
+  },
+  {
+    "title": "Where Hope Grows",
+    "released": "2015-05-15",
+    "distributor": "Roadside Attractions",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1156000,
+    "tickets": 137129,
+    "id": "where-hope-grows"
+  },
+  {
+    "title": "Veteran",
+    "released": "2015-08-14",
+    "distributor": "CJ Entertainment",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 1155652,
+    "tickets": 137088,
+    "id": "veteran"
+  },
+  {
+    "title": "The Interview",
+    "released": "2014-12-25",
+    "distributor": "Sony Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1144449,
+    "tickets": 135759,
+    "id": "the-interview"
+  },
+  {
+    "title": "Mojin: The Lost Legend",
+    "released": "2015-12-18",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 1121896,
+    "tickets": 133083,
+    "id": "mojin-the-lost-legend"
+  },
+  {
+    "title": "The Overnight",
+    "released": "2015-06-19",
+    "distributor": "The Orchard",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1109808,
+    "tickets": 131649,
+    "id": "the-overnight"
+  },
+  {
+    "title": "Boyhood",
+    "released": "2014-07-11",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1080207,
+    "tickets": 128138,
+    "id": "boyhood"
+  },
+  {
+    "title": "Timbuktu",
+    "released": "2015-01-28",
+    "distributor": "Cohen Media Group",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1076075,
+    "tickets": 127648,
+    "id": "timbuktu"
+  },
+  {
+    "title": "Mr. Six",
+    "released": "2015-12-24",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 1070706,
+    "tickets": 127011,
+    "id": "mr-six"
+  },
+  {
+    "title": "Gone Girl",
+    "released": "2014-10-03",
+    "distributor": "20th Century Fox",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1040380,
+    "tickets": 123413,
+    "id": "gone-girl"
+  },
+  {
+    "title": "Dior and I",
+    "released": "2015-04-10",
+    "distributor": "The Orchard",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 1028953,
+    "tickets": 122058,
+    "id": "dior-and-i"
+  },
+  {
+    "title": "5 Flights Up",
+    "released": "2015-05-08",
+    "distributor": "Focus Features",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1020921,
+    "tickets": 121105,
+    "id": "5-flights-up"
+  },
+  {
+    "title": "Big Stone Gap",
+    "released": "2015-10-09",
+    "distributor": "Picturehouse",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 1009984,
+    "tickets": 119808,
+    "id": "big-stone-gap"
+  },
+  {
+    "title": "Faith of Our Fathers",
+    "released": "2015-07-01",
+    "distributor": "Pure Flix / Samuel Goldwyn Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1004105,
+    "tickets": 119110,
+    "id": "faith-of-our-fathers"
+  },
+  {
+    "title": "Gett: The Trial of Viviane Amsalem",
+    "released": "2015-02-13",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 988150,
+    "tickets": 117218,
+    "id": "gett-the-trial-of-viviane-amsalem"
+  },
+  {
+    "title": "Leviathan",
+    "released": "2014-12-25",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 952439,
+    "tickets": 112982,
+    "id": "leviathan"
+  },
+  {
+    "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+    "released": "2014-10-10",
+    "distributor": "Walt Disney",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 921486,
+    "tickets": 109310,
+    "id": "alexander-and-the-terrible-horrible-no-good-very-bad-day"
+  },
+  {
+    "title": "Singh IsBliing",
+    "released": "2015-10-02",
+    "distributor": "Eros Entertainment",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 919095,
+    "tickets": 109026,
+    "id": "singh-isbliing"
+  },
+  {
+    "title": "Macbeth",
+    "released": "2015-12-04",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 906513,
+    "tickets": 107534,
+    "id": "macbeth"
+  },
+  {
+    "title": "Best of Enemies",
+    "released": "2015-07-31",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 892802,
+    "tickets": 105907,
+    "id": "best-of-enemies"
+  },
+  {
+    "title": "ABCD 2",
+    "released": "2015-06-19",
+    "distributor": "UTV Communications",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 892133,
+    "tickets": 105828,
+    "id": "abcd-2"
+  },
+  {
+    "title": "The 100-Year-Old Man Who Climbed Out Of The Window and Disappeared",
+    "released": "2015-05-08",
+    "distributor": "Music Box Films",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 844463,
+    "tickets": 100173,
+    "id": "the-100-year-old-man-who-climbed-out-of-the-window-and-disappeared"
+  },
+  {
+    "title": "Dumb and Dumber To",
+    "released": "2014-11-14",
+    "distributor": "Universal",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 815430,
+    "tickets": 96729,
+    "id": "dumb-and-dumber-to"
+  },
+  {
+    "title": "Sleeping with Other People",
+    "released": "2015-09-11",
+    "distributor": "IFC Films",
+    "genre": "Romantic Comedy",
+    "rating": "R",
+    "gross": 814775,
+    "tickets": 96651,
+    "id": "sleeping-with-other-people"
+  },
+  {
+    "title": "The Wrecking Crew",
+    "released": "2015-03-13",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 801606,
+    "tickets": 95089,
+    "id": "the-wrecking-crew"
+  },
+  {
+    "title": "Song of the Sea",
+    "released": "2014-12-19",
+    "distributor": "GKIDS",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 791679,
+    "tickets": 93912,
+    "id": "song-of-the-sea"
+  },
+  {
+    "title": "When Marnie Was There",
+    "released": "2015-05-22",
+    "distributor": "GKIDS",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 765127,
+    "tickets": 90762,
+    "id": "when-marnie-was-there"
+  },
+  {
+    "title": "Labyrinth of Lies",
+    "released": "2015-09-30",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 763736,
+    "tickets": 90597,
+    "id": "labyrinth-of-lies"
+  },
+  {
+    "title": "Once I Was a Beehive",
+    "released": "2015-08-14",
+    "distributor": "Purdie Distribution",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 731549,
+    "tickets": 86779,
+    "id": "once-i-was-a-beehive"
+  },
+  {
+    "title": "Seymour: An Introduction",
+    "released": "2015-03-13",
+    "distributor": "IFC Films",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 729744,
+    "tickets": 86565,
+    "id": "seymour-an-introduction"
+  },
+  {
+    "title": "P.K.",
+    "released": "2014-12-19",
+    "distributor": "UTV Communications",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 719981,
+    "tickets": 85406,
+    "id": "pk"
+  },
+  {
+    "title": "Cartel Land",
+    "released": "2015-07-03",
+    "distributor": "The Orchard",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 704352,
+    "tickets": 83553,
+    "id": "cartel-land"
+  },
+  {
+    "title": "Tangerine",
+    "released": "2015-07-10",
+    "distributor": "Magnolia Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 702354,
+    "tickets": 83316,
+    "id": "tangerine"
+  },
+  {
+    "title": "Red Army",
+    "released": "2015-01-23",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 694647,
+    "tickets": 82401,
+    "id": "red-army"
+  },
+  {
+    "title": "The D Train",
+    "released": "2015-05-08",
+    "distributor": "IFC Films",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 669688,
+    "tickets": 79441,
+    "id": "the-d-train"
+  },
+  {
+    "title": "St. Vincent",
+    "released": "2014-10-10",
+    "distributor": "Weinstein Co.",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 659466,
+    "tickets": 78228,
+    "id": "st-vincent"
+  },
+  {
+    "title": "Brothers: Blood Against Blood",
+    "released": "2015-08-14",
+    "distributor": "Fox International",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 656688,
+    "tickets": 77898,
+    "id": "brothers-blood-against-blood"
+  },
+  {
+    "title": "The Stanford Prison Experiment",
+    "released": "2015-07-17",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 649690,
+    "tickets": 77068,
+    "id": "the-stanford-prison-experiment"
+  },
+  {
+    "title": "The Assassin",
+    "released": "2015-10-16",
+    "distributor": "Well Go USA",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 632542,
+    "tickets": 75034,
+    "id": "the-assassin"
+  },
+  {
+    "title": "Welcome to Me",
+    "released": "2015-05-01",
+    "distributor": "Alchemy",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 625727,
+    "tickets": 74226,
+    "id": "welcome-to-me"
+  },
+  {
+    "title": "Kumiko, The Treasure Hunter",
+    "released": "2015-03-18",
+    "distributor": "Amplify",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 623383,
+    "tickets": 73948,
+    "id": "kumiko-the-treasure-hunter"
+  },
+  {
+    "title": "The Book of Life",
+    "released": "2014-10-17",
+    "distributor": "20th Century Fox",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 587412,
+    "tickets": 69681,
+    "id": "the-book-of-life"
+  },
+  {
+    "title": "Born to be Wild 3D",
+    "released": "2011-04-08",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 587060,
+    "tickets": 69639,
+    "id": "born-to-be-wild-3d"
+  },
+  {
+    "title": "Jimmy's Hall",
+    "released": "2015-07-03",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 560341,
+    "tickets": 66469,
+    "id": "jimmys-hall"
+  },
+  {
+    "title": "A Little Chaos",
+    "released": "2015-06-26",
+    "distributor": "Focus Features",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 558173,
+    "tickets": 66212,
+    "id": "a-little-chaos"
+  },
+  {
+    "title": "Freeheld",
+    "released": "2015-10-02",
+    "distributor": "Lionsgate",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 546201,
+    "tickets": 64792,
+    "id": "freeheld"
+  },
+  {
+    "title": "By the Sea",
+    "released": "2015-11-13",
+    "distributor": "Universal",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 538460,
+    "tickets": 63874,
+    "id": "by-the-sea"
+  },
+  {
+    "title": "CitizenFour",
+    "released": "2014-10-24",
+    "distributor": "RADiUS-TWC",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 537661,
+    "tickets": 63779,
+    "id": "citizenfour"
+  },
+  {
+    "title": "Shaandaar",
+    "released": "2015-10-22",
+    "distributor": "Fox International",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 521794,
+    "tickets": 61897,
+    "id": "shaandaar"
+  },
+  {
+    "title": "The Black Panthers: Vanguard of the Revolution",
+    "released": "2015-09-02",
+    "distributor": "PBS Distribution",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 516893,
+    "tickets": 61315,
+    "id": "the-black-panthers-vanguard-of-the-revolution"
+  },
+  {
+    "title": "Awake: The Life of Yogananda",
+    "released": "2014-10-10",
+    "distributor": "Counterpoint Films & Self-Realization Fellowship",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 509752,
+    "tickets": 60468,
+    "id": "awake-the-life-of-yogananda"
+  },
+  {
+    "title": "Deli Man: The Movie",
+    "released": "2015-02-27",
+    "distributor": "Cohen Media Group",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 502294,
+    "tickets": 59584,
+    "id": "deli-man-the-movie"
+  },
+  {
+    "title": "Steve Jobs: The Man in the Machine",
+    "released": "2015-09-04",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 494506,
+    "tickets": 58660,
+    "id": "steve-jobs-the-man-in-the-machine"
+  },
+  {
+    "title": "Phantom",
+    "released": "2015-08-28",
+    "distributor": "UTV Communications",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 489984,
+    "tickets": 58123,
+    "id": "phantom"
+  },
+  {
+    "title": "The Last: Naruto the Movie",
+    "released": "2015-02-20",
+    "distributor": "Eleven Arts",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 483795,
+    "tickets": 57389,
+    "id": "the-last-naruto-the-movie"
+  },
+  {
+    "title": "Somewhere Only We Know",
+    "released": "2015-02-13",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 482013,
+    "tickets": 57178,
+    "id": "somewhere-only-we-know"
+  },
+  {
+    "title": "Brotherly Love",
+    "released": "2015-04-24",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 478595,
+    "tickets": 56772,
+    "id": "brotherly-love"
+  },
+  {
+    "title": "About Elly",
+    "released": "2015-04-08",
+    "distributor": "Cinema Guild",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 470346,
+    "tickets": 55794,
+    "id": "about-elly"
+  },
+  {
+    "title": "Let's Get Married",
+    "released": "2015-04-03",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 461996,
+    "tickets": 54803,
+    "id": "lets-get-married"
+  },
+  {
+    "title": "Bombay Velvet",
+    "released": "2015-05-15",
+    "distributor": "Fox International",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 450692,
+    "tickets": 53462,
+    "id": "bombay-velvet"
+  },
+  {
+    "title": "Felix et Meira",
+    "released": "2015-04-17",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 447353,
+    "tickets": 53066,
+    "id": "felix-et-meira"
+  },
+  {
+    "title": "The Third Man",
+    "released": "1999-05-07",
+    "distributor": "Rialto Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 437795,
+    "tickets": 51932,
+    "id": "the-third-man"
+  },
+  {
+    "title": "Saint Laurent",
+    "released": "2015-05-08",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 429477,
+    "tickets": 50946,
+    "id": "saint-laurent"
+  },
+  {
+    "title": "Under the Sea 3D",
+    "released": "2009-02-13",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 427208,
+    "tickets": 50677,
+    "id": "under-the-sea-3d"
+  },
+  {
+    "title": "Rosenwald",
+    "released": "2015-08-14",
+    "distributor": "The Ciesla Foundation",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 426891,
+    "tickets": 50639,
+    "id": "rosenwald"
+  },
+  {
+    "title": "Listen to Me Marlon",
+    "released": "2015-07-29",
+    "distributor": "Abramorama Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 426130,
+    "tickets": 50549,
+    "id": "listen-to-me-marlon"
+  },
+  {
+    "title": "Gemma Bovery",
+    "released": "2015-05-29",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 425080,
+    "tickets": 50424,
+    "id": "gemma-bovery"
+  },
+  {
+    "title": "A Matter of Faith",
+    "released": "2014-10-17",
+    "distributor": "Five & Two Pictures",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 422588,
+    "tickets": 50129,
+    "id": "a-matter-of-faith"
+  },
+  {
+    "title": "Unbranded",
+    "released": "2015-09-25",
+    "distributor": "Gravitas Ventures",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 410185,
+    "tickets": 48657,
+    "id": "unbranded"
+  },
+  {
+    "title": "The Witness",
+    "released": "2015-10-30",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 409644,
+    "tickets": 48593,
+    "id": "the-witness"
+  },
+  {
+    "title": "The Hunting Ground",
+    "released": "2015-02-27",
+    "distributor": "RADiUS-TWC",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 405917,
+    "tickets": 48151,
+    "id": "the-hunting-ground"
+  },
+  {
+    "title": "The Apu Trilogy",
+    "released": "2015-05-08",
+    "distributor": "Janus Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 402723,
+    "tickets": 47772,
+    "id": "the-apu-trilogy"
+  },
+  {
+    "title": "Nightcrawler",
+    "released": "2014-10-31",
+    "distributor": "Open Road",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 398032,
+    "tickets": 47216,
+    "id": "nightcrawler"
+  },
+  {
+    "title": "Freetown",
+    "released": "2015-04-08",
+    "distributor": "Purdie Distribution",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 397122,
+    "tickets": 47108,
+    "id": "freetown"
+  },
+  {
+    "title": "Peggy Guggenheim - Art Addict",
+    "released": "2015-11-06",
+    "distributor": "Submarine Deluxe",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 393584,
+    "tickets": 46688,
+    "id": "peggy-guggenheim---art-addict"
+  },
+  {
+    "title": "A Girl Walks Home Alone at Night",
+    "released": "2014-11-21",
+    "distributor": "Kino Lorber",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 385325,
+    "tickets": 45708,
+    "id": "a-girl-walks-home-alone-at-night"
+  },
+  {
+    "title": "Coming Home",
+    "released": "2015-09-09",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 377607,
+    "tickets": 44793,
+    "id": "coming-home"
+  },
+  {
+    "title": "The Second Mother",
+    "released": "2015-08-28",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 376976,
+    "tickets": 44718,
+    "id": "the-second-mother"
+  },
+  {
+    "title": "She's Beautiful When She's Angry",
+    "released": "2014-12-05",
+    "distributor": "International Film Circuit",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 374467,
+    "tickets": 44420,
+    "id": "shes-beautiful-when-shes-angry"
+  },
+  {
+    "title": "Boychoir",
+    "released": "2015-04-03",
+    "distributor": "Informant Media",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 366474,
+    "tickets": 43472,
+    "id": "boychoir"
+  },
+  {
+    "title": "Katti Batti",
+    "released": "2015-09-18",
+    "distributor": "UTV Communications",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 364932,
+    "tickets": 43289,
+    "id": "katti-batti"
+  },
+  {
+    "title": "Maps to the Stars",
+    "released": "2015-02-27",
+    "distributor": "Focus Features",
+    "genre": "Black Comedy",
+    "rating": "R",
+    "gross": 350741,
+    "tickets": 41606,
+    "id": "maps-to-the-stars"
+  },
+  {
+    "title": "Noble",
+    "released": "2015-05-08",
+    "distributor": "Aspiration Media",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 347321,
+    "tickets": 41200,
+    "id": "noble"
+  },
+  {
+    "title": "Talvar",
+    "released": "2015-10-02",
+    "distributor": "Reliance Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 342428,
+    "tickets": 40620,
+    "id": "talvar"
+  },
+  {
+    "title": "Kahlil Gibran's The Prophet",
+    "released": "2015-08-07",
+    "distributor": "GKIDS",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 340536,
+    "tickets": 40395,
+    "id": "kahlil-gibrans-the-prophet"
+  },
+  {
+    "title": "Detective Byomkesh Bakshy",
+    "released": "2015-04-03",
+    "distributor": "Yash Raj Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 338637,
+    "tickets": 40170,
+    "id": "detective-byomkesh-bakshy"
+  },
+  {
+    "title": "Ballet 422",
+    "released": "2015-02-06",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 333554,
+    "tickets": 39567,
+    "id": "ballet-422"
+  },
+  {
+    "title": "Northern Limit Line",
+    "released": "2015-07-17",
+    "distributor": "Well Go USA",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 324719,
+    "tickets": 38519,
+    "id": "northern-limit-line"
+  },
+  {
+    "title": "Shamitabh",
+    "released": "2015-02-06",
+    "distributor": "Eros Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 324597,
+    "tickets": 38504,
+    "id": "shamitabh"
+  },
+  {
+    "title": "Heart of a Dog",
+    "released": "2015-10-21",
+    "distributor": "Abramorama Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 322743,
+    "tickets": 38285,
+    "id": "heart-of-a-dog"
+  },
+  {
+    "title": "A Borrowed Identity",
+    "released": "2015-05-15",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 319391,
+    "tickets": 37887,
+    "id": "a-borrowed-identity"
+  },
+  {
+    "title": "Good Kill",
+    "released": "2015-05-15",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 317072,
+    "tickets": 37612,
+    "id": "good-kill"
+  },
+  {
+    "title": "David and Goliath",
+    "released": "2015-04-03",
+    "distributor": "RiverRain / Ripple Effect",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 316117,
+    "tickets": 37499,
+    "id": "david-and-goliath"
+  },
+  {
+    "title": "Running Man",
+    "released": "2015-01-30",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Reality",
+    "rating": "Not Rated",
+    "gross": 309297,
+    "tickets": 36690,
+    "id": "running-man"
+  },
+  {
+    "title": "The Man in 3B",
+    "released": "2015-11-06",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 291513,
+    "tickets": 34580,
+    "id": "the-man-in-3b"
+  },
+  {
+    "title": "Taxi Tehran",
+    "released": "2015-10-02",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 291088,
+    "tickets": 34530,
+    "id": "taxi-tehran"
+  },
+  {
+    "title": "Above and Beyond",
+    "released": "2015-01-30",
+    "distributor": "International Film Circuit",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 288751,
+    "tickets": 34252,
+    "id": "above-and-beyond"
+  },
+  {
+    "title": "Go Away Mr. Tumor",
+    "released": "2015-08-14",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 286639,
+    "tickets": 34002,
+    "id": "go-away-mr-tumor"
+  },
+  {
+    "title": "White God",
+    "released": "2015-03-27",
+    "distributor": "Magnolia Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 282358,
+    "tickets": 33494,
+    "id": "white-god"
+  },
+  {
+    "title": "In the Name of My Daughter",
+    "released": "2015-05-15",
+    "distributor": "Cohen Media Group",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 277528,
+    "tickets": 32921,
+    "id": "in-the-name-of-my-daughter"
+  },
+  {
+    "title": "Gabbar is Back",
+    "released": "2015-05-01",
+    "distributor": "Eros Entertainment",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 276429,
+    "tickets": 32791,
+    "id": "gabbar-is-back"
+  },
+  {
+    "title": "Janis: Little Girl Blue",
+    "released": "2015-11-27",
+    "distributor": "FilmRise",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 268786,
+    "tickets": 31884,
+    "id": "janis-little-girl-blue"
+  },
+  {
+    "title": "Nh10",
+    "released": "2015-03-13",
+    "distributor": "Eros Entertainment",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 262586,
+    "tickets": 31148,
+    "id": "nh10"
+  },
+  {
+    "title": "Boruto: Naruto the Movie",
+    "released": "2015-10-10",
+    "distributor": "Eleven Arts",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 259028,
+    "tickets": 30726,
+    "id": "boruto-naruto-the-movie"
+  },
+  {
+    "title": "Attack on Titan: Part 1",
+    "released": "2015-09-30",
+    "distributor": "FUNimation",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 258794,
+    "tickets": 30699,
+    "id": "attack-on-titan-part-1"
+  },
+  {
+    "title": "The Himalayas",
+    "released": "2015-12-18",
+    "distributor": "CJ Entertainment",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 256901,
+    "tickets": 30474,
+    "id": "the-himalayas"
+  },
+  {
+    "title": "Love",
+    "released": "2015-10-30",
+    "distributor": "Alchemy",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 249665,
+    "tickets": 29616,
+    "id": "love"
+  },
+  {
+    "title": "Fury",
+    "released": "2014-10-17",
+    "distributor": "Sony Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 246495,
+    "tickets": 29240,
+    "id": "fury"
+  },
+  {
+    "title": "Attack on Titan: Part 2",
+    "released": "2015-10-20",
+    "distributor": "FUNimation",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 243356,
+    "tickets": 28867,
+    "id": "attack-on-titan-part-2"
+  },
+  {
+    "title": "Goodbye to Language",
+    "released": "2014-10-29",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 240312,
+    "tickets": 28506,
+    "id": "goodbye-to-language"
+  },
+  {
+    "title": "Carter High",
+    "released": "2015-10-30",
+    "distributor": "PlayNow Enterprise",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 240214,
+    "tickets": 28495,
+    "id": "carter-high"
+  },
+  {
+    "title": "Tevar",
+    "released": "2015-01-09",
+    "distributor": "Eros Entertainment",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 236002,
+    "tickets": 27995,
+    "id": "tevar"
+  },
+  {
+    "title": "Hamari Adhuri Kahani",
+    "released": "2015-06-12",
+    "distributor": "Fox International",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 235361,
+    "tickets": 27919,
+    "id": "hamari-adhuri-kahani"
+  },
+  {
+    "title": "45 Years",
+    "released": "2015-12-23",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 229173,
+    "tickets": 27185,
+    "id": "45-years"
+  },
+  {
+    "title": "Slow West",
+    "released": "2015-05-15",
+    "distributor": "A24",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 229094,
+    "tickets": 27176,
+    "id": "slow-west"
+  },
+  {
+    "title": "A Royal Night Out",
+    "released": "2015-12-04",
+    "distributor": "Atlas Distribution",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 228136,
+    "tickets": 27062,
+    "id": "a-royal-night-out"
+  },
+  {
+    "title": "Jeremy Scott: The People's Designer",
+    "released": "2015-09-18",
+    "distributor": "The Vladar Company",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 225000,
+    "tickets": 26690,
+    "id": "jeremy-scott-the-peoples-designer"
+  },
+  {
+    "title": "A Pigeon Sat on a Branch Reflecting on Existence",
+    "released": "2015-06-03",
+    "distributor": "Magnolia Pictures",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 222989,
+    "tickets": 26451,
+    "id": "a-pigeon-sat-on-a-branch-reflecting-on-existence"
+  },
+  {
+    "title": "The Taking of Tiger Mountain",
+    "released": "2015-01-02",
+    "distributor": "Well Go USA",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 222964,
+    "tickets": 26448,
+    "id": "the-taking-of-tiger-mountain"
+  },
+  {
+    "title": "Pyaar Ka Punchnama 2",
+    "released": "2015-10-16",
+    "distributor": "Reliance Entertainment",
+    "genre": "Reality",
+    "rating": "Not Rated",
+    "gross": 222856,
+    "tickets": 26436,
+    "id": "pyaar-ka-punchnama-2"
+  },
+  {
+    "title": "The Boxtrolls",
+    "released": "2014-09-26",
+    "distributor": "Focus Features",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 218634,
+    "tickets": 25935,
+    "id": "the-boxtrolls"
+  },
+  {
+    "title": "Chocolate City",
+    "released": "2015-05-22",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 212662,
+    "tickets": 25226,
+    "id": "chocolate-city"
+  },
+  {
+    "title": "Fall in Love Like a Star",
+    "released": "2015-12-04",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 212508,
+    "tickets": 25208,
+    "id": "fall-in-love-like-a-star"
+  },
+  {
+    "title": "Anomalisa",
+    "released": "2015-12-30",
+    "distributor": "Paramount Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 210632,
+    "tickets": 24986,
+    "id": "anomalisa"
+  },
+  {
+    "title": "Wolf Totem",
+    "released": "2015-09-11",
+    "distributor": "Sony Pictures",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 210591,
+    "tickets": 24981,
+    "id": "wolf-totem"
+  },
+  {
+    "title": "The Babadook",
+    "released": "2014-11-28",
+    "distributor": "IFC Midnight",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 208700,
+    "tickets": 24756,
+    "id": "the-babadook"
+  },
+  {
+    "title": "Dark Places",
+    "released": "2015-08-07",
+    "distributor": "A24",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 208588,
+    "tickets": 24743,
+    "id": "dark-places"
+  },
+  {
+    "title": "Hitchcock/Truffaut",
+    "released": "2015-12-02",
+    "distributor": "Cohen Media Group",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 206791,
+    "tickets": 24530,
+    "id": "hitchcocktruffaut"
+  },
+  {
+    "title": "Heneral Luna",
+    "released": "2015-10-30",
+    "distributor": "Abramorama Films",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 206040,
+    "tickets": 24441,
+    "id": "heneral-luna"
+  },
+  {
+    "title": "Force Majeure",
+    "released": "2014-10-24",
+    "distributor": "Magnolia Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 201327,
+    "tickets": 23882,
+    "id": "force-majeure"
+  },
+  {
+    "title": "The New Girlfriend",
+    "released": "2015-09-18",
+    "distributor": "Cohen Media Group",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 196284,
+    "tickets": 23283,
+    "id": "the-new-girlfriend"
+  },
+  {
+    "title": "Escobar: Paradise Lost",
+    "released": "2015-06-26",
+    "distributor": "RADiUS-TWC",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 195792,
+    "tickets": 23225,
+    "id": "escobar-paradise-lost"
+  },
+  {
+    "title": "Merchants of Doubt",
+    "released": "2015-03-06",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 192362,
+    "tickets": 22818,
+    "id": "merchants-of-doubt"
+  },
+  {
+    "title": "The Connection",
+    "released": "2015-05-15",
+    "distributor": "Drafthouse Films",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 190980,
+    "tickets": 22654,
+    "id": "the-connection"
+  },
+  {
+    "title": "Lost and Love",
+    "released": "2015-03-20",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 188306,
+    "tickets": 22337,
+    "id": "lost-and-love"
+  },
+  {
+    "title": "Stonewall",
+    "released": "2015-09-25",
+    "distributor": "Roadside Attractions",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 187674,
+    "tickets": 22262,
+    "id": "stonewall"
+  },
+  {
+    "title": "Maggie",
+    "released": "2015-05-08",
+    "distributor": "Roadside Attractions",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 187112,
+    "tickets": 22195,
+    "id": "maggie"
+  },
+  {
+    "title": "Mustang",
+    "released": "2015-11-20",
+    "distributor": "Cohen Media Group",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 186136,
+    "tickets": 22080,
+    "id": "mustang"
+  },
+  {
+    "title": "The Maze Runner",
+    "released": "2014-09-19",
+    "distributor": "20th Century Fox",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 185848,
+    "tickets": 22046,
+    "id": "the-maze-runner"
+  },
+  {
+    "title": "Lambert & Stamp",
+    "released": "2015-04-03",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 183320,
+    "tickets": 21746,
+    "id": "lambert--stamp"
+  },
+  {
+    "title": "3 Hearts",
+    "released": "2015-03-13",
+    "distributor": "Cohen Media Group",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 182522,
+    "tickets": 21651,
+    "id": "3-hearts"
+  },
+  {
+    "title": "An Honest Liar",
+    "released": "2015-03-06",
+    "distributor": "Abramorama Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 180590,
+    "tickets": 21422,
+    "id": "an-honest-liar"
+  },
+  {
+    "title": "The Young and Prodigious T.S. Spivet",
+    "released": "2015-07-31",
+    "distributor": "Weinstein Co.",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 176847,
+    "tickets": 20978,
+    "id": "the-young-and-prodigious-ts-spivet"
+  },
+  {
+    "title": "Serena",
+    "released": "2015-03-27",
+    "distributor": "Magnolia Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 176391,
+    "tickets": 20924,
+    "id": "serena"
+  },
+  {
+    "title": "The Farewell Party",
+    "released": "2015-05-22",
+    "distributor": "IDP/Samuel Goldwyn Films",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 172860,
+    "tickets": 20505,
+    "id": "the-farewell-party"
+  },
+  {
+    "title": "All Things Must Pass",
+    "released": "2015-10-16",
+    "distributor": "Gravitas Ventures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 166872,
+    "tickets": 19795,
+    "id": "all-things-must-pass"
+  },
+  {
+    "title": "Winter's Sleep",
+    "released": "2014-12-19",
+    "distributor": "Adopt Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 165520,
+    "tickets": 19634,
+    "id": "winters-sleep"
+  },
+  {
+    "title": "Snow Girl and the Dark Crystal 3D",
+    "released": "2015-02-27",
+    "distributor": "Well Go USA",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 165428,
+    "tickets": 19623,
+    "id": "snow-girl-and-the-dark-crystal-3d"
+  },
+  {
+    "title": "Time Out of Mind",
+    "released": "2015-09-09",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 164849,
+    "tickets": 19555,
+    "id": "time-out-of-mind"
+  },
+  {
+    "title": "Theeb",
+    "released": "2015-11-06",
+    "distributor": "Film Movement",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 164704,
+    "tickets": 19537,
+    "id": "theeb"
+  },
+  {
+    "title": "C'est Si Bon",
+    "released": "2015-02-13",
+    "distributor": "CJ Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 164167,
+    "tickets": 19474,
+    "id": "cest-si-bon"
+  },
+  {
+    "title": "Last Woman Standing",
+    "released": "2015-11-11",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 163406,
+    "tickets": 19383,
+    "id": "last-woman-standing"
+  },
+  {
+    "title": "After the Ball",
+    "released": "2015-04-24",
+    "distributor": "Freestyle Releasing",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 161820,
+    "tickets": 19195,
+    "id": "after-the-ball"
+  },
+  {
+    "title": "Human Capital",
+    "released": "2015-01-14",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 158549,
+    "tickets": 18807,
+    "id": "human-capital"
+  },
+  {
+    "title": "Son of Saul",
+    "released": "2015-12-18",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 158534,
+    "tickets": 18805,
+    "id": "son-of-saul"
+  },
+  {
+    "title": "Hell & Back",
+    "released": "2015-10-02",
+    "distributor": "Freestyle Releasing",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 157768,
+    "tickets": 18715,
+    "id": "hell--back"
+  },
+  {
+    "title": "The Homesman",
+    "released": "2014-11-14",
+    "distributor": "Roadside Attractions",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 157192,
+    "tickets": 18646,
+    "id": "the-homesman"
+  },
+  {
+    "title": "Experimenter",
+    "released": "2015-10-16",
+    "distributor": "Magnolia Pictures",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 155575,
+    "tickets": 18454,
+    "id": "experimenter"
+  },
+  {
+    "title": "Desert Dancer",
+    "released": "2015-04-10",
+    "distributor": "Relativity",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 155271,
+    "tickets": 18418,
+    "id": "desert-dancer"
+  },
+  {
+    "title": "Buen dia Ramon",
+    "released": "2015-01-30",
+    "distributor": "20th Century Fox",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 154356,
+    "tickets": 18310,
+    "id": "buen-dia-ramon"
+  },
+  {
+    "title": "Samba",
+    "released": "2015-07-24",
+    "distributor": "Entertainment One",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 151530,
+    "tickets": 17975,
+    "id": "samba"
+  },
+  {
+    "title": "The Tribe",
+    "released": "2015-06-17",
+    "distributor": "Drafthouse Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 150565,
+    "tickets": 17860,
+    "id": "the-tribe"
+  },
+  {
+    "title": "Forever Young",
+    "released": "2015-07-10",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 149761,
+    "tickets": 17765,
+    "id": "forever-young"
+  },
+  {
+    "title": "The Last Five Years",
+    "released": "2015-02-13",
+    "distributor": "RADiUS-TWC",
+    "genre": "Musical",
+    "rating": "PG-13",
+    "gross": 147299,
+    "tickets": 17473,
+    "id": "the-last-five-years"
+  },
+  {
+    "title": "Kurt Cobain: Montage Of Heck",
+    "released": "2015-04-24",
+    "distributor": "HBO Documentary Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 140208,
+    "tickets": 16632,
+    "id": "kurt-cobain-montage-of-heck"
+  },
+  {
+    "title": "A Brilliant Young Mind",
+    "released": "2015-09-11",
+    "distributor": "Samuel Goldwyn Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 139511,
+    "tickets": 16549,
+    "id": "a-brilliant-young-mind"
+  },
+  {
+    "title": "5 to 7",
+    "released": "2015-04-03",
+    "distributor": "IFC Films",
+    "genre": "Romantic Comedy",
+    "rating": "R",
+    "gross": 137112,
+    "tickets": 16264,
+    "id": "5-to-7"
+  },
+  {
+    "title": "To the Arctic 3D",
+    "released": "2012-04-20",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 135768,
+    "tickets": 16105,
+    "id": "to-the-arctic-3d"
+  },
+  {
+    "title": "La Sapienza",
+    "released": "2015-03-20",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 135392,
+    "tickets": 16060,
+    "id": "la-sapienza"
+  },
+  {
+    "title": "Cop Car",
+    "released": "2015-08-07",
+    "distributor": "Focus Features",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 134552,
+    "tickets": 15961,
+    "id": "cop-car"
+  },
+  {
+    "title": "Don't Think I've Forgotten: Cambodia's Lost Rock and Roll",
+    "released": "2015-04-22",
+    "distributor": "Argot Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 133443,
+    "tickets": 15829,
+    "id": "dont-think-ive-forgotten-cambodias-lost-rock-and-roll"
+  },
+  {
+    "title": "Manglehorn",
+    "released": "2015-06-19",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 132270,
+    "tickets": 15690,
+    "id": "manglehorn"
+  },
+  {
+    "title": "Mississippi Grind",
+    "released": "2015-09-25",
+    "distributor": "A24",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 130541,
+    "tickets": 15485,
+    "id": "mississippi-grind"
+  },
+  {
+    "title": "Kung Fu Killer",
+    "released": "2015-04-24",
+    "distributor": "Well Go USA",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 129115,
+    "tickets": 15316,
+    "id": "kung-fu-killer"
+  },
+  {
+    "title": "Boulevard",
+    "released": "2015-07-10",
+    "distributor": "Starz Digital Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 126150,
+    "tickets": 14964,
+    "id": "boulevard"
+  },
+  {
+    "title": "Ida",
+    "released": "2014-05-02",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 122448,
+    "tickets": 14525,
+    "id": "ida"
+  },
+  {
+    "title": "Z for Zachariah",
+    "released": "2015-08-28",
+    "distributor": "Roadside Attractions",
+    "genre": "Thriller/Suspense",
+    "rating": "PG-13",
+    "gross": 121461,
+    "tickets": 14408,
+    "id": "z-for-zachariah"
+  },
+  {
+    "title": "A Journey Through Time With Anthony",
+    "released": "2015-11-18",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 119376,
+    "tickets": 14160,
+    "id": "a-journey-through-time-with-anthony"
+  },
+  {
+    "title": "Digging for Fire",
+    "released": "2015-08-21",
+    "distributor": "The Orchard",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 119364,
+    "tickets": 14159,
+    "id": "digging-for-fire"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "released": "2014-08-01",
+    "distributor": "Walt Disney",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "gross": 116854,
+    "tickets": 13861,
+    "id": "guardians-of-the-galaxy"
+  },
+  {
+    "title": "Tangerines",
+    "released": "2015-04-17",
+    "distributor": "Samuel Goldwyn Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 114501,
+    "tickets": 13582,
+    "id": "tangerines"
+  },
+  {
+    "title": "Road Hard",
+    "released": "2015-03-06",
+    "distributor": "FilmBuff",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 113169,
+    "tickets": 13424,
+    "id": "road-hard"
+  },
+  {
+    "title": "John Wick",
+    "released": "2014-10-24",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 112512,
+    "tickets": 13346,
+    "id": "john-wick"
+  },
+  {
+    "title": "She's Funny That Way",
+    "released": "2015-08-21",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 111993,
+    "tickets": 13285,
+    "id": "shes-funny-that-way"
+  },
+  {
+    "title": "Memories of the Sword",
+    "released": "2015-08-28",
+    "distributor": "Well Go USA",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 111071,
+    "tickets": 13175,
+    "id": "memories-of-the-sword"
+  },
+  {
+    "title": "The Look of Silence",
+    "released": "2015-07-17",
+    "distributor": "Drafthouse Films",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 109089,
+    "tickets": 12940,
+    "id": "the-look-of-silence"
+  },
+  {
+    "title": "Do I Sound Gay?",
+    "released": "2015-07-10",
+    "distributor": "IFC Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 108620,
+    "tickets": 12884,
+    "id": "do-i-sound-gay"
+  },
+  {
+    "title": "The Beauty Inside",
+    "released": "2015-09-11",
+    "distributor": "Well Go USA",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 108238,
+    "tickets": 12839,
+    "id": "the-beauty-inside"
+  },
+  {
+    "title": "Adult Beginners",
+    "released": "2015-04-24",
+    "distributor": "RADiUS-TWC",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 104808,
+    "tickets": 12432,
+    "id": "adult-beginners"
+  },
+  {
+    "title": "Results",
+    "released": "2015-05-29",
+    "distributor": "Magnolia Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 104507,
+    "tickets": 12397,
+    "id": "results"
+  },
+  {
+    "title": "Every Secret Thing",
+    "released": "2015-05-15",
+    "distributor": "Starz Digital Media",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 103536,
+    "tickets": 12281,
+    "id": "every-secret-thing"
+  },
+  {
+    "title": "In Jackson Heights",
+    "released": "2015-11-04",
+    "distributor": "Zipporah",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 102475,
+    "tickets": 12155,
+    "id": "in-jackson-heights"
+  },
+  {
+    "title": "Beyond the Brick: A LEGO Brickumentary",
+    "released": "2015-07-31",
+    "distributor": "RADiUS-TWC",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 101531,
+    "tickets": 12044,
+    "id": "beyond-the-brick-a-lego-brickumentary"
+  },
+  {
+    "title": "James White",
+    "released": "2015-11-13",
+    "distributor": "Film Arcade",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 101368,
+    "tickets": 12024,
+    "id": "james-white"
+  },
+  {
+    "title": "Ghost in the Shell: The New Movie",
+    "released": "2015-11-10",
+    "distributor": "FUNimation",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 101203,
+    "tickets": 12005,
+    "id": "ghost-in-the-shell-the-new-movie"
+  },
+  {
+    "title": "Black Souls",
+    "released": "2015-04-10",
+    "distributor": "Vitagraph Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 100725,
+    "tickets": 11948,
+    "id": "black-souls"
+  },
+  {
+    "title": "I Am Eleven",
+    "released": "2014-09-12",
+    "distributor": "Proud Mother Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 98057,
+    "tickets": 11631,
+    "id": "i-am-eleven"
+  },
+  {
+    "title": "A Ballerina's Tale",
+    "released": "2015-10-14",
+    "distributor": "IFC Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 96900,
+    "tickets": 11494,
+    "id": "a-ballerinas-tale"
+  },
+  {
+    "title": 1915,
+    "released": "2015-04-17",
+    "distributor": 0,
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 96682,
+    "tickets": 11468,
+    "id": "1915"
+  },
+  {
+    "title": "A Poem Is a Naked Person",
+    "released": "2015-07-01",
+    "distributor": "Janus Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 96592,
+    "tickets": 11458,
+    "id": "a-poem-is-a-naked-person"
+  },
+  {
+    "title": "The Equalizer",
+    "released": "2014-09-26",
+    "distributor": "Sony Pictures",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 94562,
+    "tickets": 11217,
+    "id": "the-equalizer"
+  },
+  {
+    "title": "Man from Reno",
+    "released": "2015-03-27",
+    "distributor": "Gravitas Ventures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 92918,
+    "tickets": 11022,
+    "id": "man-from-reno"
+  },
+  {
+    "title": "Saving Mr. Wu",
+    "released": "2015-10-02",
+    "distributor": "Dada Films",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 92696,
+    "tickets": 10995,
+    "id": "saving-mr-wu"
+  },
+  {
+    "title": "Tales of Hoffmann",
+    "released": "2015-03-13",
+    "distributor": "Rialto Pictures",
+    "genre": "Musical",
+    "rating": "Not Rated",
+    "gross": 91930,
+    "tickets": 10905,
+    "id": "tales-of-hoffmann"
+  },
+  {
+    "title": "Christmas Eve",
+    "released": "2015-12-04",
+    "distributor": "Unstuck LLC",
+    "genre": "Comedy",
+    "rating": "PG",
+    "gross": 91302,
+    "tickets": 10830,
+    "id": "christmas-eve"
+  },
+  {
+    "title": "Beasts of No Nation",
+    "released": "2015-10-16",
+    "distributor": "Bleecker Street",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 90777,
+    "tickets": 10768,
+    "id": "beasts-of-no-nation"
+  },
+  {
+    "title": "Sunshine Superman",
+    "released": "2015-05-22",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 88097,
+    "tickets": 10450,
+    "id": "sunshine-superman"
+  },
+  {
+    "title": "Queen of Earth",
+    "released": "2015-08-26",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 86616,
+    "tickets": 10274,
+    "id": "queen-of-earth"
+  },
+  {
+    "title": "Hero",
+    "released": "2015-09-11",
+    "distributor": "Eros Entertainment",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 84961,
+    "tickets": 10078,
+    "id": "hero"
+  },
+  {
+    "title": "Trace Amounts",
+    "released": "2015-01-02",
+    "distributor": "Gathr Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 80735,
+    "tickets": 9577,
+    "id": "trace-amounts"
+  },
+  {
+    "title": "Heaven Knows What",
+    "released": "2015-05-29",
+    "distributor": "RADiUS-TWC",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 80312,
+    "tickets": 9526,
+    "id": "heaven-knows-what"
+  },
+  {
+    "title": "Nasty Baby",
+    "released": "2015-10-23",
+    "distributor": "The Orchard",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 79800,
+    "tickets": 9466,
+    "id": "nasty-baby"
+  },
+  {
+    "title": "Deep Sea 3-D",
+    "released": "2006-03-03",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 78669,
+    "tickets": 9332,
+    "id": "deep-sea-3-d"
+  },
+  {
+    "title": "Blackbird",
+    "released": "2015-04-24",
+    "distributor": "Image Entertainment",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 78400,
+    "tickets": 9300,
+    "id": "blackbird"
+  },
+  {
+    "title": "Tab Hunter Confidential",
+    "released": "2015-10-15",
+    "distributor": 0,
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 78323,
+    "tickets": 9290,
+    "id": "tab-hunter-confidential"
+  },
+  {
+    "title": "Batkid Begins: The Wish Heard Around the World",
+    "released": "2015-06-26",
+    "distributor": "Warner Bros.",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 74709,
+    "tickets": 8862,
+    "id": "batkid-begins-the-wish-heard-around-the-world"
+  },
+  {
+    "title": "Dragon Blade",
+    "released": "2015-09-04",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 74070,
+    "tickets": 8786,
+    "id": "dragon-blade"
+  },
+  {
+    "title": "Six Dance Lessons in Six Weeks",
+    "released": "2014-12-12",
+    "distributor": "Dada Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 73899,
+    "tickets": 8766,
+    "id": "six-dance-lessons-in-six-weeks"
+  },
+  {
+    "title": "The Principle",
+    "released": "2014-10-24",
+    "distributor": "Rocky Mountain Pictures",
+    "genre": "Reality",
+    "rating": "PG",
+    "gross": 72717,
+    "tickets": 8625,
+    "id": "the-principle"
+  },
+  {
+    "title": "Backcountry",
+    "released": "2015-03-20",
+    "distributor": "IFC Midnight",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 71191,
+    "tickets": 8444,
+    "id": "backcountry"
+  },
+  {
+    "title": "The Wonders",
+    "released": "2015-10-30",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 70805,
+    "tickets": 8399,
+    "id": "the-wonders"
+  },
+  {
+    "title": "I Am Big Bird: The Caroll Spinney Story",
+    "released": "2015-05-06",
+    "distributor": "TriBeca Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 67845,
+    "tickets": 8048,
+    "id": "i-am-big-bird-the-caroll-spinney-story"
+  },
+  {
+    "title": "Eden",
+    "released": "2015-06-19",
+    "distributor": "Broad Green Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 65460,
+    "tickets": 7765,
+    "id": "eden"
+  },
+  {
+    "title": "National Gallery",
+    "released": "2014-11-05",
+    "distributor": "Zipporah",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 64597,
+    "tickets": 7662,
+    "id": "national-gallery"
+  },
+  {
+    "title": "Devil and Angel",
+    "released": "2015-12-31",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 64470,
+    "tickets": 7647,
+    "id": "devil-and-angel"
+  },
+  {
+    "title": "Drunk Stoned Brilliant Dead The Story of the National Lampoon",
+    "released": "2015-09-25",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 62684,
+    "tickets": 7435,
+    "id": "drunk-stoned-brilliant-dead-the-story-of-the-national-lampoon"
+  },
+  {
+    "title": "Only You",
+    "released": "2015-07-24",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 61565,
+    "tickets": 7303,
+    "id": "only-you"
+  },
+  {
+    "title": "Dark Star: H.R. Giger's World",
+    "released": "2015-05-13",
+    "distributor": "Icarus Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 61303,
+    "tickets": 7272,
+    "id": "dark-star-hr-gigers-world"
+  },
+  {
+    "title": "Girlhood",
+    "released": "2015-01-30",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 60765,
+    "tickets": 7208,
+    "id": "girlhood-2015"
+  },
+  {
+    "title": "Güeros",
+    "released": "2015-05-20",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 60171,
+    "tickets": 7137,
+    "id": "geros"
+  },
+  {
+    "title": "Cooties",
+    "released": "2015-09-18",
+    "distributor": "Lionsgate",
+    "genre": "Black Comedy",
+    "rating": "R",
+    "gross": 60058,
+    "tickets": 7124,
+    "id": "cooties"
+  },
+  {
+    "title": "I Smile Back",
+    "released": "2015-10-23",
+    "distributor": "Broad Green Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 58738,
+    "tickets": 6967,
+    "id": "i-smile-back"
+  },
+  {
+    "title": "Jauja",
+    "released": "2015-03-20",
+    "distributor": "Cinema Guild",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 58403,
+    "tickets": 6927,
+    "id": "jauja"
+  },
+  {
+    "title": "Rififi",
+    "released": "2015-09-02",
+    "distributor": "Rialto Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 57749,
+    "tickets": 6850,
+    "id": "rififi"
+  },
+  {
+    "title": "Brian Wilson: I Just Wasn't Made for These Times",
+    "released": "2015-08-27",
+    "distributor": "Northern Arts Entertainment",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 56744,
+    "tickets": 6731,
+    "id": "brian-wilson-i-just-wasnt-made-for-these-times"
+  },
+  {
+    "title": "The Duke of Burgundy",
+    "released": "2015-01-23",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 56657,
+    "tickets": 6720,
+    "id": "the-duke-of-burgundy"
+  },
+  {
+    "title": "The Judge",
+    "released": "2014-10-10",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 56282,
+    "tickets": 6676,
+    "id": "the-judge"
+  },
+  {
+    "title": "Beloved Sisters",
+    "released": "2015-01-09",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 54064,
+    "tickets": 6413,
+    "id": "beloved-sisters"
+  },
+  {
+    "title": "Beyond the Lights",
+    "released": "2014-11-14",
+    "distributor": "Relativity",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 54018,
+    "tickets": 6407,
+    "id": "beyond-the-lights"
+  },
+  {
+    "title": "The Ark of Mr. Chow",
+    "released": "2015-06-19",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 53252,
+    "tickets": 6316,
+    "id": "the-ark-of-mr-chow"
+  },
+  {
+    "title": "Aloft",
+    "released": "2015-05-22",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 53086,
+    "tickets": 6297,
+    "id": "aloft"
+  },
+  {
+    "title": "The Quay Brothers in 35MM",
+    "released": "2015-08-19",
+    "distributor": "Zeitgeist",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 51858,
+    "tickets": 6151,
+    "id": "the-quay-brothers-in-35mm"
+  },
+  {
+    "title": "Flowers",
+    "released": "2015-10-30",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 51238,
+    "tickets": 6078,
+    "id": "flowers"
+  },
+  {
+    "title": "We Come as Friends",
+    "released": "2015-08-14",
+    "distributor": "BBC Worldwide North America",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 50921,
+    "tickets": 6040,
+    "id": "we-come-as-friends"
+  },
+  {
+    "title": "The Yes Men Are Revolting",
+    "released": "2014-11-20",
+    "distributor": "The Orchard",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 50190,
+    "tickets": 5953,
+    "id": "the-yes-men-are-revolting"
+  },
+  {
+    "title": "Heist",
+    "released": "2015-11-13",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 50136,
+    "tickets": 5947,
+    "id": "heist"
+  },
+  {
+    "title": "Spring",
+    "released": "2015-03-20",
+    "distributor": "Drafthouse Films",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 49970,
+    "tickets": 5927,
+    "id": "spring"
+  },
+  {
+    "title": "The Pyramid",
+    "released": "2014-12-05",
+    "distributor": "20th Century Fox",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 49928,
+    "tickets": 5922,
+    "id": "the-pyramid"
+  },
+  {
+    "title": "Difret",
+    "released": "2015-10-16",
+    "distributor": "Truth Aid/Amplify",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 49667,
+    "tickets": 5891,
+    "id": "difret"
+  },
+  {
+    "title": "Red Herring",
+    "released": "2015-10-30",
+    "distributor": "Indican Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 49480,
+    "tickets": 5869,
+    "id": "red-herring"
+  },
+  {
+    "title": "Breathe",
+    "released": "2015-09-11",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 48764,
+    "tickets": 5784,
+    "id": "breathe"
+  },
+  {
+    "title": "Bangistan",
+    "released": "2015-07-31",
+    "distributor": "Eros Entertainment",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 48694,
+    "tickets": 5776,
+    "id": "bangistan"
+  },
+  {
+    "title": "Appropriate Behavior",
+    "released": "2015-01-16",
+    "distributor": "Gravitas Ventures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 46912,
+    "tickets": 5564,
+    "id": "appropriate-behavior"
+  },
+  {
+    "title": "Shanghai",
+    "released": "2015-10-02",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 46425,
+    "tickets": 5507,
+    "id": "shanghai"
+  },
+  {
+    "title": "Beyond The Reach",
+    "released": "2015-04-17",
+    "distributor": "Roadside Attractions",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 45895,
+    "tickets": 5444,
+    "id": "beyond-the-reach"
+  },
+  {
+    "title": "Lost River",
+    "released": "2015-04-10",
+    "distributor": "Warner Bros.",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 45431,
+    "tickets": 5389,
+    "id": "lost-river"
+  },
+  {
+    "title": "Mr. X",
+    "released": "2015-04-17",
+    "distributor": "Fox International",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 44995,
+    "tickets": 5337,
+    "id": "mr-x"
+  },
+  {
+    "title": "Madame Bovary",
+    "released": "2015-06-12",
+    "distributor": "Alchemy",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 44234,
+    "tickets": 5247,
+    "id": "madame-bovary"
+  },
+  {
+    "title": "The Salvation",
+    "released": "2015-02-27",
+    "distributor": "IFC Films",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 43318,
+    "tickets": 5138,
+    "id": "the-salvation"
+  },
+  {
+    "title": "Ingrid Bergman - In Her Own Words",
+    "released": "2015-11-13",
+    "distributor": "Rialto Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 42381,
+    "tickets": 5027,
+    "id": "ingrid-bergman---in-her-own-words"
+  },
+  {
+    "title": "The Search of General Tso",
+    "released": "2015-01-02",
+    "distributor": "Sundance Selects",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 41455,
+    "tickets": 4917,
+    "id": "the-search-of-general-tso"
+  },
+  {
+    "title": "Nowitzki: The Perfect Shot",
+    "released": "2015-07-10",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 41340,
+    "tickets": 4903,
+    "id": "nowitzki-the-perfect-shot"
+  },
+  {
+    "title": "Queen and Country",
+    "released": "2015-02-18",
+    "distributor": 0,
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 41297,
+    "tickets": 4898,
+    "id": "queen-and-country"
+  },
+  {
+    "title": "Zero Motivation",
+    "released": "2014-12-03",
+    "distributor": "Zeitgeist",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 41152,
+    "tickets": 4881,
+    "id": "zero-motivation"
+  },
+  {
+    "title": "The Seven Five",
+    "released": "2015-05-08",
+    "distributor": "IFC Films",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 40674,
+    "tickets": 4824,
+    "id": "the-seven-five"
+  },
+  {
+    "title": "The New Rijksmuseum",
+    "released": "2015-06-19",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 40578,
+    "tickets": 4813,
+    "id": "the-new-rijksmuseum"
+  },
+  {
+    "title": "What Our Fathers Did: A Nazi Legacy",
+    "released": "2015-11-06",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 40119,
+    "tickets": 4759,
+    "id": "what-our-fathers-did-a-nazi-legacy"
+  },
+  {
+    "title": "Entertainment",
+    "released": "2015-11-13",
+    "distributor": "Magnolia Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 39864,
+    "tickets": 4728,
+    "id": "entertainment"
+  },
+  {
+    "title": "WARx2",
+    "released": "2015-09-18",
+    "distributor": "Strasson Group",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 39704,
+    "tickets": 4709,
+    "id": "warx2"
+  },
+  {
+    "title": "Charlie's Country",
+    "released": "2015-06-05",
+    "distributor": "Monument Releasing",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 39436,
+    "tickets": 4678,
+    "id": "charlies-country"
+  },
+  {
+    "title": "Prophet's Prey",
+    "released": "2015-09-18",
+    "distributor": "Showtime Original",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 39347,
+    "tickets": 4667,
+    "id": "prophets-prey"
+  },
+  {
+    "title": "Stations of the Cross",
+    "released": "2015-07-10",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 38818,
+    "tickets": 4604,
+    "id": "stations-of-the-cross"
+  },
+  {
+    "title": "Lila & Eve",
+    "released": "2015-07-17",
+    "distributor": "Samuel Goldwyn Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 38263,
+    "tickets": 4538,
+    "id": "lila--eve"
+  },
+  {
+    "title": "Before We Go",
+    "released": "2015-09-04",
+    "distributor": "Radius",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 37151,
+    "tickets": 4406,
+    "id": "before-we-go"
+  },
+  {
+    "title": "The Mafia Only Kills in Summer",
+    "released": "2015-03-06",
+    "distributor": "Distrib Films",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 37134,
+    "tickets": 4404,
+    "id": "the-mafia-only-kills-in-summer"
+  },
+  {
+    "title": "Grey Gardens",
+    "released": "2015-03-06",
+    "distributor": "Janus Films",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 36923,
+    "tickets": 4379,
+    "id": "grey-gardens"
+  },
+  {
+    "title": "Knock Knock",
+    "released": "2015-10-09",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 36336,
+    "tickets": 4310,
+    "id": "knock-knock"
+  },
+  {
+    "title": "The Kindergarten Teacher",
+    "released": "2015-07-31",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 36190,
+    "tickets": 4293,
+    "id": "the-kindergarten-teacher"
+  },
+  {
+    "title": "Welcome to Leith",
+    "released": "2015-09-09",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 36010,
+    "tickets": 4271,
+    "id": "welcome-to-leith"
+  },
+  {
+    "title": "Finders Keepers",
+    "released": "2015-09-25",
+    "distributor": "The Orchard",
+    "genre": "Documentary",
+    "rating": "R",
+    "gross": 35555,
+    "tickets": 4217,
+    "id": "finders-keepers"
+  },
+  {
+    "title": "The Pearl Button",
+    "released": "2015-10-23",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 34929,
+    "tickets": 4143,
+    "id": "the-pearl-button"
+  },
+  {
+    "title": "Office",
+    "released": "2015-09-18",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Multiple Genres",
+    "rating": "Not Rated",
+    "gross": 34144,
+    "tickets": 4050,
+    "id": "office"
+  },
+  {
+    "title": "Song One",
+    "released": "2015-01-23",
+    "distributor": "Cinedigm/Film Arcade",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 32251,
+    "tickets": 3825,
+    "id": "song-one"
+  },
+  {
+    "title": "Wild City",
+    "released": "2015-07-31",
+    "distributor": "Well Go USA",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 32053,
+    "tickets": 3802,
+    "id": "wild-city"
+  },
+  {
+    "title": "Amira & Sam",
+    "released": "2015-01-30",
+    "distributor": "Drafthouse Films",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 31848,
+    "tickets": 3777,
+    "id": "amira--sam"
+  },
+  {
+    "title": "The Forbidden Room",
+    "released": "2015-10-07",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 31734,
+    "tickets": 3764,
+    "id": "the-forbidden-room"
+  },
+  {
+    "title": "Hard to Be a God",
+    "released": "2015-01-30",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 31443,
+    "tickets": 3729,
+    "id": "hard-to-be-a-god"
+  },
+  {
+    "title": "Don Verdean",
+    "released": "2015-12-11",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 31309,
+    "tickets": 3713,
+    "id": "don-verdean"
+  },
+  {
+    "title": "People, Places, Things",
+    "released": "2015-08-14",
+    "distributor": "Film Arcade",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 30768,
+    "tickets": 3649,
+    "id": "people-places-things"
+  },
+  {
+    "title": "Love on the Cloud",
+    "released": "2014-12-24",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 30708,
+    "tickets": 3642,
+    "id": "love-on-the-cloud"
+  },
+  {
+    "title": "Match",
+    "released": "2015-01-14",
+    "distributor": "IFC Films",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 30566,
+    "tickets": 3625,
+    "id": "match"
+  },
+  {
+    "title": "Runoff",
+    "released": "2015-06-26",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 30186,
+    "tickets": 3580,
+    "id": "runoff"
+  },
+  {
+    "title": "Paul Taylor Creative Domain",
+    "released": "2015-09-11",
+    "distributor": "Resident Artist",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 30168,
+    "tickets": 3578,
+    "id": "paul-taylor-creative-domain"
+  },
+  {
+    "title": "3 and 1/2 Minutes",
+    "released": "2015-06-19",
+    "distributor": "Participant Media",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 29725,
+    "tickets": 3526,
+    "id": "3-and-12-minutes"
+  },
+  {
+    "title": "Paulette",
+    "released": "2015-08-14",
+    "distributor": "Cohen Media Group",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 29086,
+    "tickets": 3450,
+    "id": "paulette"
+  },
+  {
+    "title": "Rebels Of the Neon God",
+    "released": "2015-04-10",
+    "distributor": "Big World Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 28791,
+    "tickets": 3415,
+    "id": "rebels-of-the-neon-god"
+  },
+  {
+    "title": "Le jour se leve",
+    "released": "2014-11-14",
+    "distributor": "Rialto Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 28339,
+    "tickets": 3361,
+    "id": "le-jour-se-leve"
+  },
+  {
+    "title": "The Nightmare",
+    "released": "2015-06-05",
+    "distributor": "Gravitas Ventures",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 28281,
+    "tickets": 3354,
+    "id": "the-nightmare"
+  },
+  {
+    "title": "Censored Voices",
+    "released": "2015-11-20",
+    "distributor": "Music Box Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 28231,
+    "tickets": 3348,
+    "id": "censored-voices"
+  },
+  {
+    "title": "Like Sunday, Like Rain",
+    "released": "2015-03-06",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 28208,
+    "tickets": 3346,
+    "id": "like-sunday-like-rain"
+  },
+  {
+    "title": "7 Chinese Brothers",
+    "released": "2015-08-28",
+    "distributor": "Screen Media Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 28180,
+    "tickets": 3342,
+    "id": "7-chinese-brothers"
+  },
+  {
+    "title": "The Cut",
+    "released": "2015-09-18",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 28066,
+    "tickets": 3329,
+    "id": "the-cut"
+  },
+  {
+    "title": "Dear White People",
+    "released": "2014-10-17",
+    "distributor": "Lionsgate/Roadside Attractions",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 27532,
+    "tickets": 3265,
+    "id": "dear-white-people"
+  },
+  {
+    "title": "The Keeping Room",
+    "released": "2015-09-25",
+    "distributor": "Drafthouse Films",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 27166,
+    "tickets": 3222,
+    "id": "the-keeping-room"
+  },
+  {
+    "title": "Elsa & Fred",
+    "released": "2014-11-07",
+    "distributor": "Alchemy",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 26754,
+    "tickets": 3173,
+    "id": "elsa--fred"
+  },
+  {
+    "title": "Tap World",
+    "released": "2015-07-10",
+    "distributor": "Vitagraph Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 26747,
+    "tickets": 3172,
+    "id": "tap-world"
+  },
+  {
+    "title": "Peace Officer",
+    "released": "2015-09-16",
+    "distributor": "Submarine Deluxe",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 26632,
+    "tickets": 3159,
+    "id": "peace-officer"
+  },
+  {
+    "title": "The Best of Me",
+    "released": "2014-10-17",
+    "distributor": "Relativity",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 26454,
+    "tickets": 3138,
+    "id": "the-best-of-me"
+  },
+  {
+    "title": "Sagrada: The Mystery of Creation",
+    "released": "2014-09-12",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 26155,
+    "tickets": 3102,
+    "id": "sagrada-the-mystery-of-creation"
+  },
+  {
+    "title": "Last Days in Vietnam",
+    "released": "2014-09-05",
+    "distributor": "American Experience/PBS Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 26083,
+    "tickets": 3094,
+    "id": "last-days-in-vietnam"
+  },
+  {
+    "title": "The Things of Life",
+    "released": "2015-06-12",
+    "distributor": "Rialto Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 25314,
+    "tickets": 3002,
+    "id": "the-things-of-life"
+  },
+  {
+    "title": "Love at First Fight",
+    "released": "2015-05-22",
+    "distributor": "Strand",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 25229,
+    "tickets": 2992,
+    "id": "love-at-first-fight"
+  },
+  {
+    "title": "R100",
+    "released": "2015-01-23",
+    "distributor": "Drafthouse Films",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 24956,
+    "tickets": 2960,
+    "id": "r100"
+  },
+  {
+    "title": "Big Game",
+    "released": "2015-06-26",
+    "distributor": "Relativity",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 24752,
+    "tickets": 2936,
+    "id": "big-game"
+  },
+  {
+    "title": "Forgotten",
+    "released": "2015-09-18",
+    "distributor": "Cinema Libre",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 24638,
+    "tickets": 2922,
+    "id": "forgotten"
+  },
+  {
+    "title": "Kill Me Three Times",
+    "released": "2015-04-10",
+    "distributor": "Magnolia Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 24296,
+    "tickets": 2882,
+    "id": "kill-me-three-times"
+  },
+  {
+    "title": "Hippocrates: Diary of a French Doctor",
+    "released": "2015-06-15",
+    "distributor": "Distrib Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 23050,
+    "tickets": 2734,
+    "id": "hippocrates-diary-of-a-french-doctor"
+  },
+  {
+    "title": "Slow Learners",
+    "released": "2015-08-19",
+    "distributor": "IFC Films",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 22930,
+    "tickets": 2720,
+    "id": "slow-learners"
+  },
+  {
+    "title": "Court",
+    "released": "2015-07-15",
+    "distributor": "Zeitgeist",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 22898,
+    "tickets": 2716,
+    "id": "court"
+  },
+  {
+    "title": "Epic of Everest",
+    "released": "2015-05-08",
+    "distributor": "Kino International",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 22382,
+    "tickets": 2655,
+    "id": "epic-of-everest"
+  },
+  {
+    "title": "Can't Stand Losing You: Surviving the Police",
+    "released": "2015-03-20",
+    "distributor": "Cinema Libre",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 22326,
+    "tickets": 2648,
+    "id": "cant-stand-losing-you-surviving-the-police"
+  },
+  {
+    "title": "Metropolitan",
+    "released": "1990-08-03",
+    "distributor": 0,
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 22284,
+    "tickets": 2643,
+    "id": "metropolitan"
+  },
+  {
+    "title": "Animals",
+    "released": "2015-05-15",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 22001,
+    "tickets": 2609,
+    "id": "animals"
+  },
+  {
+    "title": "Futuro Beach",
+    "released": "2015-02-27",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 20620,
+    "tickets": 2446,
+    "id": "futuro-beach"
+  },
+  {
+    "title": "Love, Rosie",
+    "released": "2015-02-06",
+    "distributor": "Film Arcade",
+    "genre": "Romantic Comedy",
+    "rating": "R",
+    "gross": 20431,
+    "tickets": 2423,
+    "id": "love-rosie"
+  },
+  {
+    "title": "Friends and Romans",
+    "released": "2015-10-23",
+    "distributor": "Paladin",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 20136,
+    "tickets": 2388,
+    "id": "friends-and-romans"
+  },
+  {
+    "title": "Forbidden Games",
+    "released": "2015-04-24",
+    "distributor": "Rialto Pictures",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 19889,
+    "tickets": 2359,
+    "id": "forbidden-games"
+  },
+  {
+    "title": "Misery Loves Comedy",
+    "released": "2015-04-24",
+    "distributor": "TriBeca Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 19634,
+    "tickets": 2329,
+    "id": "misery-loves-comedy"
+  },
+  {
+    "title": "Actress",
+    "released": "2014-11-07",
+    "distributor": "Cinema Guild",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 19365,
+    "tickets": 2297,
+    "id": "actress"
+  },
+  {
+    "title": "The Challenger",
+    "released": "2015-09-11",
+    "distributor": "Freestyle Releasing",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 19003,
+    "tickets": 2254,
+    "id": "the-challenger"
+  },
+  {
+    "title": "Chimes at Midnight",
+    "released": "2016-01-01",
+    "distributor": "Janus Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 18958,
+    "tickets": 2248,
+    "id": "chimes-at-midnight"
+  },
+  {
+    "title": "Meet the Mormons",
+    "released": "2014-10-10",
+    "distributor": "Purdie Distribution",
+    "genre": "Documentary",
+    "rating": "PG",
+    "gross": 18805,
+    "tickets": 2230,
+    "id": "meet-the-mormons"
+  },
+  {
+    "title": "El Ardor",
+    "released": "2015-07-17",
+    "distributor": "Strand",
+    "genre": "Western",
+    "rating": "R",
+    "gross": 18572,
+    "tickets": 2203,
+    "id": "el-ardor"
+  },
+  {
+    "title": "Monk With a Camera",
+    "released": "2014-11-21",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 18275,
+    "tickets": 2167,
+    "id": "monk-with-a-camera"
+  },
+  {
+    "title": "The Little Death",
+    "released": "2015-06-26",
+    "distributor": "Magnolia Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 18238,
+    "tickets": 2163,
+    "id": "the-little-death"
+  },
+  {
+    "title": "The Other One",
+    "released": "2015-08-14",
+    "distributor": "Indican Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 17727,
+    "tickets": 2102,
+    "id": "the-other-one"
+  },
+  {
+    "title": "The Boy and the World",
+    "released": "2015-12-11",
+    "distributor": "GKIDS",
+    "genre": "Adventure",
+    "rating": "PG",
+    "gross": 17580,
+    "tickets": 2085,
+    "id": "the-boy-and-the-world"
+  },
+  {
+    "title": "Trash",
+    "released": "2015-10-09",
+    "distributor": "Focus Features",
+    "genre": "Adventure",
+    "rating": "R",
+    "gross": 17484,
+    "tickets": 2074,
+    "id": "trash"
+  },
+  {
+    "title": "Strangerland",
+    "released": "2015-07-10",
+    "distributor": "Alchemy",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 17472,
+    "tickets": 2072,
+    "id": "strangerland"
+  },
+  {
+    "title": "Eastern Boys",
+    "released": "2015-02-27",
+    "distributor": "First Run Features",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 16831,
+    "tickets": 1996,
+    "id": "eastern-boys"
+  },
+  {
+    "title": "Extraction",
+    "released": "2015-12-18",
+    "distributor": "Lionsgate",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 16775,
+    "tickets": 1989,
+    "id": "extraction"
+  },
+  {
+    "title": "Eva",
+    "released": "2015-03-13",
+    "distributor": "Weinstein Co.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 16738,
+    "tickets": 1985,
+    "id": "eva"
+  },
+  {
+    "title": "Noma My Perfect Storm",
+    "released": "2015-12-18",
+    "distributor": "Magnolia Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 16700,
+    "tickets": 1981,
+    "id": "noma-my-perfect-storm"
+  },
+  {
+    "title": "This Changes Everything",
+    "released": "2015-10-02",
+    "distributor": "Abramorama Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 16692,
+    "tickets": 1980,
+    "id": "this-changes-everything"
+  },
+  {
+    "title": "A Hard Day",
+    "released": "2015-07-17",
+    "distributor": "Kino Lorber",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 16563,
+    "tickets": 1964,
+    "id": "a-hard-day"
+  },
+  {
+    "title": "Girlhood",
+    "released": "2003-10-31",
+    "distributor": 0,
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 16562,
+    "tickets": 1964,
+    "id": "girlhood-2003"
+  },
+  {
+    "title": "The King and the Mockingbird",
+    "released": "2014-11-21",
+    "distributor": "Rialto Pictures",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 16396,
+    "tickets": 1944,
+    "id": "the-king-and-the-mockingbird"
+  },
+  {
+    "title": "Full Moon in Paris",
+    "released": "2015-04-17",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 16275,
+    "tickets": 1930,
+    "id": "full-moon-in-paris"
+  },
+  {
+    "title": "Hits",
+    "released": "2015-02-13",
+    "distributor": "Honora Productions",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 15156,
+    "tickets": 1797,
+    "id": "hits"
+  },
+  {
+    "title": "Cheatin'",
+    "released": "2015-04-03",
+    "distributor": "Plymptoons",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 15077,
+    "tickets": 1788,
+    "id": "cheatin"
+  },
+  {
+    "title": "Far Too Far",
+    "released": "2015-04-03",
+    "distributor": "Time and Tide Productions, Inc.",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 15000,
+    "tickets": 1779,
+    "id": "far-too-far"
+  },
+  {
+    "title": "Only Yesterday",
+    "released": "2016-01-01",
+    "distributor": "GKIDS",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 14970,
+    "tickets": 1775,
+    "id": "only-yesterday"
+  },
+  {
+    "title": "Zombeavers",
+    "released": "2015-03-20",
+    "distributor": "Freestyle Releasing",
+    "genre": "Black Comedy",
+    "rating": "R",
+    "gross": 14947,
+    "tickets": 1773,
+    "id": "zombeavers"
+  },
+  {
+    "title": "10 Days in a Madhouse",
+    "released": "2015-11-11",
+    "distributor": "Cafe Pictures",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 14616,
+    "tickets": 1733,
+    "id": "10-days-in-a-madhouse"
+  },
+  {
+    "title": "Buzzard",
+    "released": "2015-03-06",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 14591,
+    "tickets": 1730,
+    "id": "buzzard"
+  },
+  {
+    "title": "The Human Centipede 3 (Final Sequence)",
+    "released": "2015-05-22",
+    "distributor": "IFC Midnight",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 14562,
+    "tickets": 1727,
+    "id": "the-human-centipede-3-final-sequence"
+  },
+  {
+    "title": "Americons",
+    "released": "2015-01-23",
+    "distributor": "Archstone Entertainment",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 14404,
+    "tickets": 1708,
+    "id": "americons"
+  },
+  {
+    "title": "Amour fou",
+    "released": "2015-03-18",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 14296,
+    "tickets": 1695,
+    "id": "amour-fou"
+  },
+  {
+    "title": "The World of Kanako",
+    "released": "2015-12-04",
+    "distributor": "Drafthouse Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 14129,
+    "tickets": 1676,
+    "id": "the-world-of-kanako"
+  },
+  {
+    "title": "River of Fundament",
+    "released": "2015-12-04",
+    "distributor": "International Film Circuit",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 13981,
+    "tickets": 1658,
+    "id": "river-of-fundament"
+  },
+  {
+    "title": "The Passionate Thief",
+    "released": "2014-12-05",
+    "distributor": "Rialto Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 13135,
+    "tickets": 1558,
+    "id": "the-passionate-thief"
+  },
+  {
+    "title": "Going Away",
+    "released": "2015-10-02",
+    "distributor": "Cohen Media Group",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 12494,
+    "tickets": 1482,
+    "id": "going-away"
+  },
+  {
+    "title": "The Armor Of Light",
+    "released": "2015-10-30",
+    "distributor": "Fork Films",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 12267,
+    "tickets": 1455,
+    "id": "the-armor-of-light"
+  },
+  {
+    "title": "Of Horses and Men",
+    "released": "2015-03-13",
+    "distributor": "Music Box Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 11894,
+    "tickets": 1410,
+    "id": "of-horses-and-men"
+  },
+  {
+    "title": "Emptying The Skies",
+    "released": "2015-04-22",
+    "distributor": "Music Box Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 11811,
+    "tickets": 1401,
+    "id": "emptying-the-skies"
+  },
+  {
+    "title": "Marie's Story",
+    "released": "2015-05-01",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 11720,
+    "tickets": 1390,
+    "id": "maries-story"
+  },
+  {
+    "title": "Listen Up Philip",
+    "released": "2014-10-17",
+    "distributor": "TriBeca Films",
+    "genre": "Black Comedy",
+    "rating": "Not Rated",
+    "gross": 11640,
+    "tickets": 1380,
+    "id": "listen-up-philip"
+  },
+  {
+    "title": "The Kidnapping of Michel Houellebecq",
+    "released": "2015-03-25",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 11546,
+    "tickets": 1369,
+    "id": "the-kidnapping-of-michel-houellebecq"
+  },
+  {
+    "title": "The Devil's Violinist",
+    "released": "2015-01-30",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 11294,
+    "tickets": 1339,
+    "id": "the-devils-violinist"
+  },
+  {
+    "title": "1001 Grams",
+    "released": "2015-05-08",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 10983,
+    "tickets": 1302,
+    "id": "1001-grams"
+  },
+  {
+    "title": "Just Before I Go",
+    "released": "2015-04-24",
+    "distributor": "Anchor Bay/Freestyle",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 10970,
+    "tickets": 1301,
+    "id": "just-before-i-go"
+  },
+  {
+    "title": "Sembene!",
+    "released": "2015-11-13",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 10945,
+    "tickets": 1298,
+    "id": "sembene"
+  },
+  {
+    "title": "Diplomacy",
+    "released": "2014-10-15",
+    "distributor": "Zeitgeist",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 10880,
+    "tickets": 1290,
+    "id": "diplomacy"
+  },
+  {
+    "title": "Walking the Camino: Six Ways to Santiago",
+    "released": "2013-09-06",
+    "distributor": "Future Educational Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 10783,
+    "tickets": 1279,
+    "id": "walking-the-camino-six-ways-to-santiago"
+  },
+  {
+    "title": "Mala Mala",
+    "released": "2015-07-01",
+    "distributor": "Strand",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 10761,
+    "tickets": 1276,
+    "id": "mala-mala"
+  },
+  {
+    "title": "The Overnighters",
+    "released": "2014-10-10",
+    "distributor": "Drafthouse Films",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 10741,
+    "tickets": 1274,
+    "id": "the-overnighters"
+  },
+  {
+    "title": "Stray Dogs",
+    "released": "2014-09-11",
+    "distributor": "Cinema Guild",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 10433,
+    "tickets": 1237,
+    "id": "stray-dogs"
+  },
+  {
+    "title": "The Forecaster",
+    "released": "2015-03-17",
+    "distributor": "Autlook Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 10172,
+    "tickets": 1206,
+    "id": "the-forecaster"
+  },
+  {
+    "title": "The Life and Mind of Mark DeFriest",
+    "released": "2015-03-06",
+    "distributor": "City Drive Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 10021,
+    "tickets": 1188,
+    "id": "the-life-and-mind-of-mark-defriest"
+  },
+  {
+    "title": "My Old Lady",
+    "released": "2014-09-10",
+    "distributor": "Cohen Media Group",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 9922,
+    "tickets": 1176,
+    "id": "my-old-lady"
+  },
+  {
+    "title": "Wild Canaries",
+    "released": "2015-02-25",
+    "distributor": "IFC Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 9795,
+    "tickets": 1161,
+    "id": "wild-canaries"
+  },
+  {
+    "title": "Station to Station",
+    "released": "2015-08-21",
+    "distributor": "Submarine Deluxe",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 9494,
+    "tickets": 1126,
+    "id": "station-to-station"
+  },
+  {
+    "title": "Still Life",
+    "released": "2015-01-16",
+    "distributor": "TriBeca Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 9481,
+    "tickets": 1124,
+    "id": "still-life"
+  },
+  {
+    "title": "One Cut, One Life",
+    "released": "2015-05-13",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 9406,
+    "tickets": 1115,
+    "id": "one-cut-one-life"
+  },
+  {
+    "title": "Medeas",
+    "released": "2015-03-13",
+    "distributor": "The Vladar Company",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 9313,
+    "tickets": 1104,
+    "id": "medeas"
+  },
+  {
+    "title": "Cupcakes",
+    "released": "2015-03-27",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 9129,
+    "tickets": 1082,
+    "id": "cupcakes"
+  },
+  {
+    "title": "Arabian Nights: Vol. 1, The Restless One",
+    "released": "2015-12-04",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 9057,
+    "tickets": 1074,
+    "id": "arabian-nights-vol-1-the-restless-one"
+  },
+  {
+    "title": "The Lesson",
+    "released": "2015-02-27",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 9045,
+    "tickets": 1072,
+    "id": "the-lesson"
+  },
+  {
+    "title": "The Hallow",
+    "released": "2015-11-13",
+    "distributor": "IFC Midnight",
+    "genre": "Horror",
+    "rating": "Not Rated",
+    "gross": 8967,
+    "tickets": 1063,
+    "id": "the-hallow"
+  },
+  {
+    "title": "Butterfly Girl",
+    "released": "2015-02-27",
+    "distributor": "Indican Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 8956,
+    "tickets": 1062,
+    "id": "butterfly-girl"
+  },
+  {
+    "title": "Why Don't You Play in Hell?",
+    "released": "2014-11-07",
+    "distributor": "Drafthouse Films",
+    "genre": "Action",
+    "rating": "Not Rated",
+    "gross": 8913,
+    "tickets": 1057,
+    "id": "why-dont-you-play-in-hell"
+  },
+  {
+    "title": "Northern Soul",
+    "released": "2015-10-02",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 8886,
+    "tickets": 1054,
+    "id": "northern-soul"
+  },
+  {
+    "title": "B-Side",
+    "released": "2015-07-10",
+    "distributor": "Indican Pictures",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 8870,
+    "tickets": 1052,
+    "id": "b-side"
+  },
+  {
+    "title": "Paulo Caelho's Best Story",
+    "released": "2015-07-31",
+    "distributor": "Music Box Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8808,
+    "tickets": 1044,
+    "id": "paulo-caelhos-best-story"
+  },
+  {
+    "title": "Dawn of the Crescent Moon",
+    "released": "2015-07-17",
+    "distributor": "Indican Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 8799,
+    "tickets": 1043,
+    "id": "dawn-of-the-crescent-moon"
+  },
+  {
+    "title": "Little Accidents",
+    "released": "2015-01-16",
+    "distributor": "Amplify",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8649,
+    "tickets": 1025,
+    "id": "little-accidents"
+  },
+  {
+    "title": "Meet Me in Montenegro",
+    "released": "2015-07-10",
+    "distributor": "The Orchard",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 8612,
+    "tickets": 1021,
+    "id": "meet-me-in-montenegro"
+  },
+  {
+    "title": "Farewell to Hollywood",
+    "released": "2015-02-25",
+    "distributor": "International Film Circuit",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 8601,
+    "tickets": 1020,
+    "id": "farewell-to-hollywood"
+  },
+  {
+    "title": "Wa-shoku: Beyond Sushi",
+    "released": "2015-04-10",
+    "distributor": 0,
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 8570,
+    "tickets": 1016,
+    "id": "wa-shoku-beyond-sushi"
+  },
+  {
+    "title": "Conte d'hiver",
+    "released": "2014-12-19",
+    "distributor": "Big World Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8406,
+    "tickets": 997,
+    "id": "conte-dhiver"
+  },
+  {
+    "title": "Counting",
+    "released": "2015-07-31",
+    "distributor": "Cinema Guild",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 8374,
+    "tickets": 993,
+    "id": "counting"
+  },
+  {
+    "title": "The Girl in the Book",
+    "released": "2015-12-11",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8245,
+    "tickets": 978,
+    "id": "the-girl-in-the-book"
+  },
+  {
+    "title": "A Fool",
+    "released": "2015-11-29",
+    "distributor": "Clarius Entertainment",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 8212,
+    "tickets": 974,
+    "id": "a-fool"
+  },
+  {
+    "title": "Jellyfish Eyes",
+    "released": "2014-05-01",
+    "distributor": 0,
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 8176,
+    "tickets": 969,
+    "id": "jellyfish-eyes"
+  },
+  {
+    "title": "Hiroshima Mon Amour",
+    "released": "2014-10-17",
+    "distributor": "Rialto Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8139,
+    "tickets": 965,
+    "id": "hiroshima-mon-amour"
+  },
+  {
+    "title": "Army of Shadows",
+    "released": "2006-04-28",
+    "distributor": "Rialto Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8100,
+    "tickets": 960,
+    "id": "army-of-shadows"
+  },
+  {
+    "title": "The Dinner",
+    "released": "2015-08-07",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8054,
+    "tickets": 955,
+    "id": "the-dinner"
+  },
+  {
+    "title": "Steak (R)evolution",
+    "released": "2015-07-17",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 8025,
+    "tickets": 951,
+    "id": "steak-revolution"
+  },
+  {
+    "title": "Straight Outta Tompkins",
+    "released": "2015-03-06",
+    "distributor": "Indican Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 8022,
+    "tickets": 951,
+    "id": "straight-outta-tompkins"
+  },
+  {
+    "title": "If You Don't, I Will",
+    "released": "2014-12-17",
+    "distributor": "Film Movement",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 8012,
+    "tickets": 950,
+    "id": "if-you-dont-i-will"
+  },
+  {
+    "title": "Gone Doggy Gone",
+    "released": "2015-06-26",
+    "distributor": "Indican Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 8001,
+    "tickets": 949,
+    "id": "gone-doggy-gone"
+  },
+  {
+    "title": "One Small Hitch",
+    "released": "2015-02-06",
+    "distributor": "Freestyle Releasing",
+    "genre": "Romantic Comedy",
+    "rating": "PG-13",
+    "gross": 7965,
+    "tickets": 944,
+    "id": "one-small-hitch"
+  },
+  {
+    "title": "Kilo Two Bravo",
+    "released": "2015-11-13",
+    "distributor": "Honora Productions",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 7891,
+    "tickets": 936,
+    "id": "kilo-two-bravo"
+  },
+  {
+    "title": "The Great Man",
+    "released": "2015-08-14",
+    "distributor": "Distrib Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 7814,
+    "tickets": 926,
+    "id": "the-great-man"
+  },
+  {
+    "title": "On the Way to School",
+    "released": "2015-02-06",
+    "distributor": "Distrib Films",
+    "genre": "Documentary",
+    "rating": "G",
+    "gross": 7424,
+    "tickets": 880,
+    "id": "on-the-way-to-school"
+  },
+  {
+    "title": "Rubble Kings",
+    "released": "2015-06-19",
+    "distributor": "Saboteur Media",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 7416,
+    "tickets": 879,
+    "id": "rubble-kings"
+  },
+  {
+    "title": "The Film Critic",
+    "released": "2015-05-15",
+    "distributor": "Music Box Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 7358,
+    "tickets": 872,
+    "id": "the-film-critic"
+  },
+  {
+    "title": "Set Fire to the Stars",
+    "released": "2015-06-12",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 7280,
+    "tickets": 863,
+    "id": "set-fire-to-the-stars"
+  },
+  {
+    "title": "Life of Riley",
+    "released": "2014-10-24",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 7210,
+    "tickets": 855,
+    "id": "life-of-riley"
+  },
+  {
+    "title": "Antarctic Edge: 70º South",
+    "released": "2015-04-17",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 7193,
+    "tickets": 853,
+    "id": "antarctic-edge-70-south"
+  },
+  {
+    "title": "Li'l Quinquin",
+    "released": "2015-01-02",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 7192,
+    "tickets": 853,
+    "id": "lil-quinquin"
+  },
+  {
+    "title": "A Murder in the Park",
+    "released": "2015-06-26",
+    "distributor": "Sundance Selects",
+    "genre": "Documentary",
+    "rating": "PG-13",
+    "gross": 7125,
+    "tickets": 845,
+    "id": "a-murder-in-the-park"
+  },
+  {
+    "title": "Victoria",
+    "released": "2015-10-09",
+    "distributor": "Adopt Films",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 6971,
+    "tickets": 826,
+    "id": "victoria"
+  },
+  {
+    "title": "Gabriel",
+    "released": "2015-06-19",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 6959,
+    "tickets": 825,
+    "id": "gabriel"
+  },
+  {
+    "title": "Hungry Hearts",
+    "released": "2015-06-05",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 6921,
+    "tickets": 820,
+    "id": "hungry-hearts"
+  },
+  {
+    "title": "Advanced Style",
+    "released": "2014-09-26",
+    "distributor": "Bond/360",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 6905,
+    "tickets": 819,
+    "id": "advanced-style"
+  },
+  {
+    "title": "The Sisterhood of Night",
+    "released": "2015-04-10",
+    "distributor": "Freestyle Releasing",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 6870,
+    "tickets": 814,
+    "id": "the-sisterhood-of-night"
+  },
+  {
+    "title": "Steve McQueen: The Man & Le Mans",
+    "released": "2015-11-13",
+    "distributor": "FilmRise",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 6843,
+    "tickets": 811,
+    "id": "steve-mcqueen-the-man--le-mans"
+  },
+  {
+    "title": "Horse Money",
+    "released": "2015-07-24",
+    "distributor": "Cinema Guild",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 6508,
+    "tickets": 772,
+    "id": "horse-money"
+  },
+  {
+    "title": "The Suicide Theory",
+    "released": "2015-07-10",
+    "distributor": "Freestyle Releasing",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 6434,
+    "tickets": 763,
+    "id": "the-suicide-theory"
+  },
+  {
+    "title": "Alléluia",
+    "released": "2015-07-17",
+    "distributor": "Doppelganger Releasing",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 6334,
+    "tickets": 751,
+    "id": "allluia"
+  },
+  {
+    "title": "Guidance",
+    "released": "2015-08-21",
+    "distributor": "Strand",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 6194,
+    "tickets": 734,
+    "id": "guidance"
+  },
+  {
+    "title": "Marquise of O",
+    "released": "2015-05-01",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "PG",
+    "gross": 6049,
+    "tickets": 717,
+    "id": "marquise-of-o"
+  },
+  {
+    "title": "Famous Nathan",
+    "released": "2015-07-17",
+    "distributor": "Film Movement",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 6048,
+    "tickets": 717,
+    "id": "famous-nathan"
+  },
+  {
+    "title": "The Riot Club",
+    "released": "2015-03-27",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 6041,
+    "tickets": 716,
+    "id": "the-riot-club"
+  },
+  {
+    "title": "Sex, Death and Bowling",
+    "released": "2015-10-30",
+    "distributor": "Monterey Media",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 5972,
+    "tickets": 708,
+    "id": "sex-death-and-bowling"
+  },
+  {
+    "title": "Viva La Liberta",
+    "released": "2014-11-07",
+    "distributor": "Distrib Films",
+    "genre": 0,
+    "rating": "Not Rated",
+    "gross": 5955,
+    "tickets": 706,
+    "id": "viva-la-liberta"
+  },
+  {
+    "title": "Top Spin",
+    "released": "2015-08-21",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5858,
+    "tickets": 694,
+    "id": "top-spin"
+  },
+  {
+    "title": "Mediterranea",
+    "released": "2015-11-20",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5846,
+    "tickets": 693,
+    "id": "mediterranea"
+  },
+  {
+    "title": "Shout Gladi Gladi",
+    "released": "2015-10-02",
+    "distributor": "International Film Circuit",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5839,
+    "tickets": 692,
+    "id": "shout-gladi-gladi"
+  },
+  {
+    "title": "The Wanted 18",
+    "released": "2015-06-19",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5680,
+    "tickets": 673,
+    "id": "the-wanted-18"
+  },
+  {
+    "title": "Tu dors Nicole",
+    "released": "2015-05-29",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 5662,
+    "tickets": 671,
+    "id": "tu-dors-nicole"
+  },
+  {
+    "title": "This Isn't Funny",
+    "released": "2015-11-06",
+    "distributor": "Candy Factory Films",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 5654,
+    "tickets": 670,
+    "id": "this-isnt-funny"
+  },
+  {
+    "title": "The Winding Steam",
+    "released": "2015-12-16",
+    "distributor": "Argot Pictures",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5588,
+    "tickets": 662,
+    "id": "the-winding-steam"
+  },
+  {
+    "title": "Our Man in Tehran",
+    "released": "2015-05-15",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5573,
+    "tickets": 661,
+    "id": "our-man-in-tehran"
+  },
+  {
+    "title": "The Living",
+    "released": "2015-04-03",
+    "distributor": "Monterey Media",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 5514,
+    "tickets": 654,
+    "id": "the-living"
+  },
+  {
+    "title": "Concerning Violence",
+    "released": "2014-12-05",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5439,
+    "tickets": 645,
+    "id": "concerning-violence"
+  },
+  {
+    "title": "Revenge of the Mekons",
+    "released": "2014-10-29",
+    "distributor": "Music Box Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 5374,
+    "tickets": 637,
+    "id": "revenge-of-the-mekons"
+  },
+  {
+    "title": "Far From Men",
+    "released": "2015-05-01",
+    "distributor": "TriBeca Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5336,
+    "tickets": 632,
+    "id": "far-from-men"
+  },
+  {
+    "title": "From Mayerling to Sarajevo",
+    "released": "2015-03-27",
+    "distributor": "The Film Desk",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5247,
+    "tickets": 622,
+    "id": "from-mayerling-to-sarajevo"
+  },
+  {
+    "title": "The Dead Lands",
+    "released": "2015-04-17",
+    "distributor": "Magnolia Pictures",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 5240,
+    "tickets": 621,
+    "id": "the-dead-lands"
+  },
+  {
+    "title": "The Good Lie",
+    "released": "2014-10-03",
+    "distributor": "Warner Bros.",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 5220,
+    "tickets": 619,
+    "id": "the-good-lie"
+  },
+  {
+    "title": "The Princess of France",
+    "released": "2015-06-26",
+    "distributor": "Cinema Guild",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5212,
+    "tickets": 618,
+    "id": "the-princess-of-france"
+  },
+  {
+    "title": "Death Valley",
+    "released": "2015-10-16",
+    "distributor": "Indican Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5211,
+    "tickets": 618,
+    "id": "death-valley"
+  },
+  {
+    "title": "A Reason",
+    "released": "2015-08-28",
+    "distributor": "Indican Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 5010,
+    "tickets": 594,
+    "id": "a-reason"
+  },
+  {
+    "title": "The Voices",
+    "released": "2015-02-06",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 5000,
+    "tickets": 593,
+    "id": "the-voices"
+  },
+  {
+    "title": "SBK The-Movie",
+    "released": "2015-04-03",
+    "distributor": "Hanover Multimedia",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 4950,
+    "tickets": 587,
+    "id": "sbk-the-movie"
+  },
+  {
+    "title": "Gerontophilia",
+    "released": "2015-05-01",
+    "distributor": "Strand",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 4916,
+    "tickets": 583,
+    "id": "gerontophilia"
+  },
+  {
+    "title": "Barely Lethal",
+    "released": "2015-05-29",
+    "distributor": "A24",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 4912,
+    "tickets": 582,
+    "id": "barely-lethal"
+  },
+  {
+    "title": "Arabian Nights: Volume 2, The Desolate One",
+    "released": "2015-12-11",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4839,
+    "tickets": 574,
+    "id": "arabian-nights-volume-2-the-desolate-one"
+  },
+  {
+    "title": "Goodbye to All That",
+    "released": "2014-12-17",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4790,
+    "tickets": 568,
+    "id": "goodbye-to-all-that"
+  },
+  {
+    "title": "Miss Hill: Making Dance Matter",
+    "released": "2015-01-23",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 4706,
+    "tickets": 558,
+    "id": "miss-hill-making-dance-matter"
+  },
+  {
+    "title": "Ashby",
+    "released": "2015-09-25",
+    "distributor": "Film Arcade",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 4631,
+    "tickets": 549,
+    "id": "ashby"
+  },
+  {
+    "title": "Seeds of Time",
+    "released": "2015-05-22",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 4630,
+    "tickets": 549,
+    "id": "seeds-of-time"
+  },
+  {
+    "title": "Tango Negro: The African Roots of Tango",
+    "released": "2015-08-14",
+    "distributor": "ArtMattan Productions",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 4593,
+    "tickets": 544,
+    "id": "tango-negro-the-african-roots-of-tango"
+  },
+  {
+    "title": "52 Tuesdays",
+    "released": "2015-03-27",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4484,
+    "tickets": 531,
+    "id": "52-tuesdays"
+  },
+  {
+    "title": "Farwell, Herr Schwartz",
+    "released": "2015-01-09",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 4455,
+    "tickets": 528,
+    "id": "farwell-herr-schwartz"
+  },
+  {
+    "title": "The Sacrifice",
+    "released": "2014-11-07",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4442,
+    "tickets": 526,
+    "id": "the-sacrifice"
+  },
+  {
+    "title": "Back in Time",
+    "released": "2014-12-12",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 4330,
+    "tickets": 513,
+    "id": "back-in-time"
+  },
+  {
+    "title": "Days of Grace",
+    "released": "2015-05-01",
+    "distributor": "Cinema Libre",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 4308,
+    "tickets": 511,
+    "id": "days-of-grace"
+  },
+  {
+    "title": "The Blade of Don Juan",
+    "released": "2015-09-18",
+    "distributor": "Indican Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 4254,
+    "tickets": 504,
+    "id": "the-blade-of-don-juan"
+  },
+  {
+    "title": "What We Did on Our Holiday",
+    "released": "2015-07-10",
+    "distributor": "Lionsgate",
+    "genre": "Comedy",
+    "rating": "PG-13",
+    "gross": 4200,
+    "tickets": 498,
+    "id": "what-we-did-on-our-holiday"
+  },
+  {
+    "title": "The Worst Movie EVER!",
+    "released": "2011-08-19",
+    "distributor": "Hiltz Squared",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 4196,
+    "tickets": 497,
+    "id": "the-worst-movie-ever"
+  },
+  {
+    "title": "Three Night Stand",
+    "released": "2015-01-16",
+    "distributor": "Myriad Entertainment Group",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 4076,
+    "tickets": 483,
+    "id": "three-night-stand"
+  },
+  {
+    "title": "Salvation Army",
+    "released": "2015-01-23",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3929,
+    "tickets": 466,
+    "id": "salvation-army"
+  },
+  {
+    "title": "La rançon de la gloire",
+    "released": "2015-05-08",
+    "distributor": "Mongrel Media",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 3926,
+    "tickets": 465,
+    "id": "la-ranon-de-la-gloire"
+  },
+  {
+    "title": "Unfreedom",
+    "released": "2015-05-29",
+    "distributor": "Dark Frames",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3778,
+    "tickets": 448,
+    "id": "unfreedom"
+  },
+  {
+    "title": "She's Lost Control",
+    "released": "2015-03-20",
+    "distributor": "Monument Releasing",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3740,
+    "tickets": 443,
+    "id": "shes-lost-control"
+  },
+  {
+    "title": "In the Basement",
+    "released": "2015-11-06",
+    "distributor": "Strand",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 3643,
+    "tickets": 432,
+    "id": "in-the-basement"
+  },
+  {
+    "title": "Fidelio Alice's Journey",
+    "released": "2015-07-17",
+    "distributor": "First Run Features",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3580,
+    "tickets": 424,
+    "id": "fidelio-alices-journey"
+  },
+  {
+    "title": "Jenny's Wedding",
+    "released": "2015-07-31",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 3540,
+    "tickets": 419,
+    "id": "jennys-wedding"
+  },
+  {
+    "title": "That Sugar Film",
+    "released": "2015-07-31",
+    "distributor": "IDP/Samuel Goldwyn Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 3500,
+    "tickets": 415,
+    "id": "that-sugar-film"
+  },
+  {
+    "title": "Blackhats",
+    "released": "2015-10-23",
+    "distributor": "Reel One Entertainment / Supremacy Films",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 3442,
+    "tickets": 408,
+    "id": "blackhats"
+  },
+  {
+    "title": "Hyena",
+    "released": "2015-05-01",
+    "distributor": "TriBeca Films",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 3401,
+    "tickets": 403,
+    "id": "hyena"
+  },
+  {
+    "title": "Know How",
+    "released": "2015-05-15",
+    "distributor": "First Run Features",
+    "genre": "Musical",
+    "rating": "Not Rated",
+    "gross": 3323,
+    "tickets": 394,
+    "id": "know-how"
+  },
+  {
+    "title": "Tip Top",
+    "released": "2014-12-12",
+    "distributor": "Kino Lorber",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 3318,
+    "tickets": 393,
+    "id": "tip-top"
+  },
+  {
+    "title": "Windsor Drive",
+    "released": "2015-08-28",
+    "distributor": "Indican Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 3256,
+    "tickets": 386,
+    "id": "windsor-drive"
+  },
+  {
+    "title": "Dreams Rewired",
+    "released": "2015-12-16",
+    "distributor": "Icarus Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 3240,
+    "tickets": 384,
+    "id": "dreams-rewired"
+  },
+  {
+    "title": "Wild Card",
+    "released": "2015-01-30",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 3200,
+    "tickets": 379,
+    "id": "wild-card"
+  },
+  {
+    "title": "Xenia",
+    "released": "2015-10-09",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3181,
+    "tickets": 377,
+    "id": "xenia"
+  },
+  {
+    "title": "Allure",
+    "released": "2015-03-06",
+    "distributor": 0,
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3130,
+    "tickets": 371,
+    "id": "allure"
+  },
+  {
+    "title": "Anita Ho",
+    "released": "2014-02-27",
+    "distributor": "Indican Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 3050,
+    "tickets": 361,
+    "id": "anita-ho"
+  },
+  {
+    "title": "The Way He Looks",
+    "released": "2014-11-07",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 3043,
+    "tickets": 360,
+    "id": "the-way-he-looks"
+  },
+  {
+    "title": "Julia",
+    "released": "2015-10-23",
+    "distributor": "Archstone Entertainment",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 2710,
+    "tickets": 321,
+    "id": "julia"
+  },
+  {
+    "title": "Chocolat",
+    "released": "2015-09-18",
+    "distributor": "The Film Desk",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 2710,
+    "tickets": 321,
+    "id": "chocolat"
+  },
+  {
+    "title": "The Blue Room",
+    "released": "2014-10-03",
+    "distributor": "IFC Films",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 2684,
+    "tickets": 318,
+    "id": "the-blue-room"
+  },
+  {
+    "title": "On War",
+    "released": "2015-11-20",
+    "distributor": "Indican Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 2672,
+    "tickets": 316,
+    "id": "on-war"
+  },
+  {
+    "title": "Body",
+    "released": "2015-12-11",
+    "distributor": "Oscilloscope Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 2634,
+    "tickets": 312,
+    "id": "body"
+  },
+  {
+    "title": "Hayride 2",
+    "released": "2015-03-06",
+    "distributor": "Freestyle Releasing",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 2571,
+    "tickets": 304,
+    "id": "hayride-2"
+  },
+  {
+    "title": "L.A. Slasher",
+    "released": "2015-06-26",
+    "distributor": "Archstone Entertainment",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 2421,
+    "tickets": 287,
+    "id": "la-slasher"
+  },
+  {
+    "title": "Me, You and Five Bucks",
+    "released": "2015-09-28",
+    "distributor": "Indican Pictures",
+    "genre": "Romantic Comedy",
+    "rating": "Not Rated",
+    "gross": 2105,
+    "tickets": 249,
+    "id": "me-you-and-five-bucks"
+  },
+  {
+    "title": "Manuscripts Don't Burn",
+    "released": "2014-06-13",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 2016,
+    "tickets": 239,
+    "id": "manuscripts-dont-burn"
+  },
+  {
+    "title": "Tracers",
+    "released": "2015-03-20",
+    "distributor": "Lionsgate",
+    "genre": "Action",
+    "rating": "PG-13",
+    "gross": 2000,
+    "tickets": 237,
+    "id": "tracers"
+  },
+  {
+    "title": "Women Who Flirt",
+    "released": "2014-11-26",
+    "distributor": "China Lion Film Distribution",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 1973,
+    "tickets": 234,
+    "id": "women-who-flirt"
+  },
+  {
+    "title": "Sneakerheadz",
+    "released": "2015-08-07",
+    "distributor": "Submarine Deluxe",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1903,
+    "tickets": 225,
+    "id": "sneakerheadz"
+  },
+  {
+    "title": "The Lady in the Car With Glasses and A Gun",
+    "released": "2015-12-18",
+    "distributor": "Magnolia Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 1901,
+    "tickets": 225,
+    "id": "the-lady-in-the-car-with-glasses-and-a-gun"
+  },
+  {
+    "title": "Life Partners",
+    "released": "2014-12-05",
+    "distributor": "Magnolia Pictures",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 1870,
+    "tickets": 221,
+    "id": "life-partners"
+  },
+  {
+    "title": "Everly",
+    "released": "2015-02-27",
+    "distributor": "RADiUS-TWC",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 1800,
+    "tickets": 213,
+    "id": "everly"
+  },
+  {
+    "title": "20,000 Days on Earth",
+    "released": "2014-09-17",
+    "distributor": "Drafthouse Films",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1788,
+    "tickets": 212,
+    "id": "20000-days-on-earth"
+  },
+  {
+    "title": "The Other Man: F.W. de Klerk and the End of Apartheid",
+    "released": "2015-02-06",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1747,
+    "tickets": 207,
+    "id": "the-other-man-fw-de-klerk-and-the-end-of-apartheid"
+  },
+  {
+    "title": "The Looking Glass",
+    "released": "2015-10-23",
+    "distributor": "First Run Features",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 1711,
+    "tickets": 202,
+    "id": "the-looking-glass"
+  },
+  {
+    "title": "The Summer of Sangaile",
+    "released": "2015-11-20",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 1700,
+    "tickets": 201,
+    "id": "the-summer-of-sangaile"
+  },
+  {
+    "title": "Drown",
+    "released": "2015-08-28",
+    "distributor": "Strand",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 1631,
+    "tickets": 193,
+    "id": "drown"
+  },
+  {
+    "title": "Cut Snake",
+    "released": "2015-10-16",
+    "distributor": "Monterey Media",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1625,
+    "tickets": 192,
+    "id": "cut-snake"
+  },
+  {
+    "title": "Forever",
+    "released": "2015-09-25",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1597,
+    "tickets": 189,
+    "id": "forever"
+  },
+  {
+    "title": "Making Rounds",
+    "released": "2015-10-30",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1484,
+    "tickets": 176,
+    "id": "making-rounds"
+  },
+  {
+    "title": "The Captive",
+    "released": "2014-12-12",
+    "distributor": "A24",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 1457,
+    "tickets": 172,
+    "id": "the-captive"
+  },
+  {
+    "title": "The Pardon",
+    "released": "2013-03-22",
+    "distributor": "Self Distributed",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "gross": 1418,
+    "tickets": 168,
+    "id": "the-pardon"
+  },
+  {
+    "title": "Son of a Gun",
+    "released": "2015-01-23",
+    "distributor": "A24",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 1411,
+    "tickets": 167,
+    "id": "son-of-a-gun"
+  },
+  {
+    "title": "Eternity: The Movie",
+    "released": "2014-10-17",
+    "distributor": "Vagrant Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 1390,
+    "tickets": 164,
+    "id": "eternity-the-movie"
+  },
+  {
+    "title": "Faith Connections",
+    "released": "2014-09-12",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1339,
+    "tickets": 158,
+    "id": "faith-connections"
+  },
+  {
+    "title": "3 Nights in the Desert",
+    "released": "2015-02-06",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 1297,
+    "tickets": 153,
+    "id": "3-nights-in-the-desert"
+  },
+  {
+    "title": "It's Hard Being Loved by Jerks",
+    "released": "2015-03-13",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1279,
+    "tickets": 151,
+    "id": "its-hard-being-loved-by-jerks"
+  },
+  {
+    "title": "Skin Trade",
+    "released": "2015-05-08",
+    "distributor": "Magnolia Pictures",
+    "genre": "Action",
+    "rating": "R",
+    "gross": 1242,
+    "tickets": 147,
+    "id": "skin-trade"
+  },
+  {
+    "title": "The Decent One",
+    "released": "2014-10-01",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 1087,
+    "tickets": 128,
+    "id": "the-decent-one"
+  },
+  {
+    "title": "United Passions",
+    "released": "2015-06-05",
+    "distributor": "Screen Media Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 918,
+    "tickets": 108,
+    "id": "united-passions"
+  },
+  {
+    "title": "Half of a Yellow Sun",
+    "released": "2014-05-16",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 884,
+    "tickets": 104,
+    "id": "half-of-a-yellow-sun"
+  },
+  {
+    "title": "Big Muddy",
+    "released": "2015-01-23",
+    "distributor": "Monterey Media",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 881,
+    "tickets": 104,
+    "id": "big-muddy"
+  },
+  {
+    "title": "[REC] 4: Apocalypse",
+    "released": "2015-01-02",
+    "distributor": "Magnolia Pictures",
+    "genre": "Horror",
+    "rating": "R",
+    "gross": 837,
+    "tickets": 99,
+    "id": "rec-4-apocalypse"
+  },
+  {
+    "title": "Through a Lens Darkly",
+    "released": "2014-08-27",
+    "distributor": "First Run Features",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 728,
+    "tickets": 86,
+    "id": "through-a-lens-darkly"
+  },
+  {
+    "title": "It's All So Quiet",
+    "released": "2015-01-09",
+    "distributor": "Big World Pictures",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 724,
+    "tickets": 85,
+    "id": "its-all-so-quiet"
+  },
+  {
+    "title": "A Summer's Tale",
+    "released": "2014-06-20",
+    "distributor": "Big World Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 664,
+    "tickets": 78,
+    "id": "a-summers-tale"
+  },
+  {
+    "title": "Fonzy",
+    "released": "2015-06-20",
+    "distributor": "Distrib Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 644,
+    "tickets": 76,
+    "id": "fonzy"
+  },
+  {
+    "title": "Chic!",
+    "released": "2015-05-01",
+    "distributor": "Distrib Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 587,
+    "tickets": 69,
+    "id": "chic"
+  },
+  {
+    "title": "Patch Town",
+    "released": "2015-06-05",
+    "distributor": "Kino Lorber",
+    "genre": "Adventure",
+    "rating": "Not Rated",
+    "gross": 584,
+    "tickets": 69,
+    "id": "patch-town"
+  },
+  {
+    "title": "Finding Fela!",
+    "released": "2014-08-01",
+    "distributor": "Kino Lorber",
+    "genre": "Documentary",
+    "rating": "Not Rated",
+    "gross": 554,
+    "tickets": 65,
+    "id": "finding-fela"
+  },
+  {
+    "title": "Two-Bit Waltz",
+    "released": "2014-10-24",
+    "distributor": "Monterey Media",
+    "genre": "Comedy",
+    "rating": "R",
+    "gross": 554,
+    "tickets": 65,
+    "id": "two-bit-waltz"
+  },
+  {
+    "title": "The Olivia Experiment",
+    "released": "2014-08-22",
+    "distributor": "Indican Pictures",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 500,
+    "tickets": 59,
+    "id": "the-olivia-experiment"
+  },
+  {
+    "title": "Jimmy P.",
+    "released": "2014-02-14",
+    "distributor": "IFC Films",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 483,
+    "tickets": 57,
+    "id": "jimmy-p"
+  },
+  {
+    "title": "Love is Strange",
+    "released": "2014-08-22",
+    "distributor": "Sony Pictures Classics",
+    "genre": "Drama",
+    "rating": "R",
+    "gross": 352,
+    "tickets": 41,
+    "id": "love-is-strange"
+  },
+  {
+    "title": "The Chambermaid",
+    "released": "2015-05-29",
+    "distributor": "Film Movement",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 315,
+    "tickets": 37,
+    "id": "the-chambermaid"
+  },
+  {
+    "title": "El Nino",
+    "released": "2015-04-17",
+    "distributor": "Distrib Films",
+    "genre": "Thriller/Suspense",
+    "rating": "Not Rated",
+    "gross": 245,
+    "tickets": 29,
+    "id": "el-nino"
+  },
+  {
+    "title": "Exhibition",
+    "released": "2014-06-20",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 187,
+    "tickets": 22,
+    "id": "exhibition"
+  },
+  {
+    "title": "Lou!",
+    "released": "2015-04-24",
+    "distributor": "Distrib Films",
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 88,
+    "tickets": 10,
+    "id": "lou"
+  },
+  {
+    "title": "Memphis",
+    "released": "2014-09-05",
+    "distributor": "Kino Lorber",
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 54,
+    "tickets": 6,
+    "id": "memphis"
+  },
+  {
+    "title": "Paranoid Girls",
+    "released": "2015-11-19",
+    "distributor": 0,
+    "genre": "Comedy",
+    "rating": "Not Rated",
+    "gross": 54,
+    "tickets": 6,
+    "id": "paranoid-girls"
+  },
+  {
+    "title": "The Historian",
+    "released": "2014-11-07",
+    "distributor": 0,
+    "genre": "Drama",
+    "rating": "Not Rated",
+    "gross": 36,
+    "tickets": 4,
+    "id": "the-historian"
+  },
+  {
+    "title": "Pioneer",
+    "released": "2014-12-05",
+    "distributor": "Magnolia Pictures",
+    "genre": "Thriller/Suspense",
+    "rating": "R",
+    "gross": 24,
+    "tickets": 2,
+    "id": "pioneer"
+  }
+]
