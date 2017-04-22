@@ -8,7 +8,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 		.state('home', {
 			url: '/home',
 			templateUrl: 'partials/home.html',
-			controller: 'MoviesCtrl'
+			controller: 'HomeCtrl'
 		})
 		.state('about', {
 			url: '/about',
@@ -19,10 +19,10 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 			templateUrl: 'partials/blog.html',
 			controller: 'BlogCtrl'
 		})
-		.state('detail', {
-			url: '/details/:movie',
+		.state('suggestion', {
+			url: '/suggestion/:category',
 			templateUrl: 'partials/movie-detail.html',
-			controller: 'DetailsCtrl'
+			controller: 'SuggestCtrl'
 		})
 		.state('watchlist', {
 			url: '/watchlist',
@@ -33,13 +33,22 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 }]);
 
 //For movie list
-myApp.controller('MoviesCtrl', ['$scope', '$http', function ($scope, $http) {
-  $scope.ordering = '-gross'; //default ordering
+myApp.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
+  // $scope.ordering = '-gross'; //default ordering
+  $scope.categories = [
+  'sad', 'happy', 'aggressive', 'acoustic', 'instrumental',
+  'relaxing', 'atonal', 'danceable', 'party', 'dark', 'bright'
+  ];
 
-  $http.get('data/movies-2015.json').then(function (response) {
-		var data = response.data;
-		$scope.movies = data;
-  });
+  $scope.clickCategory = function(category) {
+	console.log('you clicked:' + category);
+  }
+
+
+  // $http.get('data/movies-2015.json').then(function (response) {
+		// var data = response.data;
+		// $scope.movies = data;
+  // });
 }]);
 
 //For movie blog
@@ -64,33 +73,34 @@ myApp.controller('BlogCtrl', ['$scope', '$http', '$filter', function ($scope, $h
 }]);
 
 //For movie details
-myApp.controller('DetailsCtrl', ['$scope', '$stateParams', '$filter', '$http', 'watchlistService', function ($scope, $stateParams, $filter, $http, watchlistService) {
+myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'watchlistService', function ($scope, $stateParams, $filter, $http, watchlistService) {
 	//console.log($stateParams.movie);
+	$scope.category = $stateParams.category;
 
-  $http.get('data/movies-2015.json').then(function (response) {
-		var movies = response.data;
+ //  $http.get('data/movies-2015.json').then(function (response) {
+	// 	var movies = response.data;
 
-		var targetObj = $filter('filter')(movies, { //filter the array
-			id: $stateParams.movie //for items whose id property is targetId
-		}, true)[0]; //save the 0th result
+	// 	var targetObj = $filter('filter')(movies, { //filter the array
+	// 		id: $stateParams.movie //for items whose id property is targetId
+	// 	}, true)[0]; //save the 0th result
 
-		$scope.movie = targetObj;
+	// 	$scope.movie = targetObj;
 
-		var omdbUri = 'http://www.omdbapi.com/?t=' + $scope.movie.title;
-		return $http.get(omdbUri); //launch request and return promise for later
-  })
-	.then(function (response) { //on response from OMDB
-		//save some omdb specific fields
-		$scope.movie.Title = response.data.Title;
-		$scope.movie.Year = response.data.Year;
-		$scope.movie.imdbID = response.data.imdbID;
-		$scope.movie.Poster = response.data.Poster;
-		$scope.movie.Plot = response.data.Plot;
-	});
+	// 	var omdbUri = 'http://www.omdbapi.com/?t=' + $scope.movie.title;
+	// 	return $http.get(omdbUri); //launch request and return promise for later
+ //  })
+	// .then(function (response) { //on response from OMDB
+	// 	//save some omdb specific fields
+	// 	$scope.movie.Title = response.data.Title;
+	// 	$scope.movie.Year = response.data.Year;
+	// 	$scope.movie.imdbID = response.data.imdbID;
+	// 	$scope.movie.Poster = response.data.Poster;
+	// 	$scope.movie.Plot = response.data.Plot;
+	// });
 
-	$scope.saveMovie = function(movie) {
-		watchlistService.addMovie(movie);
-	};
+	// $scope.saveMovie = function(movie) {
+	// 	watchlistService.addMovie(movie);
+	// };
 }]);
 
 

@@ -8,8 +8,12 @@
 			<label for="searchTerm"><i class="fa fa-search" aria-label="Search"></i></label>
 			<input type="text" name="search" id="searchTerm" placeholder="Enter a search term..." ng-model="searchTerm">
 		</form>
-	<div>
-		<table class="table">
+	<div class="row">
+		<div class="col-*-4" ng-repeat="category in categories">
+			<p><a ui-sref="suggestion({'category': category})">{{category}}</a></p>
+		</div>
+
+		<!-- <table class="<table</table>ble">
 			<caption>More information about this Pokemon</caption>
 			<tr>
 				<th><a href="" ng-click="ordering='title'">Name</a></th>
@@ -24,6 +28,6 @@
 				<td>{{movie.genre}}</td>
 				<td>{{movie.gross | currency:'$':0}}</td>
 				<td>{{movie.distributor}}</td>
-		</table>
+		</table> -->
 	</div>
 </main>
