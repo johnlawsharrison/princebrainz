@@ -86,3 +86,29 @@ footer {
   padding-bottom: 10px;
   background-color: #f5f5f5;
 }
+
+
+/* boxy goodness */
+
+.row {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.catBox {
+	width: 300px;
+	margin: 10px;
+	border: purple 3px solid;
+	background-color: lavender;
+	/*color: white;*/
+}
+
+.catBox > p {
+	text-align: center;
+	color: white;
+	padding: 20px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	/*font-weight: 800;*/
+	font-family: Helvetica, Arial, sans-serif;
+}

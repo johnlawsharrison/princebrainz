@@ -9,7 +9,7 @@
 			<input type="text" name="search" id="searchTerm" placeholder="Enter a search term..." ng-model="searchTerm">
 		</form>
 	<div class="row">
-		<div class="col-*-4" ng-repeat="category in categories">
+		<div class="catBox" ng-repeat="category in categories">
 			<p><a ui-sref="suggestion({'category': category})">{{category}}</a></p>
 		</div>
 
