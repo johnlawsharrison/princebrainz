@@ -1,6 +1,14 @@
 <main class="container">
 
-<div><p>Here's a song that we think is {{category}}</p></div>
+<div>
+	<p>Here's a song that we think is {{category | capitalize}}</p>
+	<div class="row">
+		<div class="col-*-3">
+			<p>Media player/image goes here</p>
+		</div>
+		<div></div>
+	</div>
+</div>
 <div ng-repeat='song in songsInCategory'>
 	<p>{{song.metadata.tags.title[0]}}</p>
 </div>

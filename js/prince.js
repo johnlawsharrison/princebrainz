@@ -21,7 +21,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 		})
 		.state('suggestion', {
 			url: '/suggestion/:category',
-			templateUrl: 'partials/movie-detail.html',
+			templateUrl: 'partials/suggestion.html',
 			controller: 'SuggestCtrl'
 		})
 		.state('watchlist', {
@@ -77,34 +77,11 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	//console.log($stateParams.movie);
 	$scope.category = $stateParams.category;
 
-	$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
+	// TODO: this only works for tags that are "moods" (happy, sad, aggressive, acoustic, party)
+	$scope.songsInCategory = $filter('filterByMood')(songDataService.data, $stateParams.category);
 
 	console.log($scope.songsInCategory);
 	console.log(songDataService.data);
-
- //  $http.get('data/movies-2015.json').then(function (response) {
-	// 	var movies = response.data;
-
-	// 		id: $stateParams.movie //for items whose id property is targetId
-	// 	}, true)[0]; //save the 0th result
-
-	// 	$scope.movie = targetObj;
-
-	// 	var omdbUri = 'http://www.omdbapi.com/?t=' + $scope.movie.title;
-	// 	return $http.get(omdbUri); //launch request and return promise for later
- //  })
-	// .then(function (response) { //on response from OMDB
-	// 	//save some omdb specific fields
-	// 	$scope.movie.Title = response.data.Title;
-	// 	$scope.movie.Year = response.data.Year;
-	// 	$scope.movie.imdbID = response.data.imdbID;
-	// 	$scope.movie.Poster = response.data.Poster;
-	// 	$scope.movie.Plot = response.data.Plot;
-	// });
-
-	// $scope.saveMovie = function(movie) {
-	// 	watchlistService.addMovie(movie);
-	// };
 }]);
 
 
@@ -176,7 +153,7 @@ myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 	return service;
 }]);
 
-myApp.filter('filterByCategory', function() {
+myApp.filter('filterByMood', function() {
 	return function(input, category) {
 		var filtered = []
 		angular.forEach(input, function(item) {
@@ -189,4 +166,10 @@ myApp.filter('filterByCategory', function() {
 		});
 		return filtered;
 	}
-})
+});
+
+app.filter('capitalize', function() {
+    return function(input) {
+      return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+    }
+});
