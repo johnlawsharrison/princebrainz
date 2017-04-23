@@ -20,7 +20,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 
 // controller for main view
 myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
-  $scope.categories = Object.keys(_SEARCH_KEYS);
+	$scope.categories = Object.keys(_SEARCH_KEYS);
 }]);
 
 // controller for the suggestion view
