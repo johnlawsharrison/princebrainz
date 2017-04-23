@@ -1,7 +1,7 @@
 <main class="container">
 
 <div class="row">
-	<h3>Here's a song that we think is {{category | capitalize}}</h3>
+	<h3>Here's a song by Prince that sounds {{category | capitalize}}</h3>
 	<button type="button" class="btn btn-primary" ng-click="randomSong()">Suggest a different song</button>
 	<div class="col-md-4">
 		<p>Media player/image goes here</p>
@@ -16,6 +16,14 @@
 			<dd>{{suggestion.tonal.key_key}} {{suggestion.tonal.key_scale}}</dd>
 			<dt>BPM</dt>
 			<dd>{{suggestion.metadata.tags.bpm[0]}}</dd>
+			<dt>This track also sounds</dt>
+			<dd>
+				<ul>
+					<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
+						<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
+					</li>
+				</ul>
+			</dd>
 		</dl>
 	</div>
 </div>
