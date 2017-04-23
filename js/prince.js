@@ -1,6 +1,6 @@
 'use strict';
 
-var myApp = angular.module('PrinceApp', ['ngSanitize', 'ui.router', 'ui.bootstrap', 'ngAudio']);
+var myApp = angular.module('PrinceApp', ['ngSanitize', 'ui.router', 'ngAudio', 'slick']);
 
 //configure routes
 myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
@@ -25,7 +25,6 @@ myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($s
 
 // controller for the suggestion view
 myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'ngAudio', 'songDataService', function ($scope, $stateParams, $filter, $http, ngAudio, songDataService) {
-	//console.log($stateParams.movie);
 	// load in our big json list of AcousticBrainz data
 	$scope.category = $stateParams.category;
 

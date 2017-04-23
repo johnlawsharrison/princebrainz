@@ -1,7 +1,7 @@
-<main class="container" role="main">
+<main class="container-fluid" role="main">
 	<div class="row" id="gridRow">
-		<div class="catBox" ng-repeat="category in categories">
-			<p><a ui-sref="suggestion({'category': category})">{{category | capitalize}}</a></p>
+		<div class="catBox col-md-3 col-sm-6" ng-repeat="category in categories">
+			<a class="align-middle" ui-sref="suggestion({'category': category})">{{category | capitalize}}</a>
 		</div>
 	</div>
 </main>
