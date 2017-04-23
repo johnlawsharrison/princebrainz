@@ -35,13 +35,13 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 			songDataService.data = response.data;
 			console.log("finished reloading data: " + songDataService.data.length + " songs");
 			// NOTE: probability tuning is really necessary
-			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.95);
+			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.65);
 
 			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
-		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.95);
+		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.65);
 		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 	}
 
@@ -79,8 +79,10 @@ myApp.filter('filterByCategory', function() {
 	return function(input, category, minProb) {
 		var filtered = [];
 		angular.forEach(input, function(item) {
-			var data = item.highlevel;
-			if (parseFloat(data[_SEARCH_KEYS[category]['key']]['probability']) >= parseFloat(minProb)) {
+			var data = item.highlevel[_SEARCH_KEYS[category]['key']]
+			console.log(data['value'] + ": " + data['probability']);
+			if (data['value'] === _SEARCH_KEYS[category]['expected'] && parseFloat(data['probability']) >= parseFloat(minProb)) {
+				console.log("found one: " + data['probability']);
 				filtered.push(item);
 			}
 		});
