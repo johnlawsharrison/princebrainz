@@ -1,14 +1,5 @@
-	<header class="container">
-		<h1>The Year in Movies: 2015</h1>
-		<p class="lead">Movies released during 2015</p>
-	</header>
-
-  <main class="container" role="main">
-		<form role="form" class="form-inline">
-			<label for="searchTerm"><i class="fa fa-search" aria-label="Search"></i></label>
-			<input type="text" name="search" id="searchTerm" placeholder="Enter a search term..." ng-model="searchTerm">
-		</form>
-	<div class="row">
+<main class="container" role="main">
+	<div class="row" id="gridRow">
 		<div class="catBox" ng-repeat="category in categories">
 			<p><a ui-sref="suggestion({'category': category})">{{category}}</a></p>
 		</div>
