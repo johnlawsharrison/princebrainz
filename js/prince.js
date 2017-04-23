@@ -19,27 +19,31 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 }]);
 
 // controller for main view
-myApp.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
-  $scope.categories = [
-  'sad', 'happy', 'aggressive', 'acoustic', 'instrumental', 'electronic',
-  'relaxed', 'atonal', 'danceable', 'party', 'dark', 'bright'
-  ];
-
+myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
+  $scope.categories = Object.keys(_SEARCH_KEYS);
 }]);
 
 // controller for the suggestion view
-myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', function ($scope, $stateParams, $filter, $http) {
+myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'songDataService', function ($scope, $stateParams, $filter, $http, songDataService) {
 	//console.log($stateParams.movie);
 	// load in our big json list of AcousticBrainz data
 	$scope.category = $stateParams.category;
-	$scope.loaded = false;
-	$http.get('data/song-data.json').then(function (response) {
-		$scope.songData = response.data;
-		$scope.loaded = true;
-		console.log("finished loading data: " + $scope.songData.length);
-		$scope.songsInCategory = $filter('filterByCategory')($scope.songData, $stateParams.category);
+
+	if (songDataService.data == null) {
+		// reload the data (they probably refreshed)
+		$http.get('data/song-data.json').then(function (response) {
+			songDataService.data = response.data;
+			console.log("finished reloading data: " + songDataService.data.length + " songs");
+			// NOTE: probability tuning is really necessary
+			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.95);
+
+			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
+		});
+	} else {
+		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.95);
 		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
-	});
+	}
 
 	$scope.randomSong = function () {
 		// randomly pick a new suggestion (make sure its different than the current one)
@@ -55,12 +59,28 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', f
 	}
 }]);
 
+
+// service for managing access to song data (without reloading all the time)
+myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
+	var service = {}
+
+	// load in our big json list of low-level AcousticBrainz data
+	$http.get('data/song-data.json').then(function (response) {
+		service.data = response.data;
+		console.log("finished loading data: " + service.data.length);
+	});
+
+	return service;
+}]);
+
+
+// filter songs by category, with a specified minimum probability of membership
 myApp.filter('filterByCategory', function() {
-	return function(input, category) {
+	return function(input, category, minProb) {
 		var filtered = [];
 		angular.forEach(input, function(item) {
 			var data = item.highlevel;
-			if (data[_SEARCH_KEYS[category]['key']]['value'] === _SEARCH_KEYS[category]['expected']) {
+			if (parseFloat(data[_SEARCH_KEYS[category]['key']]['probability']) >= parseFloat(minProb)) {
 				filtered.push(item);
 			}
 		});

@@ -2,14 +2,15 @@
 
 <h3>Here's a song by Prince that sounds {{category | capitalize}}</h3>
 <button type="button" class="btn btn-primary" ng-click="randomSong()">Suggest another {{category}} song</button>
-<div class="row" ng-show="loaded">
+<div class="row">
 	<div class="col-md-4">
 		<p>Media player/image goes here</p>
 	</div>
-	<div class="col-md-8" id="songDetail">
+	<div class="col-md-8" id="songDetail" ng-show="songsInCategory">
 		<p>
 		{{suggestion.metadata.tags.title[0]}} 
 		- {{suggestion.metadata.tags.album[0]}} ({{suggestion.metadata.tags.originalyear[0]}})
+		{{probability}}
 		</p>
 		<dl>
 			<dt>Key</dt>
@@ -27,8 +28,11 @@
 		</dl>
 	</div>
 </div>
+<div class="debug">
+	<p>{{suggestion}}</p>
+</div>
 <div class="row" id="otherSongs">
-	<h3>Other {{category | capitalize}} songs by Prince</h3>
+	<h3>Other {{category | capitalize}} songs by Prince ({{songsInCategory.length}})</h3>
 	<div ng-repeat='song in songsInCategory'>
 		<a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a>
 	</div>
