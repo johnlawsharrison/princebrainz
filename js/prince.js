@@ -10,24 +10,10 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 			templateUrl: 'partials/home.html',
 			controller: 'HomeCtrl'
 		})
-		.state('about', {
-			url: '/about',
-			templateUrl: 'partials/about.html'
-		})
-		.state('blog', {
-			url: '/musings',
-			templateUrl: 'partials/blog.html',
-			controller: 'BlogCtrl'
-		})
 		.state('suggestion', {
 			url: '/suggestion/:category',
 			templateUrl: 'partials/suggestion.html',
 			controller: 'SuggestCtrl'
-		})
-		.state('watchlist', {
-			url: '/watchlist',
-			templateUrl: 'partials/watchlist.html',
-			controller: 'WatchListCtrl'
 		})
 		$urlRouterProvider.otherwise('/home');
 }]);
@@ -50,6 +36,8 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	// TODO: this only works for tags that are "moods" (happy, sad, aggressive, acoustic, party)
 	$scope.songsInCategory = $filter('filterByMood')(songDataService.data, $stateParams.category);
 	$scope.suggestion = $scope.songsInCategory[0];
+	console.log($scope.suggestion.metadata.tags.musicbrainz_trackid);
+	console.log($scope.suggestion.rhythm.danceability);
 
 }]);
 
@@ -123,6 +111,21 @@ myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 }]);
 
 myApp.filter('filterByMood', function() {
+	return function(input, category) {
+		var filtered = []
+		angular.forEach(input, function(item) {
+			if (item.metadata && item.metadata.tags) {
+				var moods = item.metadata.tags.mood;
+				if (moods && moods.indexOf(category) !== -1) {
+					filtered.push(item)
+				}
+			}
+		});
+		return filtered;
+	}
+});
+
+myApp.filter('filterByDanceability', function() {
 	return function(input, category) {
 		var filtered = []
 		angular.forEach(input, function(item) {
