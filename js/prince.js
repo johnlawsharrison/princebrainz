@@ -42,11 +42,17 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
+		if ($scope.audio) {
+			$scope.audio.stop();
+		}
 		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
 		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+		$scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
+
 	}
 
 	$scope.randomSong = function () {
+		$scope.audio.stop();
 		// randomly pick a new suggestion (make sure its different than the current one)
 		var song = $scope.suggestion;
 		do {
@@ -57,6 +63,7 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	};
 
 	$scope.newSong = function (song) {
+		$scope.audio.stop();
 		$scope.suggestion = song;
 		$scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
 	}
@@ -86,7 +93,7 @@ myApp.filter('filterByCategory', function() {
 			var data = item.highlevel[_SEARCH_KEYS[category]['key']]
 			// console.log(data['value'] + ": " + data['probability']);
 			if (data['value'] === _SEARCH_KEYS[category]['expected'] && parseFloat(data['probability']) >= parseFloat(minProb)) {
-				console.log("found one: " + data['probability']);
+				// console.log("found one: " + data['probability']);
 				filtered.push(item);
 			}
 		});
