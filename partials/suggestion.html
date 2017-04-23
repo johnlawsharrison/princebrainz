@@ -2,7 +2,7 @@
 
 <div class="row">
 	<h3>Here's a song that we think is {{category | capitalize}}</h3>
-	<button type="button" class="btn btn-primary" ng-click="newSong()">Suggest a different song</button>
+	<button type="button" class="btn btn-primary" ng-click="randomSong()">Suggest a different song</button>
 	<div class="col-md-4">
 		<p>Media player/image goes here</p>
 	</div>
@@ -13,7 +13,7 @@
 		</p>
 		<dl>
 			<dt>Key</dt>
-			<dd>{{suggestion.tonal.key_key}}</dd>
+			<dd>{{suggestion.tonal.key_key}} {{suggestion.tonal.key_scale}}</dd>
 			<dt>BPM</dt>
 			<dd>{{suggestion.metadata.tags.bpm[0]}}</dd>
 		</dl>
@@ -22,6 +22,7 @@
 <div class="row" id="otherSongs">
 	<h3>Other {{category | capitalize}} songs by Prince</h3>
 	<div ng-repeat='song in songsInCategory'>
-	<p>{{song.metadata.tags.title[0]}}</p>
+		<a  ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a>
+	</div>
 </div>
 </main>

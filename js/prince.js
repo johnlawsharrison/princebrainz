@@ -32,15 +32,25 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	//console.log($stateParams.movie);
 	$scope.category = $stateParams.category;
 
-	// TODO: this only works for tags that are "moods" (happy, sad, aggressive, acoustic, party)
 	$scope.songsInCategory = $filter('filterByMood')(songDataService.data, $stateParams.category);
 	// pick a random song from this category to suggest
 	$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 
-	$scope.newSong = function () {
-		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+	$scope.randomSong = function () {
+		// randomly pick a new suggestion (make sure its different than the current one)
+		var song = $scope.suggestion;
+		do {
+			song = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+		} while (song.metadata.tags.musicbrainz_trackid[0] == $scope.suggestion.metadata.tags.musicbrainz_trackid[0]);
+		$scope.suggestion = song;
+	};
+
+	$scope.newSong = function (song) {
+		$scope.suggestion = song;
 	}
-	
+
+
+
 	console.log($scope.suggestion.metadata.tags.musicbrainz_trackid);
 	console.log($scope.suggestion.rhythm.danceability);
 
