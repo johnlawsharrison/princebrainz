@@ -19,22 +19,27 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 }]);
 
 // controller for main view
-myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
+myApp.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
   $scope.categories = [
-  'sad', 'happy', 'aggressive', 'acoustic', 'instrumental',
-  'relaxing', 'atonal', 'danceable', 'party', 'dark', 'bright'
+  'sad', 'happy', 'aggressive', 'acoustic', 'instrumental', 'electronic',
+  'relaxed', 'atonal', 'danceable', 'party', 'dark', 'bright'
   ];
 
 }]);
 
 // controller for the suggestion view
-myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'songDataService', function ($scope, $stateParams, $filter, $http, songDataService) {
+myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', function ($scope, $stateParams, $filter, $http) {
 	//console.log($stateParams.movie);
+	// load in our big json list of AcousticBrainz data
 	$scope.category = $stateParams.category;
-
-	$scope.songsInCategory = $filter('filterByMood')(songDataService.data, $stateParams.category);
-	// pick a random song from this category to suggest
-	$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+	$scope.loaded = false;
+	$http.get('data/song-data.json').then(function (response) {
+		$scope.songData = response.data;
+		$scope.loaded = true;
+		console.log("finished loading data: " + $scope.songData.length);
+		$scope.songsInCategory = $filter('filterByCategory')($scope.songData, $stateParams.category);
+		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+	});
 
 	$scope.randomSong = function () {
 		// randomly pick a new suggestion (make sure its different than the current one)
@@ -48,56 +53,21 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	$scope.newSong = function (song) {
 		$scope.suggestion = song;
 	}
-
-
-
-	console.log($scope.suggestion.metadata.tags.musicbrainz_trackid);
-	console.log($scope.suggestion.rhythm.danceability);
-
 }]);
 
-// service for managing access to song data
-myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
-	var service = {}
-
-	// load in our big json list of low-level AcousticBrainz data
-	$http.get('data/song-data.json').then(function (response) {
-		service.data = response.data;
-		console.log("finished loading data: " + service.data.length);
-	});
-
-	return service;
-}]);
-
-myApp.filter('filterByMood', function() {
+myApp.filter('filterByCategory', function() {
 	return function(input, category) {
-		var filtered = []
+		var filtered = [];
 		angular.forEach(input, function(item) {
-			if (item.metadata && item.metadata.tags) {
-				var moods = item.metadata.tags.mood;
-				if (moods && moods.indexOf(category) !== -1) {
-					filtered.push(item)
-				}
+			var data = item.highlevel;
+			if (data[_SEARCH_KEYS[category]['key']]['value'] === _SEARCH_KEYS[category]['expected']) {
+				filtered.push(item);
 			}
 		});
 		return filtered;
 	}
 });
 
-myApp.filter('filterByDanceability', function() {
-	return function(input, category) {
-		var filtered = []
-		angular.forEach(input, function(item) {
-			if (item.metadata && item.metadata.tags) {
-				var moods = item.metadata.tags.mood;
-				if (moods && moods.indexOf(category) !== -1) {
-					filtered.push(item)
-				}
-			}
-		});
-		return filtered;
-	}
-});
 
 myApp.filter('capitalize', function() {
     return function(input) {
