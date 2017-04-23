@@ -1,0 +1,17 @@
+{
+  "name": "princebrainz",
+  "homepage": "https://github.com/johnlawsharrison/princebrainz",
+  "authors": [
+    "John Laws Harrison <johnlawsharrison@gmail.com>"
+  ],
+  "description": "Exploring acoustic brainz data with Prince's catalog",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
