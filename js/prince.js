@@ -35,13 +35,13 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 			songDataService.data = response.data;
 			console.log("finished reloading data: " + songDataService.data.length + " songs");
 			// NOTE: probability tuning is really necessary
-			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.65);
+			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
 
 			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
-		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category, 0.65);
+		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
 		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 	}
 
@@ -76,7 +76,8 @@ myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 
 // filter songs by category, with a specified minimum probability of membership
 myApp.filter('filterByCategory', function() {
-	return function(input, category, minProb) {
+	return function(input, category) {
+		var minProb = _SEARCH_KEYS[category]['minProb'];
 		var filtered = [];
 		angular.forEach(input, function(item) {
 			var data = item.highlevel[_SEARCH_KEYS[category]['key']]

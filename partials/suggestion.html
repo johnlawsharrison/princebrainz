@@ -17,7 +17,7 @@
 			<dd>{{suggestion.tonal.key_key}} {{suggestion.tonal.key_scale}}</dd>
 			<dt>BPM</dt>
 			<dd>{{suggestion.metadata.tags.bpm[0]}}</dd>
-			<dt ng-show="suggestion.metadata.tags.mood.length > 1">This track also sounds</dt>
+			<dt ng-show="suggestion.metadata.tags.mood.length >= 1">This track also sounds</dt>
 			<dd>
 				<ul>
 					<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
@@ -28,9 +28,9 @@
 		</dl>
 	</div>
 </div>
-<div class="debug">
+<!-- <div class="debug">
 	<p>{{suggestion}}</p>
-</div>
+</div> -->
 <div class="row" id="otherSongs">
 	<h3>Other {{category | capitalize}} songs by Prince ({{songsInCategory.length}})</h3>
 	<div ng-repeat='song in songsInCategory'>
