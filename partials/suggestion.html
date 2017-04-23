@@ -4,7 +4,7 @@
 <button type="button" class="btn btn-primary" ng-click="randomSong()">Suggest another {{category}} song</button>
 <div class="row">
 	<div class="col-md-4">
-		<p>Media player/image goes here</p>
+		<button type="button" class="btn btn-primary" ng-audio="sounds/{{suggestion.metadata.musicbrainz_trackid}}">Play song</button>
 	</div>
 	<div class="col-md-8" id="songDetail" ng-show="songsInCategory">
 		<p>
