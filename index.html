@@ -17,21 +17,54 @@
 
 	<!-- <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css">
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
 </head>
 <body>
-	<nav class="navbar">
-	    <a class="navbar-brand" ui-sref="home" href="#" title="Prince">
-	        <img style="max-height:50px; margin-top: -7px;"
-	             src="img/Prince_logo.png">
-	    </a>
-	</nav>
-
-	<!--main was here-->
-	<div ui-view></div>
-
+	<!-- Simple header with scrollable tabs. -->
+<!-- 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-controller="NavCtrl">
+			<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title">Prince Brainz</span>
+			</div>
+			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+				<a class="mdl-layout__tab is-active" ng-repeat="category in categories" ui-sref="suggestion({'category': category})">{{category | capitalize}}</a>
+			</div>
+			</header>
+			<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Prince Brainz</span>
+			</div>
+			<main class="mdl-layout__content">
+				<div ui-view></div>	
+			</main>
+	</div> -->
+	<!-- Simple header with scrollable tabs. -->
+<div ng-controller="NavCtrl" ng-cloak>
+  <md-content class="md-padding">
+    <md-nav-bar
+      md-selected-nav-item="currentNavItem"
+      nav-bar-aria-label="navigation links">
+      <md-nav-item ng-repeat="category in categories" md-nav-sref="suggestion({'category': '{{category}}'})" name="{{category}}">
+        {{category | capitalize}}
+      </md-nav-item>
+      <!-- these require actual routing with ui-router or ng-route, so they
+      won't work in the demo
+      <md-nav-item md-nav-href="#page4" name="page5">Page Four</md-nav-item>
+      <md-nav-item md-nav-sref="app.page5" name="page4">Page Five</md-nav-item>
+      You can also add options for the <code>ui-sref-opts</code> attribute.
+      <md-nav-item md-nav-sref="page6" sref-opts="{reload:true, notify:true}">
+        Page Six
+      </md-nav-item>
+      -->
+    </md-nav-bar>
+</md-content>
+<div class="ext-content">
+	<div ui-view></div>	
+</div>
+</div>
 	<footer role="contentinfo">
 		<div class="container">
 			<p></p>
@@ -40,7 +73,9 @@
 	</footer>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.js"></script>
+	<script src="bower_components/angular-aria/angular-aria.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-material/angular-material.js"></script>
 	<script src="bower_components/tether/dist/js/tether.min.js"></script>
 	<!-- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>

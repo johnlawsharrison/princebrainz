@@ -51,19 +51,11 @@ moreTracks h3 {
     position: relative;
     text-align: center;
 }*/
-.slick-slide img {
-	border: 5px solid lavender;
-	display: block;
-	height: 300px;
-	width: 300px;
-	text-align: center;
-	/*width:100%;*/
+md-content .ext-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFF2E0;
 }
-
-slick .slick-prev:before, slick .slick-next:before {
-	color: lavender;
-}
-
 
 .catBox {
 	/*width: 300px;*/

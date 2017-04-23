@@ -1,6 +1,11 @@
 'use strict';
 
-var myApp = angular.module('PrinceApp', ['ngSanitize', 'ui.router', 'ngAudio', 'slick']);
+var myApp = angular.module('PrinceApp', ['ui.router', 'ngAudio', 'ngMaterial']).config(
+	function($mdThemingProvider) {
+		// color themes for angular material
+		$mdThemingProvider.theme('default').primaryPalette('deep-purple').accentPalette('purple');
+});
+
 
 //configure routes
 myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
@@ -23,9 +28,16 @@ myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($s
 	$scope.categories = Object.keys(_SEARCH_KEYS);
 }]);
 
+// controller for nav
+myApp.controller('NavCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
+	$scope.categories = Object.keys(_SEARCH_KEYS);
+	$scope.currentNavItem = 'page1';
+}]);
+
 // controller for the suggestion view
 myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'ngAudio', 'songDataService', function ($scope, $stateParams, $filter, $http, ngAudio, songDataService) {
 	// load in our big json list of AcousticBrainz data
+	console.log($stateParams);
 	$scope.category = $stateParams.category;
 
 	if (songDataService.data == null) {
@@ -33,7 +45,7 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 		$http.get('data/song-data.json').then(function (response) {
 			songDataService.data = response.data;
 			console.log("finished reloading data: " + songDataService.data.length + " songs");
-			// NOTE: probability tuning is really necessary
+
 			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
 
 			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
