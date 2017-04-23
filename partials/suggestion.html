@@ -1,34 +1,34 @@
 <main class="container">
 <h2>Here's a song by Prince that sounds {{category | capitalize}}</h2>
-<!-- <section class="row" id="suggested"> -->
-	 <slick class="slider multiple-items" data="songsInCategory" responsive="breakpoints">
+	<slick slides-to-show=1 slides-to-scroll=1 init-onload=true data="songsInCategory" speed="1000" class="slider single-item">
 	 	<div ng-repeat='song in songsInCategory'>
-			<img  id="albumArt" src="img/Prince_logo.png" alt="album art">
-			<div >
-				<h4 >{{song.metadata.tags.title[0]}}</h4>
+	 		<div>
+				<img class="albumArt" src="img/Prince_logo.png" alt="album art">
 			</div>
-			<div >
+			<div>
+				<h4>{{song.metadata.tags.title[0]}}</h4>
+				<p>{{song.metadata.tags.album[0]}} ({{song.metadata.tags.originalyear[0]}})</p>
 				<ul class="list-inline">
 					<li><strong>Key</strong> - {{song.tonal.key_key}} {{song.tonal.key_scale}}</li>
 					<li><strong>BPM</strong> - {{song.metadata.tags.bpm[0]}}</li>
 				</ul>
-			</div>
-			<div ng-show="suggestion.metadata.tags.mood.length >= 1">
-				<dt ng-show="suggestion.metadata.tags.mood.length >= 1">This track also sounds</dt>
-				<dd>
-					<ul>
-						<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
-							<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
-						</li>
-					</ul>
-				</dd>
-			</div>
-			<div>
-				<button type="button" class="btn btn-success" ng-click="audio.play()">Play</button>
-				<button type="button" class="btn btn-warning" ng-click='audio.pause()'>Pause</button>
-			</div>
-			<div>
-				<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
+				<div ng-show="song.metadata.tags.mood.length >= 1">
+					<dt>This track also sounds</dt>
+					<dd>
+						<ul>
+							<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
+								<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
+							</li>
+						</ul>
+					</dd>
+				</div>
+				<div>
+					<button type="button" class="btn btn-success" ng-click="audio.play()">Play</button>
+					<button type="button" class="btn btn-warning" ng-click='audio.pause()'>Pause</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
+				</div>
 			</div>
 		</div>
 	</slick>
@@ -60,12 +60,12 @@
 			<div class="card-block">
 				<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
 			</div>
-		</div> -->
+		</div>-->
 <!-- </section> -->
 <section class="row" id="moreTracks">
 	<h2>More tracks by Prince that sound <em>{{category}}</em></h2>
 	<slick infinite="true" slides-to-show=3 slides-to-scroll=3 init-onload=true data="songsInCategory" class="slider multiple-items">
-		<div ng-repeat='song in songsInCategory'>
+		<div ng-repeat="song in songsInCategory">
 			<h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3>
 		</div>
 	</slick>

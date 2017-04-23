@@ -33,30 +33,15 @@ footer {
   padding-top: 10px;
 }
 
-#albumArt {
-	height: 300px;
-	width: 300px;
-	margin:	10px;
+.albumArt {
+	height: 200px;
+	width: 200px;
 	padding: 2%;
-	text-align: center;
-}
-
-#songDetail {
-	margin: 10px;
-	padding: 2%;
-}
-
-.card-img-left {
-  border-bottom-left-radius: calc(.25rem - 1px);
-  border-top-left-radius: calc(.25rem - 1px);
-  float: left;
-  padding-right: 1em;
-  margin-bottom: -1.25em;
 }
 
 /* slick carousels*/
-
-#moreTracks h3 {
+/*
+moreTracks h3 {
 	background: lavender;
     color: white;
     font-size: 14px;
@@ -65,7 +50,20 @@ footer {
     padding: 2%;
     position: relative;
     text-align: center;
+}*/
+.slick-slide img {
+	border: 5px solid lavender;
+	display: block;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	/*width:100%;*/
 }
+
+slick .slick-prev:before, slick .slick-next:before {
+	color: lavender;
+}
+
 
 .catBox {
 	/*width: 300px;*/
