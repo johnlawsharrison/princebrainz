@@ -6,70 +6,21 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 	
-h2 {
+h2, h3, h4, h5{
 	text-align: center;
 }
 
-img, p, form {
-	padding-bottom: 1em;
-}
-
-body > nav {
-	width:100%;
-	background-color: #e7e7e7;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-}
-
-dl dd {
-  margin-bottom: 1em;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  padding-top: 10px;
-}
-
-.albumArt {
+/*#albumArt {
 	height: 200px;
 	width: 200px;
-	padding: 2%;
-}
-
-/* slick carousels*/
-/*
-moreTracks h3 {
-	background: lavender;
-    color: white;
-    font-size: 14px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
-    position: relative;
-    text-align: center;
 }*/
-md-content .ext-content {
-  padding: 50px;
-  margin: 20px;
-  background-color: #FFF2E0;
+
+li {
+	list-style: none;
 }
 
-.catBox {
-	/*width: 300px;*/
-	border: purple 3px solid;
-	background-color: lavender;
-	text-align: center;
-	height: 100px;
-	/*color: white;*/
+md-card-title-text {
+	width: 300px;
 }
 
-.catBox > a {
-	color: black;
-	text-decoration: none;
-	padding: 20px;
-	margin-bottom: 0px;
-	font-size: 20px;
-}
+/* angular material stuff */

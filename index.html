@@ -25,52 +25,24 @@
 </head>
 <body>
 	<!-- Simple header with scrollable tabs. -->
-<!-- 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-controller="NavCtrl">
-			<header class="mdl-layout__header">
-			<div class="mdl-layout__header-row">
-				<span class="mdl-layout-title">Prince Brainz</span>
-			</div>
-			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-				<a class="mdl-layout__tab is-active" ng-repeat="category in categories" ui-sref="suggestion({'category': category})">{{category | capitalize}}</a>
-			</div>
-			</header>
-			<div class="mdl-layout__drawer">
-			<span class="mdl-layout-title">Prince Brainz</span>
-			</div>
-			<main class="mdl-layout__content">
-				<div ui-view></div>	
-			</main>
-	</div> -->
-	<!-- Simple header with scrollable tabs. -->
-<div ng-controller="NavCtrl" ng-cloak>
-  <md-content class="md-padding">
-    <md-nav-bar
-      md-selected-nav-item="currentNavItem"
-      nav-bar-aria-label="navigation links">
-      <md-nav-item ng-repeat="category in categories" md-nav-sref="suggestion({'category': '{{category}}'})" name="{{category}}">
-        {{category | capitalize}}
-      </md-nav-item>
-      <!-- these require actual routing with ui-router or ng-route, so they
-      won't work in the demo
-      <md-nav-item md-nav-href="#page4" name="page5">Page Four</md-nav-item>
-      <md-nav-item md-nav-sref="app.page5" name="page4">Page Five</md-nav-item>
-      You can also add options for the <code>ui-sref-opts</code> attribute.
-      <md-nav-item md-nav-sref="page6" sref-opts="{reload:true, notify:true}">
-        Page Six
-      </md-nav-item>
-      -->
-    </md-nav-bar>
-</md-content>
-<div class="ext-content">
-	<div ui-view></div>	
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+    </div>
+	<div ng-controller="NavCtrl" ng-cloak>
+		<md-content class="md-padding">
+			<md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+				<md-nav-item ng-repeat="category in categories" md-nav-sref="suggestion({'category': '{{category}}'})" name="{{category}}">{{category | capitalize}}</md-nav-item>
+			</md-nav-bar>
+		</md-content>
+	</div>
+  </header>
+  <main class="mdl-layout__content">
+      <div ui-view class="page-content" layout="column" layout-align="center"></div>
+  </main>
 </div>
-</div>
-	<footer role="contentinfo">
-		<div class="container">
-			<p></p>
-			<p>&copy; 2017</p>
-		</div>
-	</footer>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-aria/angular-aria.js"></script>
