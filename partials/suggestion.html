@@ -37,36 +37,7 @@
 		</md-card-actions>
 	</md-card>
 </div>
-</md-content><!--
-	<div>
-		<img class="albumArt" src="img/Prince_logo.png" alt="album art">
-			</div>
-			<div>
-				<h4>{{song.metadata.tags.title[0]}}</h4>
-				<p>{{song.metadata.tags.album[0]}} ({{song.metadata.tags.originalyear[0]}})</p>
-				<ul class="list-inline">
-					<li><strong>Key</strong> - {{song.tonal.key_key}} {{song.tonal.key_scale}}</li>
-					<li><strong>BPM</strong> - {{song.metadata.tags.bpm[0]}}</li>
-				</ul>
-				<div ng-show="song.metadata.tags.mood.length >= 1">
-					<dt>This track also sounds</dt>
-					<dd>
-						<ul>
-							<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
-								<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
-							</li>
-						</ul>
-					</dd>
-				</div>
-				<div>
-					<button type="button" class="btn btn-success" ng-click="audio.play()">Play</button>
-					<button type="button" class="btn btn-warning" ng-click='audio.pause()'>Pause</button>
-				</div>
-				<div>
-					<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
-				</div>
-			</div>
-		</div> -->
+</md-content>
 <section id="moreTracks">
 	<h4>More tracks by Prince that sound <em>{{category}}</em></h4>
 	<slick infinite="true" slides-to-show=3 slides-to-scroll=3 init-onload=true data="songsInCategory" class="slider multiple-items">
