@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Prince</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 	<!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="css/main.css">
 
@@ -15,35 +15,45 @@
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script> -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script> -->
 
-	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
-	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+	<!-- <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
 </head>
 <body>
-	<nav class="navbar">
-	    <a class="navbar-brand" ui-sref="home" href="#" title="Prince">
-	        <img style="max-width:50px; margin-top: -7px;"
-	             src="img/Prince_logo.png">
-	    </a>
-	</nav>
-
-	<!--main was here-->
-	<div ui-view></div>
-
-	<footer role="contentinfo">
-		<div class="container">
-			<p></p>
-			<p>&copy; 2017</p>
-		</div>
-	</footer>
+	<!-- Simple header with scrollable tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+    </div>
+	<div ng-controller="NavCtrl" ng-cloak>
+		<md-content class="md-padding">
+			<md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+				<md-nav-item ng-repeat="category in categories" md-nav-sref="suggestion({'category': '{{category}}'})" name="{{category}}">{{category | capitalize}}</md-nav-item>
+			</md-nav-bar>
+		</md-content>
+	</div>
+  </header>
+  <main class="mdl-layout__content">
+      <div ui-view class="page-content" layout="column" layout-align="center"></div>
+  </main>
+</div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.js"></script>
+	<script src="bower_components/angular-aria/angular-aria.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-material/angular-material.js"></script>
 	<script src="bower_components/tether/dist/js/tether.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script src="bower_components/slick-carousel/slick/slick.js"></script>
+	<!-- <script src="bower_components/slick-carousel/slick/slick.js"></script> -->
 	<script src="bower_components/angular-audio/app/angular.audio.js"></script>
-	<script src="bower_components/angular-slick/dist/slick.js"></script>
+	<!-- <script src="bower_components/angular-slick/dist/slick.js"></script> -->
 	<script src="js/prince.js"></script>
 	<script src="js/helpers.js"></script>
 </body>

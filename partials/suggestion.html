@@ -1,9 +1,45 @@
-<main class="container">
-<h2>Here's a song by Prince that sounds {{category | capitalize}}</h2>
-	<slick slides-to-show=1 slides-to-scroll=1 init-onload=true data="songsInCategory" speed="1000" class="slider single-item">
-	 	<div ng-repeat='song in songsInCategory'>
-	 		<div>
-				<img class="albumArt" src="img/Prince_logo.png" alt="album art">
+
+<h2>Here's a song that sounds "{{category | capitalize}}"</h2>
+ <div flex-xs flex-gt-xs="50" layout="row" layout-align="center center">
+ 	<md-card>
+		<md-card-title>
+			<md-card-title-text>
+				<span class="md-headline">{{suggestion.metadata.tags.title[0]}}</span>
+				<span class="md-subhead">{{suggestion.metadata.tags.album[0]}} ({{suggestion.metadata.tags.originalyear[0]}})</span>
+			</md-card-title-text>
+			<md-card-title-media>
+				<div class="md-media-lg card-media">
+					<img id="albumArt" ng-src="/img/testcover.jpg" class="md-card-image" alt="album artwork">
+				</div>
+			</md-card-title-media>
+		</md-card-title>
+		<md-card-content layout="row" layout-align="space-between none">
+			<div>
+				<ul>
+					<li><strong>Key</strong> - {{suggestion.tonal.key_key}} {{suggestion.tonal.key_scale}}</li>
+					<li><strong>BPM</strong> - {{suggestion.metadata.tags.bpm[0]}}</li>
+				</ul>
+			</div>
+			<div ng-show="suggestion.metadata.tags.mood.length >= 1">
+				<dt>This track also sounds</dt>
+				<dd>
+					<ul>
+						<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
+							<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
+						</li>
+					</ul>
+				</dd>
+			</div>
+		</md-card-content>
+		<md-card-actions layout="row" layout-align="end center">
+			<md-button class="md-raised md-primary" ng-click="audio.play()">Listen</md-button>
+			<md-button class="md-raised md-warn" ng-click="audio.play()">Pause</md-button>
+		</md-card-actions>
+	</md-card>
+</div>
+</md-content><!--
+	<div>
+		<img class="albumArt" src="img/Prince_logo.png" alt="album art">
 			</div>
 			<div>
 				<h4>{{song.metadata.tags.title[0]}}</h4>
@@ -30,40 +66,9 @@
 					<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
 				</div>
 			</div>
-		</div>
-	</slick>
-		 <!-- <div class="card" ng-repeat='song in songsInCategory'>
-			<img class="card-img" id="albumArt" src="img/Prince_logo.png" alt="album art">
-			<div class="card-block">
-				<h4 class="card-title">{{song.metadata.tags.title[0]}}</h4>
-			</div>
-			<div class="card-block">
-				<ul class="list-inline">
-					<li><strong>Key</strong> - {{song.tonal.key_key}} {{song.tonal.key_scale}}</li>
-					<li><strong>BPM</strong> - {{song.metadata.tags.bpm[0]}}</li>
-				</ul>
-			</div>
-			<div class="card-block" ng-show="suggestion.metadata.tags.mood.length >= 1">
-				<dt ng-show="suggestion.metadata.tags.mood.length >= 1">This track also sounds</dt>
-				<dd>
-					<ul>
-						<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
-							<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
-						</li>
-					</ul>
-				</dd>
-			</div>
-			<div class="card-block">
-				<button type="button" class="btn btn-success" ng-click="audio.play()">Play</button>
-				<button type="button" class="btn btn-warning" ng-click='audio.pause()'>Pause</button>
-			</div>
-			<div class="card-block">
-				<button type="button" class="btn btn-primary" ng-click="randomSong()">Random {{category}} song</button>
-			</div>
-		</div>-->
-<!-- </section> -->
-<section class="row" id="moreTracks">
-	<h2>More tracks by Prince that sound <em>{{category}}</em></h2>
+		</div> -->
+<section id="moreTracks">
+	<h4>More tracks by Prince that sound <em>{{category}}</em></h4>
 	<slick infinite="true" slides-to-show=3 slides-to-scroll=3 init-onload=true data="songsInCategory" class="slider multiple-items">
 		<div ng-repeat="song in songsInCategory">
 			<h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3>
