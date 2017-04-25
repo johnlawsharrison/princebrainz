@@ -1,5 +1,5 @@
 
-<h2>Here's a song that sounds "{{category | capitalize}}"</h2>
+<h2>Here's a track that sounds "{{category | capitalize}}"</h2>
  <div flex-xs flex-gt-xs="50" layout="row" layout-align="center center">
  	<md-card>
 		<md-card-title>
@@ -9,7 +9,7 @@
 			</md-card-title-text>
 			<md-card-title-media>
 				<div class="md-media-lg card-media">
-					<img id="albumArt" ng-src="/img/testcover.jpg" class="md-card-image" alt="album artwork">
+					<img id="albumArt" ng-src="{{'https://coverartarchive.org/release-group/' + suggestion.metadata.tags.musicbrainz_releasegroupid[0] + '/front'}}" class="md-card-image" alt="album artwork">
 				</div>
 			</md-card-title-media>
 		</md-card-title>
@@ -33,17 +33,15 @@
 		</md-card-content>
 		<md-card-actions layout="row" layout-align="end center">
 			<md-button class="md-raised md-primary" ng-click="audio.play()">Listen</md-button>
-			<md-button class="md-raised md-warn" ng-click="audio.play()">Pause</md-button>
+			<md-button class="md-raised md-warn" ng-click="audio.pause()">Pause</md-button>
 		</md-card-actions>
 	</md-card>
 </div>
 </md-content>
 <section id="moreTracks">
 	<h4>More tracks by Prince that sound <em>{{category}}</em></h4>
-	<slick infinite="true" slides-to-show=3 slides-to-scroll=3 init-onload=true data="songsInCategory" class="slider multiple-items">
-		<div ng-repeat="song in songsInCategory">
-			<h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3>
-		</div>
-	</slick>
+	<div ng-repeat="song in songsInCategory">
+		<h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3>
+	</div>
 </section>
 </main>

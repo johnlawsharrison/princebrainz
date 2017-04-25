@@ -4,7 +4,6 @@ var _SEARCH_KEYS = {
 		'key': 'mood_happy',
 		'expected': 'happy',
 		'minProb': 0.60
-
 	},
 	'sad': {
 		'key': 'mood_sad',

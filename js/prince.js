@@ -31,13 +31,10 @@ myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($s
 // controller for nav
 myApp.controller('NavCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
 	$scope.categories = Object.keys(_SEARCH_KEYS);
-	$scope.currentNavItem = 'page1';
 }]);
 
 // controller for the suggestion view
 myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'ngAudio', 'songDataService', function ($scope, $stateParams, $filter, $http, ngAudio, songDataService) {
-	// load in our big json list of AcousticBrainz data
-	console.log($stateParams);
 	$scope.category = $stateParams.category;
 
 	if (songDataService.data == null) {
@@ -50,6 +47,7 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 
 			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 			$scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
+			
 			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
