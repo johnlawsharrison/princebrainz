@@ -1,39 +1,33 @@
-
-<h4>Tracks by Prince that sound <em>{{category}}</em></h4>
 <section class="carousel" layout="row" layout-align="center center">
  	<slick class="slider" infinite="true" arrows="true" slides-to-show="3" slides-to-scroll="3">
 	 	<md-card ng-repeat="song in songsInCategory">
 			<md-card-title>
-				<md-card-title-text>
-					<span class="md-headline">{{song.metadata.tags.title[0]}}</span>
-					<span class="md-subhead">{{song.metadata.tags.album[0]}} ({{song.metadata.tags.originalyear[0]}})</span>
-					<ul>
-						<li><strong>Key</strong> - {{song.tonal.key_key}} {{song.tonal.key_scale}}</li>
-						<li><strong>BPM</strong> - {{song.metadata.tags.bpm[0]}}</li>
-					</ul>
-					<div ng-hide="suggestion.metadata.tags.mood.length < 2">
-						<dt>This track also sounds</dt>
-						<dd>
-							<ul class="mood-list">
-								<li ng-repeat="mood in song.metadata.tags.mood | filter: '!' + category">
-									<md-button class="md-raised md-primary" ui-sref="suggestion({'category': mood})">{{mood}}</md-button>
-								</li>
-							</ul>
-						</dd>
-					</div>
-				</md-card-title-text>
 				<md-card-title-media class="main-album-media">
-					<div class="md-media-md card-media" id="album-container">
+					<div class="md-media-lg card-media" id="album-container">
 						<img id="album-art" ng-src="{{'https://coverartarchive.org/release-group/' + song.metadata.tags.musicbrainz_releasegroupid[0] + '/front'}}" class="md-card-image" alt="album artwork">
 					</div>
 				</md-card-title-media>
+				<md-card-title-text>
+					<md-button class="md-raised md-accent" ng-click="audio.play()">Listen</md-button>
+				</md-card-title-text>
 			</md-card-title>
-			<!-- <md-card-content layout="row" layout-align="space-between none">
-			</md-card-content> -->
-			<md-card-actions layout="row" layout-align="end start">
-				<md-button class="md-raised md-accent" ng-click="audio.play()">Listen</md-button>
-				<md-button class="md-raised md-warn" ng-click="audio.pause()">Pause</md-button>
-			</md-card-actions>
+			<md-card-header>
+				<md-card-header-text>
+					<span class="md-headline">{{song.metadata.tags.title[0]}}</span>
+					<span class="md-subhead">{{song.metadata.tags.album[0]}} ({{song.metadata.tags.originalyear[0]}})</span>
+				</md-card-header-text>
+			</md-card-header>
+			<md-card-content>
+				<ul>
+					<li><strong>Key</strong> - {{song.tonal.key_key}} {{song.tonal.key_scale}}</li>
+					<li><strong>BPM</strong> - {{song.metadata.tags.bpm[0]}}</li>
+				</ul>
+				<h6>This track also sounds</h6>
+				<div ng-hide="suggestion.metadata.tags.mood.length < 2" layout="row" layout-wrap>
+					<md-button flex="33" ng-repeat="mood in song.metadata.tags.mood | filter: '!' + category" class="md-raised md-primary" ui-sref="suggestion({'category': mood})">{{mood}}</md-button>
+				</div>
+			</md-card-content>
 		</md-card>
 	</slick>
 </section>
+<h4>Tracks by Prince that sound <em>{{category}}</em></h4>

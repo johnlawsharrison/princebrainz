@@ -11,12 +11,8 @@ h2, h3, h4, h5 {
 }
 
 #album-art {
-	padding: 8px;
+	/*padding: 8px;*/
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.26)
-}
-
-.mood-list {
-	display: inline;
 }
 
 li {
@@ -37,8 +33,17 @@ md-card-title-text ul {
 	margin-left: 24px;
 }*/
 
+.md-padding {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
 md-card-actions {
 	padding-right: 8px; 
+}
+
+md-card md-card-content {
+	padding-top: 0px;
 }
 
 /*#album-container {
