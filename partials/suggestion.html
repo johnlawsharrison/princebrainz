@@ -1,47 +1,57 @@
 
-<h2>Here's a track that sounds "{{category | capitalize}}"</h2>
+<h2>Here's a track that sounds <em>{{category | capitalize}}</em></h2>
  <div flex-xs flex-gt-xs="50" layout="row" layout-align="center center">
  	<md-card>
 		<md-card-title>
 			<md-card-title-text>
 				<span class="md-headline">{{suggestion.metadata.tags.title[0]}}</span>
 				<span class="md-subhead">{{suggestion.metadata.tags.album[0]}} ({{suggestion.metadata.tags.originalyear[0]}})</span>
-			</md-card-title-text>
-			<md-card-title-media>
-				<div class="md-media-lg card-media">
-					<img id="albumArt" ng-src="{{'https://coverartarchive.org/release-group/' + suggestion.metadata.tags.musicbrainz_releasegroupid[0] + '/front'}}" class="md-card-image" alt="album artwork">
-				</div>
-			</md-card-title-media>
-		</md-card-title>
-		<md-card-content layout="row" layout-align="space-between none">
-			<div>
 				<ul>
 					<li><strong>Key</strong> - {{suggestion.tonal.key_key}} {{suggestion.tonal.key_scale}}</li>
 					<li><strong>BPM</strong> - {{suggestion.metadata.tags.bpm[0]}}</li>
 				</ul>
-			</div>
-			<div ng-show="suggestion.metadata.tags.mood.length >= 1">
-				<dt>This track also sounds</dt>
-				<dd>
-					<ul>
-						<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
-							<a ui-sref="suggestion({'category': mood})">{{mood}}</a>
-						</li>
-					</ul>
-				</dd>
-			</div>
-		</md-card-content>
-		<md-card-actions layout="row" layout-align="end center">
-			<md-button class="md-raised md-primary" ng-click="audio.play()">Listen</md-button>
+				<div ng-hide="suggestion.metadata.tags.mood.length < 2">
+					<dt>This track also sounds</dt>
+					<dd>
+						<ul class="mood-list">
+							<li ng-repeat="mood in suggestion.metadata.tags.mood | filter: '!' + category">
+								<md-button class="md-raised md-primary" ui-sref="suggestion({'category': mood})">{{mood}}</md-button>
+							</li>
+						</ul>
+					</dd>
+				</div>
+			</md-card-title-text>
+			<md-card-title-media class="main-album-media">
+				<div class="md-media-lg card-media" id="album-container">
+					<img id="album-art" ng-src="{{'https://coverartarchive.org/release-group/' + suggestion.metadata.tags.musicbrainz_releasegroupid[0] + '/front'}}" class="md-card-image" alt="album artwork">
+				</div>
+			</md-card-title-media>
+		</md-card-title>
+		<!-- <md-card-content layout="row" layout-align="space-between none">
+		</md-card-content> -->
+		<md-card-actions layout="row" layout-align="end start">
+			<md-button class="md-raised md-accent" ng-click="audio.play()">Listen</md-button>
 			<md-button class="md-raised md-warn" ng-click="audio.pause()">Pause</md-button>
 		</md-card-actions>
 	</md-card>
 </div>
 </md-content>
-<section id="moreTracks">
-	<h4>More tracks by Prince that sound <em>{{category}}</em></h4>
-	<div ng-repeat="song in songsInCategory">
-		<h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3>
-	</div>
+<h4>More tracks by Prince that sound <em>{{category}}</em></h4>
+<section id="moreTracks" layout="row" layout-align="space-around center">
+	<md-card ng-repeat="song in songsInCategory |  limitTo : 5">
+		<md-card-title>
+			<md-card-title-media>
+					<div class="md-media-md card-media">
+						<img ng-src="{{'https://coverartarchive.org/release-group/' + song.metadata.tags.musicbrainz_releasegroupid[0] + '/front'}}" class="md-card-image" alt="Album artwork">
+					</div>
+			</md-card-title-media>
+		</md-card-title>
+		<md-card-actions layout="row" layout-align="end start">
+		 <!-- <md-button class="md-icon-button" aria-label="Play">
+            <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+          </md-button> -->
+		<!-- <h3><a ng-click="newSong(song)">{{song.metadata.tags.title[0]}}</a></h3> -->
+		</md-card-actions>
+	</md-card>
 </section>
 </main>

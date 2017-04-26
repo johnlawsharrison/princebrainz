@@ -6,21 +6,46 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 	
-h2, h3, h4, h5{
+h2, h3, h4, h5 {
 	text-align: center;
 }
 
-/*#albumArt {
-	height: 200px;
-	width: 200px;
-}*/
+#album-art {
+	padding: 8px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.26)
+}
+
+.mood-list {
+	display: inline;
+}
 
 li {
 	list-style: none;
+}
+
+/* angular material stuff */
+
+md-card-title-text ul {
+	padding: 0px;
+}
+
+.main-album-media {
+	margin-left: 24px;
+}
+
+md-card-actions {
+	padding-right: 8px; 
+}
+
+#album-container {
+	height: 250px;
+	width: 250px;
 }
 
 md-card-title-text {
 	width: 300px;
 }
 
-/* angular material stuff */
+.mdl-layout-title {
+	cursor: pointer;
+}
