@@ -1,6 +1,6 @@
 'use strict';
 
-var myApp = angular.module('PrinceApp', ['ui.router', 'ngAudio', 'ngMaterial']).config(
+var myApp = angular.module('PrinceApp', ['ui.router', 'ngAudio', 'ngMaterial', 'slickCarousel']).config(
 	function($mdThemingProvider) {
 		// color themes for angular material
 		$mdThemingProvider.theme('default').primaryPalette('deep-purple').accentPalette('purple');

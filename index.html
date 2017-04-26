@@ -10,21 +10,22 @@
 
 	<link rel="icon" href="img/Prince_logo.png">
 
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script> -->
+	<!-- slick carousel -->
+	<link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick-theme.css">
 
+    <!-- mdl -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css">
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<!-- angular material -->
 	<link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
 </head>
 <body>
-	<!-- Simple header with scrollable tabs. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <!-- Title -->
       <span class="mdl-layout-title" ui-sref="home">Prince</span>
     </div>
 	<div ng-controller="NavCtrl" ng-cloak>
@@ -39,14 +40,16 @@
       <div ui-view class="page-content" layout="column" layout-align="center"></div>
   </main>
 </div>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/angular/angular.js"></script>
-	<script src="bower_components/angular-aria/angular-aria.js"></script>
-	<script src="bower_components/angular-animate/angular-animate.js"></script>
-	<script src="bower_components/angular-material/angular-material.js"></script>
-	<script src="bower_components/tether/dist/js/tether.min.js"></script>
-	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script src="bower_components/angular-audio/app/angular.audio.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-aria/angular-aria.js"></script>
+	<script src="/bower_components/angular-animate/angular-animate.js"></script>
+	<script src="/bower_components/angular-material/angular-material.js"></script>
+	<script src="/bower_components/tether/dist/js/tether.min.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/bower_components/angular-audio/app/angular.audio.js"></script>
+	<script src="/bower_components/slick-carousel/slick/slick.js"></script>
+    <script src="/bower_components/angular-slick-carousel/dist/angular-slick.min.js"></script>
 	<script src="js/prince.js"></script>
 	<script src="js/helpers.js"></script>
 </body>

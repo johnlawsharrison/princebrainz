@@ -29,18 +29,18 @@ md-card-title-text ul {
 	padding: 0px;
 }
 
-.main-album-media {
+/*.main-album-media {
 	margin-left: 24px;
-}
+}*/
 
 md-card-actions {
 	padding-right: 8px; 
 }
 
-#album-container {
+/*#album-container {
 	height: 250px;
 	width: 250px;
-}
+}*/
 
 md-card-title-text {
 	width: 300px;
@@ -48,4 +48,17 @@ md-card-title-text {
 
 .mdl-layout-title {
 	cursor: pointer;
+}
+
+/* slick carousel */
+.carousel {
+	padding: 0px 50px;
+}
+
+slick {
+	padding: 10px;
+}
+
+slick > .slick-prev:before, slick > .slick-next:before {
+	color: purple;
 }
