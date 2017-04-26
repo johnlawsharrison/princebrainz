@@ -23,13 +23,18 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, 
 		$urlRouterProvider.otherwise('/home');
 }]);
 
+// return to home on refresh
+myApp.controller('TopController', ['$scope', '$location', function($scope, $location) {
+	$location.path("/home")
+}]);
+
 // controller for main view
-myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
+myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($scope, songDataService) {
 	$scope.categories = Object.keys(_SEARCH_KEYS);
 }]);
 
 // controller for nav
-myApp.controller('NavCtrl', ['$scope', '$http', 'songDataService', function ($scope, $http, songDataService) {
+myApp.controller('NavCtrl', ['$scope', '$http', 'songDataService', function ($scope, songDataService) {
 	$scope.categories = Object.keys(_SEARCH_KEYS);
 }]);
 

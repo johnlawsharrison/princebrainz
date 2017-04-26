@@ -25,6 +25,10 @@ li {
 
 /* angular material stuff */
 
+md-nav-bar.md-default-theme .md-button._md-nav-button.md-unselected:hover, md-nav-bar .md-button._md-nav-button.md-unselected:hover {
+	color: #673AB7;
+}
+
 md-card-title-text ul {
 	padding: 0px;
 }
