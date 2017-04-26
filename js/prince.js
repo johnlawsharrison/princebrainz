@@ -36,6 +36,8 @@ myApp.controller('HomeCtrl', ['$scope', '$http', 'songDataService', function ($s
 // controller for nav
 myApp.controller('NavCtrl', ['$scope', '$http', 'audioService', 'songDataService', function ($scope, audioService, songDataService) {
 	$scope.categories = Object.keys(_SEARCH_KEYS);
+
+	$scope.currentSong = audioService;
 }]);
 
 // controller for the suggestion view
@@ -48,16 +50,16 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 			songDataService.data = response.data;
 			console.log("finished reloading data: " + songDataService.data.length + " songs");
 
-			$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
+			$scope.songsInCategory = $filter('shuffle')($filter('filterByCategory')(songDataService.data, $stateParams.category));
 
-			$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+			// $scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 			// $scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
 			
 			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
-		$scope.songsInCategory = $filter('filterByCategory')(songDataService.data, $stateParams.category);
-		$scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
+		$scope.songsInCategory = $filter('shuffle')($filter('filterByCategory')(songDataService.data, $stateParams.category));
+		// $scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 	}
 
 	// $scope.randomSong = function () {
@@ -71,8 +73,6 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 	// };
 
 	$scope.playNewSong = function(song) {
-		console.log("attempting to play a new song");
-		console.log(song)
 		audioService.playNewSong(song);
 		$scope.currentAudio = audioService.currentAudio;
 	};
@@ -99,18 +99,16 @@ myApp.factory('audioService', ['ngAudio', function(ngAudio) {
 		title: "",
 		album: ""
 	};
-	console.log("Instantiating a new service for some fucking reason");
-	service.playNewSong = function(songID) {
-		console.log("Inside service");
+	service.playNewSong = function(song) {
 		if (service.currentAudio != null) {
 			// something is loaded already, stop it before we reload
 			service.currentAudio.stop();
 		}
-		// service.currentAudio = ngAudio.load('sounds/' + song.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
-		service.currentAudio = ngAudio.load('sounds/' + songID + '.flac');
-		console.log(service.currentAudio);
-		// service.title = song.metadata.tags.title[0];
-		// service.album = song.metadata.tags.album[0];
+		// allow audio to continue playing across views
+		ngAudio.setUnlock(false)
+		service.currentAudio = ngAudio.load('sounds/' + song.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
+		service.currentAudio.title = song.metadata.tags.title[0];
+		service.currentAudio.album = song.metadata.tags.album[0];
 		service.currentAudio.play();
 		console.log("Now playing: " + service.title + " from " + service.album);
 	}
@@ -133,6 +131,25 @@ myApp.filter('filterByCategory', function() {
 			}
 		});
 		return filtered;
+	}
+});
+
+// shuffle function for song lists
+myApp.filter('shuffle', function() {
+	// -> Fisher–Yates shuffle algorithm
+	return function(array) {
+  		var m = array.length, t, i;
+		// While there remain elements to shuffle
+		while (m) {
+			// Pick a remaining element…
+			i = Math.floor(Math.random() * m--);
+
+			// And swap it with the current element.
+			t = array[m];
+			array[m] = array[i];
+			array[i] = t;
+		}
+  		return array;
 	}
 });
 
