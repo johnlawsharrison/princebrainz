@@ -9,7 +9,7 @@
 						</div>
 					</md-card-title-media>
 					<md-card-title-text>
-						<md-button class="md-raised md-accent" ng-click="audio.play()">Listen</md-button>
+						<md-button class="md-raised md-accent" ng-click="playNewSong(song.metadata.tags.musicbrainz_releasetrackid[0])">Listen</md-button>
 						<dl>
 							<dt><strong>Key</strong></dt>
 							<dd>{{song.tonal.key_key}} {{song.tonal.key_scale}}</dd>
@@ -36,4 +36,4 @@
 		</div>
 	</slick>
 </section>
-<h4>Tracks by Prince that sound <em>{{category}}</em></h4>
+<h4>Tracks by Prince that sound <em>{{category}}</em> {{currentAudio}}</h4>
