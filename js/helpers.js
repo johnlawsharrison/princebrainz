@@ -34,13 +34,13 @@ var _SEARCH_KEYS = {
 		'key': 'mood_acoustic',
 		'expected': 'acoustic',
 		'minProb': 0.90,
-		'description': 'likely feature acoustic elements'
+		'description': 'likely feature acoustic instruments'
 	},
 	'electronic': {
 		'key': 'mood_electronic',
 		'expected': 'electronic',
 		'minProb': 0.90,
-		'description': 'likely feature electronic elements'
+		'description': 'likely feature electronic instruments'
 	},
 	// 'instrumental': {
 	// 	'key': 'voice_instrumental',
