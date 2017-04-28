@@ -42,6 +42,7 @@ myApp.controller('NavCtrl', ['$scope', '$http', 'audioService', 'songDataService
 
 // controller for the suggestion view
 myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', 'audioService', 'songDataService', function ($scope, $stateParams, $filter, $http, audioService, songDataService) {
+	$scope.description = _SEARCH_KEYS[$stateParams.category]['description'];
 	$scope.category = $stateParams.category;
 
 	if (songDataService.data == null) {
