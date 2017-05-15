@@ -3,7 +3,7 @@
 var myApp = angular.module('PrinceApp', ['ui.router', 'ngAudio', 'ngMaterial', 'slickCarousel']).config(
 	function($mdThemingProvider) {
 		// color themes for angular material
-		$mdThemingProvider.theme('default').primaryPalette('deep-purple').accentPalette('purple');
+		$mdThemingProvider.theme('default').primaryPalette('amber').accentPalette('orange');
 });
 
 
@@ -47,31 +47,16 @@ myApp.controller('SuggestCtrl', ['$scope', '$stateParams', '$filter', '$http', '
 
 	if (songDataService.data == null) {
 		// reload the data (they probably refreshed)
-		$http.get('data/song-data.json').then(function (response) {
+		$http.get('data/byrne-data.json').then(function (response) {
 			songDataService.data = response.data;
 			console.log("finished reloading data: " + songDataService.data.length + " songs");
 
 			$scope.songsInCategory = $filter('shuffle')($filter('filterByCategory')(songDataService.data, $stateParams.category));
-
-			// $scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
-			// $scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
-			
-			// $scope.probability = $scope.suggestion.highlevel[_SEARCH_KEYS[$stateParams.category]['key']]['probability'];
 		});
 	} else {
 		$scope.songsInCategory = $filter('shuffle')($filter('filterByCategory')(songDataService.data, $stateParams.category));
 		// $scope.suggestion = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
 	}
-
-	// $scope.randomSong = function () {
-	// 	// randomly pick a new suggestion (make sure its different than the current one)
-	// 	var song = $scope.suggestion;
-	// 	do {
-	// 		song = $scope.songsInCategory[Math.floor(Math.random()*$scope.songsInCategory.length)];
-	// 	} while (song.metadata.tags.musicbrainz_trackid[0] == $scope.suggestion.metadata.tags.musicbrainz_trackid[0]);
-	// 	$scope.suggestion = song;
-	// 	// $scope.audio = ngAudio.load('sounds/' + $scope.suggestion.metadata.tags.musicbrainz_releasetrackid[0] + '.flac');
-	// };
 
 	$scope.playNewSong = function(song) {
 		audioService.playNewSong(song);
@@ -85,7 +70,7 @@ myApp.factory('songDataService', ['$filter', '$http', function($filter, $http) {
 	var service = {};
 
 	// load in our big json list of low-level AcousticBrainz data
-	$http.get('data/song-data.json').then(function (response) {
+	$http.get('data/byrne-data.json').then(function (response) {
 		service.data = response.data;
 		console.log("finished loading data: " + service.data.length);
 	});
