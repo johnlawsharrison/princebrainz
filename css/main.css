@@ -108,5 +108,5 @@ slick > .slick-prev:before, slick > .slick-next:before {
 }
 
 .description {
-	/* font-size: 1.5em; */
+	padding: 0px 200px;
 }
