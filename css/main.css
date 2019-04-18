@@ -101,3 +101,12 @@ slick {
 slick > .slick-prev:before, slick > .slick-next:before {
 	color: purple;
 }
+
+.home-container {
+	text-align: center;
+	padding: 20px 200px;
+}
+
+.description {
+	/* font-size: 1.5em; */
+}
